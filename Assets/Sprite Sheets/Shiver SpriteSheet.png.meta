@@ -1,0 +1,1336 @@
+fileFormatVersion: 2
+guid: 2f38af450d19e7442b1a93bc1b9404a8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Shiver SpriteSheet_0
+  - first:
+      213: 21300002
+    second: Shiver SpriteSheet_1
+  - first:
+      213: 21300004
+    second: Shiver SpriteSheet_2
+  - first:
+      213: 21300006
+    second: Shiver SpriteSheet_3
+  - first:
+      213: 21300008
+    second: Shiver SpriteSheet_4
+  - first:
+      213: 21300010
+    second: Shiver SpriteSheet_7
+  - first:
+      213: 21300012
+    second: Shiver SpriteSheet_8
+  - first:
+      213: 21300014
+    second: Shiver SpriteSheet_13
+  - first:
+      213: 21300016
+    second: Shiver SpriteSheet_14
+  - first:
+      213: 21300018
+    second: Shiver SpriteSheet_16
+  - first:
+      213: 21300020
+    second: Shiver SpriteSheet_17
+  - first:
+      213: 21300022
+    second: Shiver SpriteSheet_18
+  - first:
+      213: 21300024
+    second: Shiver SpriteSheet_20
+  - first:
+      213: 21300026
+    second: Shiver SpriteSheet_21
+  - first:
+      213: 21300028
+    second: Shiver SpriteSheet_22
+  - first:
+      213: 21300030
+    second: Shiver SpriteSheet_23
+  - first:
+      213: 21300032
+    second: Shiver SpriteSheet_24
+  - first:
+      213: 21300034
+    second: Shiver SpriteSheet_25
+  - first:
+      213: 21300036
+    second: Shiver SpriteSheet_27
+  - first:
+      213: 21300038
+    second: Shiver SpriteSheet_28
+  - first:
+      213: 21300040
+    second: Shiver SpriteSheet_30
+  - first:
+      213: 21300042
+    second: Shiver SpriteSheet_31
+  - first:
+      213: 21300044
+    second: Shiver SpriteSheet_32
+  - first:
+      213: 21300046
+    second: Shiver SpriteSheet_33
+  - first:
+      213: 21300048
+    second: Shiver SpriteSheet_34
+  - first:
+      213: 21300050
+    second: Shiver SpriteSheet_35
+  - first:
+      213: 21300052
+    second: Shiver SpriteSheet_36
+  - first:
+      213: 21300054
+    second: Shiver SpriteSheet_37
+  - first:
+      213: 21300056
+    second: Shiver SpriteSheet_40
+  - first:
+      213: 21300058
+    second: Shiver SpriteSheet_45
+  - first:
+      213: 21300060
+    second: Shiver SpriteSheet_47
+  - first:
+      213: 21300062
+    second: Shiver SpriteSheet_48
+  - first:
+      213: 21300064
+    second: Shiver SpriteSheet_49
+  - first:
+      213: 21300066
+    second: Shiver SpriteSheet_50
+  - first:
+      213: 21300068
+    second: Shiver SpriteSheet_51
+  - first:
+      213: 21300070
+    second: Shiver SpriteSheet_52
+  - first:
+      213: 21300072
+    second: Shiver SpriteSheet_53
+  - first:
+      213: 21300074
+    second: Shiver SpriteSheet_54
+  - first:
+      213: 21300076
+    second: Shiver SpriteSheet_58
+  - first:
+      213: 21300078
+    second: Shiver SpriteSheet_59
+  - first:
+      213: 21300080
+    second: Shiver SpriteSheet_60
+  - first:
+      213: 21300082
+    second: Shiver SpriteSheet_62
+  - first:
+      213: 21300084
+    second: Shiver SpriteSheet_63
+  - first:
+      213: 21300086
+    second: Shiver SpriteSheet_64
+  - first:
+      213: 21300088
+    second: Shiver SpriteSheet_65
+  - first:
+      213: 21300090
+    second: Shiver SpriteSheet_69
+  - first:
+      213: 21300092
+    second: Shiver SpriteSheet_70
+  - first:
+      213: 21300094
+    second: Shiver SpriteSheet_71
+  - first:
+      213: 21300096
+    second: Shiver SpriteSheet_72
+  - first:
+      213: 21300098
+    second: Shiver SpriteSheet_73
+  - first:
+      213: 21300100
+    second: Shiver SpriteSheet_74
+  - first:
+      213: 21300102
+    second: Shiver SpriteSheet_75
+  - first:
+      213: 21300104
+    second: Shiver SpriteSheet_76
+  - first:
+      213: 21300106
+    second: Shiver SpriteSheet_77
+  - first:
+      213: 21300108
+    second: Shiver SpriteSheet_78
+  - first:
+      213: 21300110
+    second: Shiver SpriteSheet_79
+  - first:
+      213: 21300112
+    second: Shiver SpriteSheet_80
+  - first:
+      213: 21300114
+    second: Shiver SpriteSheet_81
+  - first:
+      213: 21300116
+    second: Shiver SpriteSheet_82
+  - first:
+      213: 21300118
+    second: Shiver SpriteSheet_83
+  - first:
+      213: 21300120
+    second: Shiver SpriteSheet_84
+  - first:
+      213: 21300122
+    second: Shiver SpriteSheet_85
+  - first:
+      213: 21300124
+    second: Shiver SpriteSheet_86
+  - first:
+      213: 21300126
+    second: Shiver SpriteSheet_87
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 3260
+        width: 142
+        height: 334
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 3260
+        width: 226
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 3260
+        width: 226
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 2162
+        y: 3237
+        width: 242
+        height: 357
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 2751
+        y: 3260
+        width: 188
+        height: 348
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 3252
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 3252
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 2859
+        width: 162
+        height: 328
+      alignment: 9
+      pivot: {x: 0.6956099, y: 0.5000007}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 2859
+        width: 226
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83305410000000000800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 2859
+        width: 226
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3305410000000000800000000000000
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 2836
+        width: 253
+        height: 357
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04305410000000000800000000000000
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 2727
+        y: 2871
+        width: 259
+        height: 334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24305410000000000800000000000000
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 2851
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4305410000000000800000000000000
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 2458
+        width: 159
+        height: 328
+      alignment: 9
+      pivot: {x: 0.69930106, y: 0.49560845}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4305410000000000800000000000000
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 2458
+        width: 226
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4305410000000000800000000000000
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 2454
+        width: 244
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05305410000000000800000000000000
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 2084
+        y: 2458
+        width: 214
+        height: 348
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45305410000000000800000000000000
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 2717
+        y: 2470
+        width: 269
+        height: 334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65305410000000000800000000000000
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 2057
+        width: 157
+        height: 328
+      alignment: 9
+      pivot: {x: 0.7086883, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06305410000000000800000000000000
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 2053
+        width: 244
+        height: 338
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26305410000000000800000000000000
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 2053
+        width: 245
+        height: 338
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66305410000000000800000000000000
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 2086
+        y: 2069
+        width: 259
+        height: 334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86305410000000000800000000000000
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 2728
+        y: 2069
+        width: 258
+        height: 334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6305410000000000800000000000000
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 1656
+        width: 157
+        height: 328
+      alignment: 9
+      pivot: {x: 0.7521654, y: 0.50000036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07305410000000000800000000000000
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 1652
+        width: 244
+        height: 338
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27305410000000000800000000000000
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 1633
+        width: 258
+        height: 357
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47305410000000000800000000000000
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 2085
+        y: 1668
+        width: 260
+        height: 334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67305410000000000800000000000000
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 2802
+        y: 1645
+        width: 164
+        height: 359
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87305410000000000800000000000000
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1244
+        width: 164
+        height: 359
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7305410000000000800000000000000
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 1244
+        width: 164
+        height: 359
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7305410000000000800000000000000
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 1244
+        width: 164
+        height: 359
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7305410000000000800000000000000
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_72
+      rect:
+        serializedVersion: 2
+        x: 2133
+        y: 1203
+        width: 197
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08305410000000000800000000000000
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 2564
+        y: 1595
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28305410000000000800000000000000
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_74
+      rect:
+        serializedVersion: 2
+        x: 2722
+        y: 1214
+        width: 280
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48305410000000000800000000000000
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_75
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 843
+        width: 164
+        height: 359
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68305410000000000800000000000000
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_76
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 843
+        width: 164
+        height: 359
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88305410000000000800000000000000
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_77
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 843
+        width: 164
+        height: 359
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8305410000000000800000000000000
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_78
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 1194
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8305410000000000800000000000000
+      internalID: 21300108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_79
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 813
+        width: 238
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8305410000000000800000000000000
+      internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_80
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 442
+        width: 164
+        height: 359
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09305410000000000800000000000000
+      internalID: 21300112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_81
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 442
+        width: 164
+        height: 359
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29305410000000000800000000000000
+      internalID: 21300114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_82
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 401
+        width: 233
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49305410000000000800000000000000
+      internalID: 21300116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_83
+      rect:
+        serializedVersion: 2
+        x: 2107
+        y: 401
+        width: 223
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69305410000000000800000000000000
+      internalID: 21300118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_84
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 41
+        width: 164
+        height: 359
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89305410000000000800000000000000
+      internalID: 21300120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_85
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 41
+        width: 164
+        height: 359
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9305410000000000800000000000000
+      internalID: 21300122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_86
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 392
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9305410000000000800000000000000
+      internalID: 21300124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shiver SpriteSheet_87
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 11
+        width: 249
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9305410000000000800000000000000
+      internalID: 21300126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Shiver SpriteSheet_53: 21300072
+      Shiver SpriteSheet_87: 21300126
+      Shiver SpriteSheet_74: 21300100
+      Shiver SpriteSheet_36: 21300052
+      Shiver SpriteSheet_16: 21300018
+      Shiver SpriteSheet_81: 21300114
+      Shiver SpriteSheet_22: 21300028
+      Shiver SpriteSheet_37: 21300054
+      Shiver SpriteSheet_72: 21300096
+      Shiver SpriteSheet_82: 21300116
+      Shiver SpriteSheet_63: 21300084
+      Shiver SpriteSheet_85: 21300122
+      Shiver SpriteSheet_83: 21300118
+      Shiver SpriteSheet_52: 21300070
+      Shiver SpriteSheet_54: 21300074
+      Shiver SpriteSheet_31: 21300042
+      Shiver SpriteSheet_17: 21300020
+      Shiver SpriteSheet_69: 21300090
+      Shiver SpriteSheet_60: 21300080
+      Shiver SpriteSheet_86: 21300124
+      Shiver SpriteSheet_73: 21300098
+      Shiver SpriteSheet_18: 21300022
+      Shiver SpriteSheet_49: 21300064
+      Shiver SpriteSheet_1: 21300002
+      Shiver SpriteSheet_4: 21300008
+      Shiver SpriteSheet_34: 21300048
+      Shiver SpriteSheet_62: 21300082
+      Shiver SpriteSheet_80: 21300112
+      Shiver SpriteSheet_20: 21300024
+      Shiver SpriteSheet_2: 21300004
+      Shiver SpriteSheet_3: 21300006
+      Shiver SpriteSheet_71: 21300094
+      Shiver SpriteSheet_25: 21300034
+      Shiver SpriteSheet_33: 21300046
+      Shiver SpriteSheet_24: 21300032
+      Shiver SpriteSheet_75: 21300102
+      Shiver SpriteSheet_79: 21300110
+      Shiver SpriteSheet_50: 21300066
+      Shiver SpriteSheet_65: 21300088
+      Shiver SpriteSheet_32: 21300044
+      Shiver SpriteSheet_70: 21300092
+      Shiver SpriteSheet_84: 21300120
+      Shiver SpriteSheet_78: 21300108
+      Shiver SpriteSheet_0: 21300000
+      Shiver SpriteSheet_76: 21300104
+      Shiver SpriteSheet_64: 21300086
+      Shiver SpriteSheet_77: 21300106
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

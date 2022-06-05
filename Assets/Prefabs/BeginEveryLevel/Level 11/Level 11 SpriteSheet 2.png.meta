@@ -1,0 +1,709 @@
+fileFormatVersion: 2
+guid: 1943535702b835346a6bb8f2c7931666
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Level 11 SpriteSheet 2_1
+  - first:
+      213: 21300002
+    second: Level 11 SpriteSheet 2_5
+  - first:
+      213: 21300004
+    second: Level 11 SpriteSheet 2_12
+  - first:
+      213: 21300006
+    second: Level 11 SpriteSheet 2_30
+  - first:
+      213: 21300008
+    second: Level 11 SpriteSheet 2_43
+  - first:
+      213: 21300010
+    second: Level 11 SpriteSheet 2_62
+  - first:
+      213: 21300012
+    second: Level 11 SpriteSheet 2_63
+  - first:
+      213: 21300014
+    second: Level 11 SpriteSheet 2_71
+  - first:
+      213: 21300016
+    second: Level 11 SpriteSheet 2_73
+  - first:
+      213: 21300018
+    second: Level 11 SpriteSheet 2_74
+  - first:
+      213: 21300020
+    second: Level 11 SpriteSheet 2_88
+  - first:
+      213: 21300022
+    second: Level 11 SpriteSheet 2_94
+  - first:
+      213: 21300024
+    second: Level 11 SpriteSheet 2_95
+  - first:
+      213: 21300026
+    second: Level 11 SpriteSheet 2_96
+  - first:
+      213: 21300028
+    second: Level 11 SpriteSheet 2_97
+  - first:
+      213: 21300030
+    second: Level 11 SpriteSheet 2_98
+  - first:
+      213: 21300032
+    second: Level 11 SpriteSheet 2_99
+  - first:
+      213: 21300034
+    second: Level 11 SpriteSheet 2_49
+  - first:
+      213: 21300036
+    second: Level 11 SpriteSheet 2_0
+  - first:
+      213: 21300038
+    second: Level 11 SpriteSheet 2_2
+  - first:
+      213: 21300040
+    second: Level 11 SpriteSheet 2_3
+  - first:
+      213: 21300042
+    second: Level 11 SpriteSheet 2_4
+  - first:
+      213: 21300044
+    second: Level 11 SpriteSheet 2_6
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Level 11 SpriteSheet 2_1
+      rect:
+        serializedVersion: 2
+        x: 3260
+        y: 1651
+        width: 270
+        height: 306
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 11 SpriteSheet 2_5
+      rect:
+        serializedVersion: 2
+        x: 2352
+        y: 1887
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 11 SpriteSheet 2_12
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 1394
+        width: 322
+        height: 398
+      alignment: 9
+      pivot: {x: 0.48891777, y: 0.54931426}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 11 SpriteSheet 2_30
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1394
+        width: 322
+        height: 248
+      alignment: 9
+      pivot: {x: 0.4944588, y: 0.8597358}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 11 SpriteSheet 2_43
+      rect:
+        serializedVersion: 2
+        x: 3260
+        y: 1250
+        width: 270
+        height: 306
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 11 SpriteSheet 2_62
+      rect:
+        serializedVersion: 2
+        x: 3260
+        y: 849
+        width: 270
+        height: 306
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 11 SpriteSheet 2_63
+      rect:
+        serializedVersion: 2
+        x: 2821
+        y: 1043
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 11 SpriteSheet 2_71
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 625
+        width: 81
+        height: 375
+      alignment: 9
+      pivot: {x: 0.41981035, y: 0.60392725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 11 SpriteSheet 2_73
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 625
+        width: 322
+        height: 338
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6473327}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 11 SpriteSheet 2_74
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 944
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 11 SpriteSheet 2_88
+      rect:
+        serializedVersion: 2
+        x: 3390
+        y: 448
+        width: 270
+        height: 306
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 11 SpriteSheet 2_94
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 113
+        width: 270
+        height: 306
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 11 SpriteSheet 2_95
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 113
+        width: 270
+        height: 306
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83305410000000000800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 11 SpriteSheet 2_96
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 113
+        width: 270
+        height: 306
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3305410000000000800000000000000
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 11 SpriteSheet 2_97
+      rect:
+        serializedVersion: 2
+        x: 2108
+        y: 113
+        width: 270
+        height: 306
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3305410000000000800000000000000
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 11 SpriteSheet 2_98
+      rect:
+        serializedVersion: 2
+        x: 2749
+        y: 113
+        width: 270
+        height: 306
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3305410000000000800000000000000
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 11 SpriteSheet 2_99
+      rect:
+        serializedVersion: 2
+        x: 3388
+        y: 47
+        width: 272
+        height: 309
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04305410000000000800000000000000
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 11 SpriteSheet 2_49
+      rect:
+        serializedVersion: 2
+        x: 1983
+        y: 459
+        width: 1131
+        height: 809
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24305410000000000800000000000000
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 11 SpriteSheet 2_0
+      rect:
+        serializedVersion: 2
+        x: 2264
+        y: 1423
+        width: 568
+        height: 551
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44305410000000000800000000000000
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 11 SpriteSheet 2_2
+      rect:
+        serializedVersion: 2
+        x: 2245
+        y: 1781
+        width: 435
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64305410000000000800000000000000
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 11 SpriteSheet 2_3
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 1643
+        width: 524
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84305410000000000800000000000000
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 11 SpriteSheet 2_4
+      rect:
+        serializedVersion: 2
+        x: 2248
+        y: 1409
+        width: 642
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4305410000000000800000000000000
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 11 SpriteSheet 2_6
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1612
+        width: 355
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4305410000000000800000000000000
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Level 11 SpriteSheet 2_1: 21300000
+      Level 11 SpriteSheet 2_74: 21300018
+      Level 11 SpriteSheet 2_96: 21300026
+      Level 11 SpriteSheet 2_4: 21300042
+      Level 11 SpriteSheet 2_62: 21300010
+      Level 11 SpriteSheet 2_2: 21300038
+      Level 11 SpriteSheet 2_3: 21300040
+      Level 11 SpriteSheet 2_71: 21300014
+      Level 11 SpriteSheet 2_6: 21300044
+      Level 11 SpriteSheet 2_99: 21300032
+      Level 11 SpriteSheet 2_73: 21300016
+      Level 11 SpriteSheet 2_30: 21300006
+      Level 11 SpriteSheet 2_5: 21300002
+      Level 11 SpriteSheet 2_49: 21300034
+      Level 11 SpriteSheet 2_97: 21300028
+      Level 11 SpriteSheet 2_88: 21300020
+      Level 11 SpriteSheet 2_43: 21300008
+      Level 11 SpriteSheet 2_0: 21300036
+      Level 11 SpriteSheet 2_12: 21300004
+      Level 11 SpriteSheet 2_95: 21300024
+      Level 11 SpriteSheet 2_94: 21300022
+      Level 11 SpriteSheet 2_98: 21300030
+      Level 11 SpriteSheet 2_63: 21300012
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

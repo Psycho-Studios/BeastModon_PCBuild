@@ -1,0 +1,635 @@
+fileFormatVersion: 2
+guid: f641aea9bbbb1864b9c1901d44fd7b9d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Level 5 Enemy Sprite Sheet_0
+  - first:
+      213: 21300002
+    second: Level 5 Enemy Sprite Sheet_5
+  - first:
+      213: 21300004
+    second: Level 5 Enemy Sprite Sheet_6
+  - first:
+      213: 21300006
+    second: Level 5 Enemy Sprite Sheet_8
+  - first:
+      213: 21300008
+    second: Level 5 Enemy Sprite Sheet_9
+  - first:
+      213: 21300010
+    second: Level 5 Enemy Sprite Sheet_13
+  - first:
+      213: 21300012
+    second: Level 5 Enemy Sprite Sheet_25
+  - first:
+      213: 21300014
+    second: Level 5 Enemy Sprite Sheet_26
+  - first:
+      213: 21300016
+    second: Level 5 Enemy Sprite Sheet_27
+  - first:
+      213: 21300018
+    second: Level 5 Enemy Sprite Sheet_29
+  - first:
+      213: 21300020
+    second: Level 5 Enemy Sprite Sheet_30
+  - first:
+      213: 21300022
+    second: Level 5 Enemy Sprite Sheet_31
+  - first:
+      213: 21300024
+    second: Level 5 Enemy Sprite Sheet_45
+  - first:
+      213: 21300026
+    second: Level 5 Enemy Sprite Sheet_46
+  - first:
+      213: 21300028
+    second: Level 5 Enemy Sprite Sheet_47
+  - first:
+      213: 21300030
+    second: Level 5 Enemy Sprite Sheet_48
+  - first:
+      213: 21300032
+    second: Level 5 Enemy Sprite Sheet_51
+  - first:
+      213: 21300034
+    second: Level 5 Enemy Sprite Sheet_91
+  - first:
+      213: 21300036
+    second: Level 5 Enemy Sprite Sheet_92
+  - first:
+      213: 21300038
+    second: Level 5 Enemy Sprite Sheet_94
+  - first:
+      213: 21300040
+    second: Level 5 Enemy Sprite Sheet_102
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Level 5 Enemy Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 1330
+        width: 191
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 Enemy Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 2920
+        y: 1328
+        width: 186
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 Enemy Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 2279
+        y: 1328
+        width: 189
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 Enemy Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1308
+        width: 228
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 Enemy Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 1308
+        width: 227
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 Enemy Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 1450
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 Enemy Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 1208
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 Enemy Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 807
+        width: 191
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 Enemy Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 853
+        width: 191
+        height: 345
+      alignment: 9
+      pivot: {x: 0.5, y: 0.605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 Enemy Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 2739
+        y: 884
+        width: 290
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 Enemy Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 907
+        width: 227
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 Enemy Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 2279
+        y: 927
+        width: 186
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 Enemy Sprite Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 427
+        width: 191
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83305410000000000800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 Enemy Sprite Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 457
+        width: 482
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3305410000000000800000000000000
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 Enemy Sprite Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 457
+        width: 482
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3305410000000000800000000000000
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 Enemy Sprite Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 2279
+        y: 526
+        width: 158
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3305410000000000800000000000000
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 Enemy Sprite Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 2746
+        y: 474
+        width: 274
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04305410000000000800000000000000
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 Enemy Sprite Sheet_91
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 56
+        width: 479
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24305410000000000800000000000000
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 Enemy Sprite Sheet_92
+      rect:
+        serializedVersion: 2
+        x: 2098
+        y: 84
+        width: 290
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44305410000000000800000000000000
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 Enemy Sprite Sheet_94
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 54
+        width: 477
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64305410000000000800000000000000
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 Enemy Sprite Sheet_102
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 5
+        width: 90
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84305410000000000800000000000000
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Level 5 Enemy Sprite Sheet_31: 21300022
+      Level 5 Enemy Sprite Sheet_27: 21300016
+      Level 5 Enemy Sprite Sheet_47: 21300028
+      Level 5 Enemy Sprite Sheet_51: 21300032
+      Level 5 Enemy Sprite Sheet_8: 21300006
+      Level 5 Enemy Sprite Sheet_48: 21300030
+      Level 5 Enemy Sprite Sheet_92: 21300036
+      Level 5 Enemy Sprite Sheet_25: 21300012
+      Level 5 Enemy Sprite Sheet_30: 21300020
+      Level 5 Enemy Sprite Sheet_9: 21300008
+      Level 5 Enemy Sprite Sheet_26: 21300014
+      Level 5 Enemy Sprite Sheet_5: 21300002
+      Level 5 Enemy Sprite Sheet_13: 21300010
+      Level 5 Enemy Sprite Sheet_0: 21300000
+      Level 5 Enemy Sprite Sheet_46: 21300026
+      Level 5 Enemy Sprite Sheet_94: 21300038
+      Level 5 Enemy Sprite Sheet_29: 21300018
+      Level 5 Enemy Sprite Sheet_45: 21300024
+      Level 5 Enemy Sprite Sheet_91: 21300034
+      Level 5 Enemy Sprite Sheet_102: 21300040
+      Level 5 Enemy Sprite Sheet_6: 21300004
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1259 @@
+fileFormatVersion: 2
+guid: 5e8c9bbd4b99853429087fd73719a254
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: BumbleWaspSpriteSheet_8
+  - first:
+      213: 21300002
+    second: BumbleWaspSpriteSheet_32
+  - first:
+      213: 21300004
+    second: BumbleWaspSpriteSheet_50
+  - first:
+      213: 21300006
+    second: BumbleWaspSpriteSheet_67
+  - first:
+      213: 21300008
+    second: BumbleWaspSpriteSheet_70
+  - first:
+      213: 21300010
+    second: BumbleWaspSpriteSheet_73
+  - first:
+      213: 21300012
+    second: BumbleWaspSpriteSheet_75
+  - first:
+      213: 21300014
+    second: BumbleWaspSpriteSheet_92
+  - first:
+      213: 21300016
+    second: BumbleWaspSpriteSheet_112
+  - first:
+      213: 21300018
+    second: BumbleWaspSpriteSheet_126
+  - first:
+      213: 21300020
+    second: BumbleWaspSpriteSheet_152
+  - first:
+      213: 21300022
+    second: BumbleWaspSpriteSheet_154
+  - first:
+      213: 21300024
+    second: BumbleWaspSpriteSheet_157
+  - first:
+      213: 21300026
+    second: BumbleWaspSpriteSheet_159
+  - first:
+      213: 21300028
+    second: BumbleWaspSpriteSheet_165
+  - first:
+      213: 21300030
+    second: BumbleWaspSpriteSheet_168
+  - first:
+      213: 21300032
+    second: BumbleWaspSpriteSheet_169
+  - first:
+      213: 21300034
+    second: BumbleWaspSpriteSheet_170
+  - first:
+      213: 21300036
+    second: BumbleWaspSpriteSheet_206
+  - first:
+      213: 21300038
+    second: BumbleWaspSpriteSheet_207
+  - first:
+      213: 21300040
+    second: BumbleWaspSpriteSheet_209
+  - first:
+      213: 21300042
+    second: BumbleWaspSpriteSheet_216
+  - first:
+      213: 21300044
+    second: BumbleWaspSpriteSheet_217
+  - first:
+      213: 21300046
+    second: BumbleWaspSpriteSheet_222
+  - first:
+      213: 21300048
+    second: BumbleWaspSpriteSheet_223
+  - first:
+      213: 21300050
+    second: BumbleWaspSpriteSheet_224
+  - first:
+      213: 21300052
+    second: BumbleWaspSpriteSheet_225
+  - first:
+      213: 21300054
+    second: BumbleWaspSpriteSheet_232
+  - first:
+      213: 21300056
+    second: BumbleWaspSpriteSheet_251
+  - first:
+      213: 21300058
+    second: BumbleWaspSpriteSheet_252
+  - first:
+      213: 21300060
+    second: BumbleWaspSpriteSheet_259
+  - first:
+      213: 21300062
+    second: BumbleWaspSpriteSheet_262
+  - first:
+      213: 21300064
+    second: BumbleWaspSpriteSheet_265
+  - first:
+      213: 21300066
+    second: BumbleWaspSpriteSheet_266
+  - first:
+      213: 21300068
+    second: BumbleWaspSpriteSheet_272
+  - first:
+      213: 21300070
+    second: BumbleWaspSpriteSheet_276
+  - first:
+      213: 21300072
+    second: BumbleWaspSpriteSheet_282
+  - first:
+      213: 21300074
+    second: BumbleWaspSpriteSheet_289
+  - first:
+      213: 21300076
+    second: BumbleWaspSpriteSheet_297
+  - first:
+      213: 21300078
+    second: BumbleWaspSpriteSheet_298
+  - first:
+      213: 21300080
+    second: BumbleWaspSpriteSheet_299
+  - first:
+      213: 21300082
+    second: BumbleWaspSpriteSheet_300
+  - first:
+      213: 21300084
+    second: BumbleWaspSpriteSheet_301
+  - first:
+      213: 21300086
+    second: BumbleWaspSpriteSheet_302
+  - first:
+      213: 21300088
+    second: BumbleWaspSpriteSheet_303
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 5401
+        y: 3911
+        width: 507
+        height: 554
+      alignment: 9
+      pivot: {x: 0.47009158, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 6519
+        y: 3899
+        width: 317
+        height: 453
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 3388
+        y: 4157
+        width: 398
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 3892
+        width: 231
+        height: 412
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 3892
+        width: 232
+        height: 410
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 2476
+        y: 3892
+        width: 233
+        height: 410
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_75
+      rect:
+        serializedVersion: 2
+        x: 4541
+        y: 3892
+        width: 217
+        height: 412
+      alignment: 9
+      pivot: {x: 0.49239227, y: 0.5761363}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_92
+      rect:
+        serializedVersion: 2
+        x: 5401
+        y: 3142
+        width: 507
+        height: 554
+      alignment: 9
+      pivot: {x: 0.49401832, y: 0.4671547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_112
+      rect:
+        serializedVersion: 2
+        x: 6491
+        y: 3130
+        width: 345
+        height: 461
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_126
+      rect:
+        serializedVersion: 2
+        x: 4443
+        y: 3130
+        width: 344
+        height: 448
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_152
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 3124
+        width: 231
+        height: 409
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_154
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 3123
+        width: 202
+        height: 410
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_157
+      rect:
+        serializedVersion: 2
+        x: 2476
+        y: 3123
+        width: 233
+        height: 410
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83305410000000000800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_159
+      rect:
+        serializedVersion: 2
+        x: 3489
+        y: 3123
+        width: 245
+        height: 412
+      alignment: 9
+      pivot: {x: 0.53788465, y: 0.5788509}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3305410000000000800000000000000
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_165
+      rect:
+        serializedVersion: 2
+        x: 2399
+        y: 2596
+        width: 194
+        height: 275
+      alignment: 9
+      pivot: {x: 0.39970475, y: 0.6284047}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3305410000000000800000000000000
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_168
+      rect:
+        serializedVersion: 2
+        x: 4377
+        y: 2373
+        width: 506
+        height: 554
+      alignment: 9
+      pivot: {x: 0.51198703, y: 0.5164226}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3305410000000000800000000000000
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_169
+      rect:
+        serializedVersion: 2
+        x: 5419
+        y: 2362
+        width: 441
+        height: 521
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04305410000000000800000000000000
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_170
+      rect:
+        serializedVersion: 2
+        x: 6426
+        y: 2362
+        width: 506
+        height: 565
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24305410000000000800000000000000
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_206
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 2362
+        width: 223
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44305410000000000800000000000000
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_207
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 2362
+        width: 223
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64305410000000000800000000000000
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_209
+      rect:
+        serializedVersion: 2
+        x: 3517
+        y: 2354
+        width: 217
+        height: 412
+      alignment: 9
+      pivot: {x: 0.4786135, y: 0.5788503}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84305410000000000800000000000000
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_216
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 2379
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4305410000000000800000000000000
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_217
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 2379
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4305410000000000800000000000000
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_222
+      rect:
+        serializedVersion: 2
+        x: 2399
+        y: 1826
+        width: 194
+        height: 275
+      alignment: 9
+      pivot: {x: 0.3922761, y: 0.62578434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4305410000000000800000000000000
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_223
+      rect:
+        serializedVersion: 2
+        x: 3352
+        y: 1605
+        width: 506
+        height: 553
+      alignment: 9
+      pivot: {x: 0.48308915, y: 0.48452643}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05305410000000000800000000000000
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_224
+      rect:
+        serializedVersion: 2
+        x: 4377
+        y: 1586
+        width: 459
+        height: 528
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25305410000000000800000000000000
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_225
+      rect:
+        serializedVersion: 2
+        x: 5401
+        y: 1593
+        width: 507
+        height: 565
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45305410000000000800000000000000
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_232
+      rect:
+        serializedVersion: 2
+        x: 6703
+        y: 1819
+        width: 250
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65305410000000000800000000000000
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_251
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 1593
+        width: 223
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85305410000000000800000000000000
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_252
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 1585
+        width: 232
+        height: 410
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5305410000000000800000000000000
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_259
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1610
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5305410000000000800000000000000
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_262
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 1039
+        width: 195
+        height: 293
+      alignment: 9
+      pivot: {x: 0.38913262, y: 0.6524904}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5305410000000000800000000000000
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_265
+      rect:
+        serializedVersion: 2
+        x: 4377
+        y: 824
+        width: 506
+        height: 564
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06305410000000000800000000000000
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_266
+      rect:
+        serializedVersion: 2
+        x: 5419
+        y: 933
+        width: 80
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26305410000000000800000000000000
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_272
+      rect:
+        serializedVersion: 2
+        x: 6705
+        y: 1083
+        width: 245
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46305410000000000800000000000000
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_276
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 1077
+        width: 436
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66305410000000000800000000000000
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_282
+      rect:
+        serializedVersion: 2
+        x: 3443
+        y: 824
+        width: 319
+        height: 447
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86305410000000000800000000000000
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_289
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 824
+        width: 223
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6305410000000000800000000000000
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_297
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 997
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6305410000000000800000000000000
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_298
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 992
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6305410000000000800000000000000
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_299
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 946
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07305410000000000800000000000000
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_300
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 954
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27305410000000000800000000000000
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_301
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 841
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47305410000000000800000000000000
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_302
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 281
+        width: 240
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67305410000000000800000000000000
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BumbleWaspSpriteSheet_303
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 280
+        width: 221
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87305410000000000800000000000000
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BumbleWaspSpriteSheet_216: 21300042
+      BumbleWaspSpriteSheet_300: 21300082
+      BumbleWaspSpriteSheet_50: 21300004
+      BumbleWaspSpriteSheet_154: 21300022
+      BumbleWaspSpriteSheet_92: 21300014
+      BumbleWaspSpriteSheet_225: 21300052
+      BumbleWaspSpriteSheet_299: 21300080
+      BumbleWaspSpriteSheet_223: 21300048
+      BumbleWaspSpriteSheet_276: 21300070
+      BumbleWaspSpriteSheet_169: 21300032
+      BumbleWaspSpriteSheet_112: 21300016
+      BumbleWaspSpriteSheet_224: 21300050
+      BumbleWaspSpriteSheet_206: 21300036
+      BumbleWaspSpriteSheet_209: 21300040
+      BumbleWaspSpriteSheet_67: 21300006
+      BumbleWaspSpriteSheet_152: 21300020
+      BumbleWaspSpriteSheet_32: 21300002
+      BumbleWaspSpriteSheet_282: 21300072
+      BumbleWaspSpriteSheet_170: 21300034
+      BumbleWaspSpriteSheet_297: 21300076
+      BumbleWaspSpriteSheet_222: 21300046
+      BumbleWaspSpriteSheet_298: 21300078
+      BumbleWaspSpriteSheet_252: 21300058
+      BumbleWaspSpriteSheet_266: 21300066
+      BumbleWaspSpriteSheet_262: 21300062
+      BumbleWaspSpriteSheet_301: 21300084
+      BumbleWaspSpriteSheet_70: 21300008
+      BumbleWaspSpriteSheet_259: 21300060
+      BumbleWaspSpriteSheet_73: 21300010
+      BumbleWaspSpriteSheet_272: 21300068
+      BumbleWaspSpriteSheet_8: 21300000
+      BumbleWaspSpriteSheet_217: 21300044
+      BumbleWaspSpriteSheet_289: 21300074
+      BumbleWaspSpriteSheet_251: 21300056
+      BumbleWaspSpriteSheet_159: 21300026
+      BumbleWaspSpriteSheet_157: 21300024
+      BumbleWaspSpriteSheet_168: 21300030
+      BumbleWaspSpriteSheet_265: 21300064
+      BumbleWaspSpriteSheet_75: 21300012
+      BumbleWaspSpriteSheet_126: 21300018
+      BumbleWaspSpriteSheet_232: 21300054
+      BumbleWaspSpriteSheet_302: 21300086
+      BumbleWaspSpriteSheet_207: 21300038
+      BumbleWaspSpriteSheet_303: 21300088
+      BumbleWaspSpriteSheet_165: 21300028
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1535 @@
+fileFormatVersion: 2
+guid: ff1a92525f39f2f4e96e559ab347e930
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: True Sylvester2_0
+  - first:
+      213: 21300002
+    second: True Sylvester2_1
+  - first:
+      213: 21300004
+    second: True Sylvester2_2
+  - first:
+      213: 21300006
+    second: True Sylvester2_3
+  - first:
+      213: 21300008
+    second: True Sylvester2_4
+  - first:
+      213: 21300010
+    second: True Sylvester2_5
+  - first:
+      213: 21300012
+    second: True Sylvester2_6
+  - first:
+      213: 21300014
+    second: True Sylvester2_7
+  - first:
+      213: 21300016
+    second: True Sylvester2_8
+  - first:
+      213: 21300018
+    second: True Sylvester2_9
+  - first:
+      213: 21300020
+    second: True Sylvester2_10
+  - first:
+      213: 21300022
+    second: True Sylvester2_11
+  - first:
+      213: 21300024
+    second: True Sylvester2_12
+  - first:
+      213: 21300026
+    second: True Sylvester2_13
+  - first:
+      213: 21300028
+    second: True Sylvester2_14
+  - first:
+      213: 21300030
+    second: True Sylvester2_15
+  - first:
+      213: 21300032
+    second: True Sylvester2_16
+  - first:
+      213: 21300034
+    second: True Sylvester2_17
+  - first:
+      213: 21300036
+    second: True Sylvester2_18
+  - first:
+      213: 21300038
+    second: True Sylvester2_19
+  - first:
+      213: 21300040
+    second: True Sylvester2_20
+  - first:
+      213: 21300042
+    second: True Sylvester2_21
+  - first:
+      213: 21300044
+    second: True Sylvester2_22
+  - first:
+      213: 21300046
+    second: True Sylvester2_23
+  - first:
+      213: 21300048
+    second: True Sylvester2_24
+  - first:
+      213: 21300050
+    second: True Sylvester2_25
+  - first:
+      213: 21300052
+    second: True Sylvester2_26
+  - first:
+      213: 21300054
+    second: True Sylvester2_27
+  - first:
+      213: 21300056
+    second: True Sylvester2_28
+  - first:
+      213: 21300058
+    second: True Sylvester2_29
+  - first:
+      213: 21300060
+    second: True Sylvester2_30
+  - first:
+      213: 21300062
+    second: True Sylvester2_31
+  - first:
+      213: 21300064
+    second: True Sylvester2_32
+  - first:
+      213: 21300066
+    second: True Sylvester2_33
+  - first:
+      213: 21300068
+    second: True Sylvester2_34
+  - first:
+      213: 21300070
+    second: True Sylvester2_35
+  - first:
+      213: 21300072
+    second: True Sylvester2_36
+  - first:
+      213: 21300074
+    second: True Sylvester2_37
+  - first:
+      213: 21300076
+    second: True Sylvester2_38
+  - first:
+      213: 21300078
+    second: True Sylvester2_39
+  - first:
+      213: 21300080
+    second: True Sylvester2_40
+  - first:
+      213: 21300082
+    second: True Sylvester2_41
+  - first:
+      213: 21300084
+    second: True Sylvester2_42
+  - first:
+      213: 21300086
+    second: True Sylvester2_43
+  - first:
+      213: 21300088
+    second: True Sylvester2_44
+  - first:
+      213: 21300090
+    second: True Sylvester2_45
+  - first:
+      213: 21300092
+    second: True Sylvester2_46
+  - first:
+      213: 21300094
+    second: True Sylvester2_47
+  - first:
+      213: 21300096
+    second: True Sylvester2_48
+  - first:
+      213: 21300098
+    second: True Sylvester2_49
+  - first:
+      213: 21300100
+    second: True Sylvester2_50
+  - first:
+      213: 21300102
+    second: True Sylvester2_51
+  - first:
+      213: 21300104
+    second: True Sylvester2_52
+  - first:
+      213: 21300106
+    second: True Sylvester2_53
+  - first:
+      213: 21300108
+    second: True Sylvester2_54
+  - first:
+      213: 21300110
+    second: True Sylvester2_55
+  - first:
+      213: 21300112
+    second: True Sylvester2_56
+  - first:
+      213: 21300114
+    second: True Sylvester2_57
+  - first:
+      213: 21300116
+    second: True Sylvester2_58
+  - first:
+      213: 21300118
+    second: True Sylvester2_59
+  - first:
+      213: 21300120
+    second: True Sylvester2_60
+  - first:
+      213: 21300122
+    second: True Sylvester2_61
+  - first:
+      213: 21300124
+    second: True Sylvester2_62
+  - first:
+      213: 21300126
+    second: True Sylvester2_63
+  - first:
+      213: 21300128
+    second: True Sylvester2_64
+  - first:
+      213: 21300130
+    second: True Sylvester2_65
+  - first:
+      213: 21300132
+    second: True Sylvester2_66
+  - first:
+      213: 21300134
+    second: True Sylvester2_67
+  - first:
+      213: 21300136
+    second: True Sylvester2_68
+  - first:
+      213: 21300138
+    second: True Sylvester2_69
+  - first:
+      213: 21300140
+    second: True Sylvester2_70
+  - first:
+      213: 21300142
+    second: True Sylvester2_71
+  - first:
+      213: 21300144
+    second: True Sylvester2_72
+  - first:
+      213: 21300146
+    second: True Sylvester2_73
+  - first:
+      213: 21300148
+    second: True Sylvester2_74
+  - first:
+      213: 21300150
+    second: True Sylvester2_75
+  - first:
+      213: 21300152
+    second: True Sylvester2_76
+  - first:
+      213: 21300154
+    second: True Sylvester2_77
+  - first:
+      213: 21300156
+    second: True Sylvester2_78
+  - first:
+      213: 21300158
+    second: True Sylvester2_79
+  - first:
+      213: 21300160
+    second: True Sylvester2_80
+  - first:
+      213: 21300162
+    second: True Sylvester2_81
+  - first:
+      213: 21300164
+    second: True Sylvester2_82
+  - first:
+      213: 21300166
+    second: True Sylvester2_83
+  - first:
+      213: 21300168
+    second: True Sylvester2_84
+  - first:
+      213: 21300170
+    second: True Sylvester2_85
+  - first:
+      213: 21300172
+    second: True Sylvester2_86
+  - first:
+      213: 21300174
+    second: True Sylvester2_87
+  - first:
+      213: 21300176
+    second: True Sylvester2_88
+  - first:
+      213: 21300178
+    second: True Sylvester2_89
+  - first:
+      213: 21300180
+    second: True Sylvester2_90
+  - first:
+      213: 21300182
+    second: True Sylvester2_91
+  - first:
+      213: 21300184
+    second: True Sylvester2_92
+  - first:
+      213: 21300186
+    second: True Sylvester2_93
+  - first:
+      213: 21300188
+    second: True Sylvester2_94
+  - first:
+      213: 21300190
+    second: True Sylvester2_95
+  - first:
+      213: 21300192
+    second: True Sylvester2_96
+  - first:
+      213: 21300194
+    second: True Sylvester2_97
+  - first:
+      213: 21300196
+    second: True Sylvester2_98
+  - first:
+      213: 21300198
+    second: True Sylvester2_99
+  - first:
+      213: 21300200
+    second: True Sylvester2_100
+  - first:
+      213: 21300202
+    second: True Sylvester2_101
+  - first:
+      213: 21300204
+    second: True Sylvester2_102
+  - first:
+      213: 21300206
+    second: True Sylvester2_103
+  - first:
+      213: 21300208
+    second: True Sylvester2_104
+  - first:
+      213: 21300210
+    second: True Sylvester2_105
+  - first:
+      213: 21300212
+    second: True Sylvester2_106
+  - first:
+      213: 21300214
+    second: True Sylvester2_107
+  - first:
+      213: 21300216
+    second: True Sylvester2_108
+  - first:
+      213: 21300218
+    second: True Sylvester2_109
+  - first:
+      213: 21300220
+    second: True Sylvester2_110
+  - first:
+      213: 21300222
+    second: True Sylvester2_111
+  - first:
+      213: 21300224
+    second: True Sylvester2_112
+  - first:
+      213: 21300226
+    second: True Sylvester2_113
+  - first:
+      213: 21300228
+    second: True Sylvester2_114
+  - first:
+      213: 21300230
+    second: True Sylvester2_115
+  - first:
+      213: 21300232
+    second: True Sylvester2_116
+  - first:
+      213: 21300234
+    second: True Sylvester2_117
+  - first:
+      213: 21300236
+    second: True Sylvester2_118
+  - first:
+      213: 21300238
+    second: True Sylvester2_119
+  - first:
+      213: 21300240
+    second: True Sylvester2_120
+  - first:
+      213: 21300242
+    second: True Sylvester2_121
+  - first:
+      213: 21300244
+    second: True Sylvester2_122
+  - first:
+      213: 21300246
+    second: True Sylvester2_123
+  - first:
+      213: 21300248
+    second: True Sylvester2_124
+  - first:
+      213: 21300250
+    second: True Sylvester2_125
+  - first:
+      213: 21300252
+    second: True Sylvester2_126
+  - first:
+      213: 21300254
+    second: True Sylvester2_127
+  - first:
+      213: 21300256
+    second: True Sylvester2_128
+  - first:
+      213: 21300258
+    second: True Sylvester2_129
+  - first:
+      213: 21300260
+    second: True Sylvester2_130
+  - first:
+      213: 21300262
+    second: True Sylvester2_131
+  - first:
+      213: 21300264
+    second: True Sylvester2_132
+  - first:
+      213: 21300266
+    second: True Sylvester2_133
+  - first:
+      213: 21300268
+    second: True Sylvester2_134
+  - first:
+      213: 21300270
+    second: True Sylvester2_135
+  - first:
+      213: 21300272
+    second: True Sylvester2_136
+  - first:
+      213: 21300274
+    second: True Sylvester2_137
+  - first:
+      213: 21300276
+    second: True Sylvester2_138
+  - first:
+      213: 21300278
+    second: True Sylvester2_139
+  - first:
+      213: 21300280
+    second: True Sylvester2_140
+  - first:
+      213: 21300282
+    second: True Sylvester2_141
+  - first:
+      213: 21300284
+    second: True Sylvester2_142
+  - first:
+      213: 21300286
+    second: True Sylvester2_143
+  - first:
+      213: 21300288
+    second: True Sylvester2_144
+  - first:
+      213: 21300290
+    second: True Sylvester2_145
+  - first:
+      213: 21300292
+    second: True Sylvester2_146
+  - first:
+      213: 21300294
+    second: True Sylvester2_147
+  - first:
+      213: 21300296
+    second: True Sylvester2_148
+  - first:
+      213: 21300298
+    second: True Sylvester2_149
+  - first:
+      213: 21300300
+    second: True Sylvester2_150
+  - first:
+      213: 21300302
+    second: True Sylvester2_151
+  - first:
+      213: 21300304
+    second: True Sylvester2_152
+  - first:
+      213: 21300306
+    second: True Sylvester2_153
+  - first:
+      213: 21300308
+    second: True Sylvester2_154
+  - first:
+      213: 21300310
+    second: True Sylvester2_155
+  - first:
+      213: 21300312
+    second: True Sylvester2_156
+  - first:
+      213: 21300314
+    second: True Sylvester2_157
+  - first:
+      213: 21300316
+    second: True Sylvester2_158
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: True Sylvester2_2
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 3205
+        width: 298
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: True Sylvester2_3
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 3205
+        width: 297
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: True Sylvester2_4
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 3205
+        width: 400
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: True Sylvester2_8
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 3205
+        width: 386
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: True Sylvester2_9
+      rect:
+        serializedVersion: 2
+        x: 2802
+        y: 3205
+        width: 263
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: True Sylvester2_34
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 2806
+        width: 298
+        height: 349
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46305410000000000800000000000000
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: True Sylvester2_35
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 2806
+        width: 298
+        height: 349
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66305410000000000800000000000000
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: True Sylvester2_38
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 2806
+        width: 436
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6305410000000000800000000000000
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: True Sylvester2_42
+      rect:
+        serializedVersion: 2
+        x: 2161
+        y: 2806
+        width: 263
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47305410000000000800000000000000
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: True Sylvester2_43
+      rect:
+        serializedVersion: 2
+        x: 2795
+        y: 2806
+        width: 273
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67305410000000000800000000000000
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: True Sylvester2_69
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 2404
+        width: 601
+        height: 405
+      alignment: 9
+      pivot: {x: 0.5131536, y: 0.44577426}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa305410000000000800000000000000
+      internalID: 21300138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: True Sylvester2_74
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 2404
+        width: 375
+        height: 350
+      alignment: 9
+      pivot: {x: 0.3853353, y: 0.51336706}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b305410000000000800000000000000
+      internalID: 21300148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: True Sylvester2_80
+      rect:
+        serializedVersion: 2
+        x: 2154
+        y: 2404
+        width: 275
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c305410000000000800000000000000
+      internalID: 21300160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: True Sylvester2_81
+      rect:
+        serializedVersion: 2
+        x: 2753
+        y: 2404
+        width: 326
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c305410000000000800000000000000
+      internalID: 21300162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: True Sylvester2_103
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1999
+        width: 567
+        height: 329
+      alignment: 9
+      pivot: {x: 0.49446678, y: 0.52860826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee305410000000000800000000000000
+      internalID: 21300206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: True Sylvester2_105
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 2002
+        width: 279
+        height: 314
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f305410000000000800000000000000
+      internalID: 21300210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: True Sylvester2_106
+      rect:
+        serializedVersion: 2
+        x: 2154
+        y: 2002
+        width: 275
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f305410000000000800000000000000
+      internalID: 21300212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: True Sylvester2_107
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 2002
+        width: 270
+        height: 314
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f305410000000000800000000000000
+      internalID: 21300214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: True Sylvester2_119
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 1602
+        width: 298
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0405410000000000800000000000000
+      internalID: 21300238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: True Sylvester2_121
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 1602
+        width: 347
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21405410000000000800000000000000
+      internalID: 21300242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: True Sylvester2_122
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 1602
+        width: 326
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41405410000000000800000000000000
+      internalID: 21300244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: True Sylvester2_123
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 1602
+        width: 270
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61405410000000000800000000000000
+      internalID: 21300246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: True Sylvester2_141
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 1201
+        width: 275
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3405410000000000800000000000000
+      internalID: 21300282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: True Sylvester2_142
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1201
+        width: 275
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3405410000000000800000000000000
+      internalID: 21300284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: True Sylvester2_143
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 1201
+        width: 274
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3405410000000000800000000000000
+      internalID: 21300286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: True Sylvester2_144
+      rect:
+        serializedVersion: 2
+        x: 2154
+        y: 1201
+        width: 275
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04405410000000000800000000000000
+      internalID: 21300288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: True Sylvester2_145
+      rect:
+        serializedVersion: 2
+        x: 2795
+        y: 1201
+        width: 273
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24405410000000000800000000000000
+      internalID: 21300290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: True Sylvester2_146
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 799
+        width: 275
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44405410000000000800000000000000
+      internalID: 21300292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: True Sylvester2_147
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 799
+        width: 275
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64405410000000000800000000000000
+      internalID: 21300294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: True Sylvester2_148
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 799
+        width: 274
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84405410000000000800000000000000
+      internalID: 21300296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: True Sylvester2_149
+      rect:
+        serializedVersion: 2
+        x: 2154
+        y: 799
+        width: 275
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4405410000000000800000000000000
+      internalID: 21300298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: True Sylvester2_150
+      rect:
+        serializedVersion: 2
+        x: 2795
+        y: 799
+        width: 273
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4405410000000000800000000000000
+      internalID: 21300300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: True Sylvester2_152
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 399
+        width: 275
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05405410000000000800000000000000
+      internalID: 21300304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: True Sylvester2_153
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 399
+        width: 275
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25405410000000000800000000000000
+      internalID: 21300306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: True Sylvester2_154
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 399
+        width: 274
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45405410000000000800000000000000
+      internalID: 21300308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: True Sylvester2_155
+      rect:
+        serializedVersion: 2
+        x: 2154
+        y: 399
+        width: 275
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65405410000000000800000000000000
+      internalID: 21300310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: True Sylvester2_156
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 0
+        width: 275
+        height: 307
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85405410000000000800000000000000
+      internalID: 21300312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: True Sylvester2_157
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 0
+        width: 275
+        height: 307
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5405410000000000800000000000000
+      internalID: 21300314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: True Sylvester2_158
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 0
+        width: 274
+        height: 307
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5405410000000000800000000000000
+      internalID: 21300316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: True Sylvester2_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 2406
+        width: 570
+        height: 327
+      alignment: 9
+      pivot: {x: 0.56219566, y: 0.51583034}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: True Sylvester2_1
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 2003
+        width: 563
+        height: 373
+      alignment: 9
+      pivot: {x: 0.5410334, y: 0.4855525}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: True Sylvester2_5
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1605
+        width: 617
+        height: 388
+      alignment: 9
+      pivot: {x: 0.5335584, y: 0.46806192}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      True Sylvester2_105: 21300210
+      True Sylvester2_152: 21300304
+      True Sylvester2_146: 21300292
+      True Sylvester2_122: 21300244
+      True Sylvester2_3: 21300006
+      True Sylvester2_148: 21300296
+      True Sylvester2_145: 21300290
+      True Sylvester2_153: 21300306
+      True Sylvester2_123: 21300246
+      True Sylvester2_34: 21300068
+      True Sylvester2_4: 21300008
+      True Sylvester2_9: 21300018
+      True Sylvester2_43: 21300086
+      True Sylvester2_38: 21300076
+      True Sylvester2_8: 21300016
+      True Sylvester2_80: 21300160
+      True Sylvester2_107: 21300214
+      True Sylvester2_141: 21300282
+      True Sylvester2_156: 21300312
+      True Sylvester2_121: 21300242
+      True Sylvester2_103: 21300206
+      True Sylvester2_144: 21300288
+      True Sylvester2_142: 21300284
+      True Sylvester2_2: 21300004
+      True Sylvester2_149: 21300298
+      True Sylvester2_42: 21300084
+      True Sylvester2_106: 21300212
+      True Sylvester2_119: 21300238
+      True Sylvester2_35: 21300070
+      True Sylvester2_74: 21300148
+      True Sylvester2_147: 21300294
+      True Sylvester2_154: 21300308
+      True Sylvester2_5: 21300010
+      True Sylvester2_143: 21300286
+      True Sylvester2_1: 21300002
+      True Sylvester2_150: 21300300
+      True Sylvester2_158: 21300316
+      True Sylvester2_157: 21300314
+      True Sylvester2_155: 21300310
+      True Sylvester2_81: 21300162
+      True Sylvester2_0: 21300000
+      True Sylvester2_69: 21300138
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
