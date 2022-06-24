@@ -122,7 +122,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   degreesToRotate: 0
   projectileSpeed: 40
-  timeBeforeDestruction: 1
+  timeAfterExplosionToDestroy: 0
+  float_timeBeforeDestruction: 0.85
+  bool_explosiveProjectile: 0
+  explosionIfApplicable: {fileID: 0}
 --- !u!70 &8980444102514538711
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

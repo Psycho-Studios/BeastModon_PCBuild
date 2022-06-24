@@ -154,7 +154,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   degreesToRotate: 180
   projectileSpeed: 30
-  timeBeforeDestruction: 0.25
+  timeAfterExplosionToDestroy: 0
+  float_timeBeforeDestruction: 0.3
+  bool_explosiveProjectile: 0
+  explosionIfApplicable: {fileID: 0}
 --- !u!1 &4468747814426444845
 GameObject:
   m_ObjectHideFlags: 0
@@ -348,7 +351,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   degreesToRotate: 0
   projectileSpeed: 0
-  timeBeforeDestruction: 0.15
+  timeAfterExplosionToDestroy: 0
+  float_timeBeforeDestruction: 0.3
+  bool_explosiveProjectile: 0
+  explosionIfApplicable: {fileID: 0}
 --- !u!114 &1555329500527619204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -520,7 +526,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   degreesToRotate: 0
   projectileSpeed: 30
-  timeBeforeDestruction: 0.45
+  timeAfterExplosionToDestroy: 0
+  float_timeBeforeDestruction: 0.3
+  bool_explosiveProjectile: 0
+  explosionIfApplicable: {fileID: 0}
 --- !u!1 &7940595895211298499
 GameObject:
   m_ObjectHideFlags: 0
@@ -675,4 +684,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   degreesToRotate: 180
   projectileSpeed: 30
-  timeBeforeDestruction: 0.25
+  timeAfterExplosionToDestroy: 0
+  float_timeBeforeDestruction: 0.3
+  bool_explosiveProjectile: 0
+  explosionIfApplicable: {fileID: 0}

@@ -234,8 +234,8 @@ TextureImporter:
         y: 17
         width: 562
         height: 271
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.455}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -255,8 +255,8 @@ TextureImporter:
         y: 23
         width: 562
         height: 285
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -272,9 +272,9 @@ TextureImporter:
       name: Ship Projectiles Spritesheet True1_4
       rect:
         serializedVersion: 2
-        x: 432
+        x: 438
         y: 46
-        width: 232
+        width: 226
         height: 262
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -377,11 +377,11 @@ TextureImporter:
       name: Ship Projectiles Spritesheet True1_9
       rect:
         serializedVersion: 2
-        x: 3
+        x: 0
         y: 123
-        width: 205
+        width: 208
         height: 43
-      alignment: 0
+      alignment: 9
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -461,12 +461,12 @@ TextureImporter:
       name: Ship Projectiles Spritesheet True1_13
       rect:
         serializedVersion: 2
-        x: 203
+        x: 211
         y: 122
-        width: 234
+        width: 226
         height: 49
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.48, y: 0.42}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -608,12 +608,12 @@ TextureImporter:
       name: Ship Projectiles Spritesheet True1_18
       rect:
         serializedVersion: 2
-        x: 136
+        x: 149
         y: 34
-        width: 244
+        width: 231
         height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.465, y: 0.45}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -621,6 +621,111 @@ TextureImporter:
       bones: []
       spriteID: b9a92c881241a7742947b0fbb48c9082
       internalID: -199621841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ship Projectiles Spritesheet True1_19
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 22
+        width: 201
+        height: 45
+      alignment: 9
+      pivot: {x: 0.77, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28351c9ff732af46a2b915621fcc5f3
+      internalID: -472248534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ship Projectiles Spritesheet True1_20
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 249
+        width: 175
+        height: 49
+      alignment: 9
+      pivot: {x: 0.62, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ecc9cb5aad956e4abb61155bbc470b4
+      internalID: 595001622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ship Projectiles Spritesheet True1_21
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 15
+        width: 314
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25beb660380bcad41a17be1a70645292
+      internalID: -1627294173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ship Projectiles Spritesheet True1_22
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 184
+        width: 205
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5285, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e620f7c583fa73c488a45c010c0ffa4a
+      internalID: 1802977030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ship Projectiles Spritesheet True1_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 189
+        width: 140
+        height: 48
+      alignment: 9
+      pivot: {x: 0.8, y: 0.51}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0132ccb0bfcec147a0d9067add978e5
+      internalID: -1796278112
       vertices: []
       indices: 
       edges: []
@@ -637,24 +742,29 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Ship Projectiles Spritesheet True1_14: 21300028
+      Ship Projectiles Spritesheet True1_21: -1627294173
       Ship Projectiles Spritesheet True1_3: 21300002
       Ship Projectiles Spritesheet True1_11: 21300018
       Ship Projectiles Spritesheet True1_16: 21300032
       Ship Projectiles Spritesheet True1_8: 21300012
       Ship Projectiles Spritesheet True1_7: 21300010
+      Ship Projectiles Spritesheet True1_23: -624543006
       Ship Projectiles Spritesheet True1_15: 21300030
       Ship Projectiles Spritesheet True1_2: 21300000
       Ship Projectiles Spritesheet True1_5: 21300006
       Ship Projectiles Spritesheet True1_13: 21300022
       Ship Projectiles Spritesheet True1_17: -1830573277
       Ship Projectiles Spritesheet True1_18: -199621841
+      Ship Projectiles Spritesheet True1_22: 1802977030
       Ship Projectiles Spritesheet True1_4: 21300004
       Ship Projectiles Spritesheet True1_9: 21300014
       Ship Projectiles Spritesheet True1_0: 21300024
+      Ship Projectiles Spritesheet True1_20: 595001622
       Ship Projectiles Spritesheet True1_6: 21300008
       Ship Projectiles Spritesheet True1_12: 21300020
       Ship Projectiles Spritesheet True1_1: 21300026
       Ship Projectiles Spritesheet True1_10: 21300016
+      Ship Projectiles Spritesheet True1_19: -472248534
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

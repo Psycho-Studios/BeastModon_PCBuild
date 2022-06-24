@@ -123,7 +123,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   degreesToRotate: 0
   projectileSpeed: 55
-  timeBeforeDestruction: 0.6
+  timeAfterExplosionToDestroy: 0
+  float_timeBeforeDestruction: 0.65
+  bool_explosiveProjectile: 0
+  explosionIfApplicable: {fileID: 0}
 --- !u!95 &-1931625458671043866
 Animator:
   serializedVersion: 4

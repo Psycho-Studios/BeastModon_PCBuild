@@ -1,0 +1,1358 @@
+fileFormatVersion: 2
+guid: 3137082bb81a52f4ea2a67df067dd77d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 938
+        width: 59
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a457f67a80800e34ba33e1145c9237c1
+      internalID: -882646640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_1
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 935
+        width: 58
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3257a14291fa3546a0a554473dc9639
+      internalID: -84880684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_2
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 940
+        width: 166
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43468a360378b4f4eb69d365689be19f
+      internalID: -1009765772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_3
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 926
+        width: 64
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0aea9880645a7745a200fa21eed0270
+      internalID: -1102221777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_4
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 940
+        width: 61
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4e4732fa6a1ad45ba0f2d49dde104b
+      internalID: -352236319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_5
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 904
+        width: 81
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b90fcc21710ca4196be6da843db760
+      internalID: -463518601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_6
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 690
+        width: 558
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9cfaf1b46e292642b95dc504fac3e95
+      internalID: -248820037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_7
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 884
+        width: 110
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f1f9aa0f30d8346abd04105ff0027c
+      internalID: 1056416660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_8
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 884
+        width: 59
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24af3ab493f0bcf4e972c7e36416dbff
+      internalID: 1781320835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_9
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 738
+        width: 442
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e66c757df7889498bc6fa4dd4c189b
+      internalID: -1822800963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_10
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 887
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c629f303ced3ced4a8d87378f790a8b8
+      internalID: 1151596909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_11
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 772
+        width: 171
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774c8d8d1a090e54899e166f30a9794f
+      internalID: -2096828815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_12
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 886
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca20b35045052214b900dd97e7354b6b
+      internalID: 1544789193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_13
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 770
+        width: 202
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ee37013ac081a47952ec71f977bb8a
+      internalID: -175530957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_14
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 770
+        width: 58
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef67650edec21c9409d41c94280fc6ec
+      internalID: 2125131537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_15
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 850
+        width: 192
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8010146c85acac4980bb2e49b05472f
+      internalID: -778350788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 811
+        width: 213
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f114613a705424280302a5767eb979
+      internalID: -1768023670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_17
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 777
+        width: 173
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f093e5097b67544286bb7c19be95f81
+      internalID: -1480334595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_18
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 796
+        width: 78
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f63777ee2950847a096d362a0950e2
+      internalID: 879658944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_19
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 801
+        width: 57
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8640d21fff41a9142b20e08a0e262c7c
+      internalID: 666795845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_20
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 816
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ac55eadb6aa8a47ab925712010b7cb
+      internalID: 818742680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_21
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 774
+        width: 156
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1cf33f85c6f8841b4523c95c167762
+      internalID: -710263644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_22
+      rect:
+        serializedVersion: 2
+        x: 3380
+        y: 816
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af3856b484ed8c548bff3e21d5d35c54
+      internalID: -728106273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_23
+      rect:
+        serializedVersion: 2
+        x: 3427
+        y: 785
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2333399c7b91d9045975ea8fb7cdb7be
+      internalID: -2048119065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_24
+      rect:
+        serializedVersion: 2
+        x: 3618
+        y: 750
+        width: 125
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64b945600d8e0c44a496d30186c86eb
+      internalID: 1861900678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_25
+      rect:
+        serializedVersion: 2
+        x: 4442
+        y: 100
+        width: 300
+        height: 569
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f4e50a996dea94fb5ae5a91a161515
+      internalID: 1875596417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_26
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 723
+        width: 245
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51db6eab1d1f082468c48ef85ec6db69
+      internalID: -1756650773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_27
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 713
+        width: 58
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a1e047b2168a6e4aa2bdcffe58861af
+      internalID: -878599836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_28
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 699
+        width: 56
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1983f9de77e00674cb4fdae438dd79bc
+      internalID: 882210309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_29
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 753
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d3c17797bd96d94f9f4426d9f10ec32
+      internalID: -2147306181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_30
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 709
+        width: 164
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f490022a09efa5c4daf432c848e43b51
+      internalID: -949596778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_31
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 713
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc671e2ad939d3343b17ee8e66bfdd32
+      internalID: -701006464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_33
+      rect:
+        serializedVersion: 2
+        x: 2812
+        y: 685
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac44c74eacb62449b8e13ade50a3c64
+      internalID: 1140072691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_34
+      rect:
+        serializedVersion: 2
+        x: 2821
+        y: 128
+        width: 298
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91cd874dc7e82cc4aafd2f8f5fc7b052
+      internalID: 1832777590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_35
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 340
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c04fc6241c2e7742b6634acc9e05e5f
+      internalID: 178885946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_36
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 340
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b20778d46593e4890d74fef9570260
+      internalID: 901285421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_37
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 340
+        width: 186
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73461d9abe574047bb88328dbca476f
+      internalID: 1515434535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_38
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 340
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51fb0c8cd4ce4a42ba18a4978b24cf7
+      internalID: -535251725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_39
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 340
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2aad41f5d90b143806cef61b89713c
+      internalID: -1380873366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_40
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 342
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d43edcd9b6e7085448a5a64df40b7b99
+      internalID: 1474972233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_42
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 126
+        width: 276
+        height: 553
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5a7278b5c69e974f899665550586dc5
+      internalID: 513662076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_43
+      rect:
+        serializedVersion: 2
+        x: 2216
+        y: 104
+        width: 311
+        height: 580
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d093431da322ba442bdb30f9d6bc142d
+      internalID: 885650924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_44
+      rect:
+        serializedVersion: 2
+        x: 3323
+        y: 89
+        width: 267
+        height: 571
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124deaaa5243e3b4d94cefe817323342
+      internalID: -1984010880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_45
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 104
+        width: 307
+        height: 570
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a467dab051d37bd4594af561c00614c6
+      internalID: -490204182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_46
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 31
+        width: 553
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c92746f4dced5745a87275807b82069
+      internalID: 113682264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_47
+      rect:
+        serializedVersion: 2
+        x: 3593
+        y: 97
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0689e644fce04449b72aca78f40b26
+      internalID: 2059669511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_48
+      rect:
+        serializedVersion: 2
+        x: 3798
+        y: 93
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2bcfcf02c5262c41a40551a4fc95470
+      internalID: 153471471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_49
+      rect:
+        serializedVersion: 2
+        x: 4354
+        y: 82
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7fde0b0c8ce7946a235f745f0f6912
+      internalID: -517296073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_50
+      rect:
+        serializedVersion: 2
+        x: 3710
+        y: 82
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c848125f5389f4285faa7a2d1e0eec
+      internalID: -1329813934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_51
+      rect:
+        serializedVersion: 2
+        x: 3794
+        y: 85
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5fcd5ee6a3bb840847cdb9501b87d7
+      internalID: -2125803241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_41
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 23
+        width: 564
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f0a43c7a76ca24fab308fd833c519a
+      internalID: -634593001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_52
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 68
+        width: 550
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdabb41d348aa2e4189c1e534420db51
+      internalID: 392186750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_32
+      rect:
+        serializedVersion: 2
+        x: 2132
+        y: 704
+        width: 566
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70cafcf1623a6e47bded10c90efd7ba
+      internalID: 1975355818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_53
+      rect:
+        serializedVersion: 2
+        x: 2694
+        y: 709
+        width: 563
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70995156816d404384b7e2e890efb1c
+      internalID: -1010399434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Projectiles_FirstHalf_28: 882210309
+      Projectiles_FirstHalf_4: -352236319
+      Projectiles_FirstHalf_13: -175530957
+      Projectiles_FirstHalf_11: -2096828815
+      Projectiles_FirstHalf_51: -2125803241
+      Projectiles_FirstHalf_14: 2125131537
+      Projectiles_FirstHalf_15: -778350788
+      Projectiles_FirstHalf_37: 1515434535
+      Projectiles_FirstHalf_41: -634593001
+      Projectiles_FirstHalf_42: 513662076
+      Projectiles_FirstHalf_38: -535251725
+      Projectiles_FirstHalf_50: -1329813934
+      Projectiles_FirstHalf_31: -701006464
+      Projectiles_FirstHalf_33: 1140072691
+      Projectiles_FirstHalf_18: 879658944
+      Projectiles_FirstHalf_16: -1768023670
+      Projectiles_FirstHalf_45: -490204182
+      Projectiles_FirstHalf_40: 1474972233
+      Projectiles_FirstHalf_39: -1380873366
+      Projectiles_FirstHalf_47: 2059669511
+      Projectiles_FirstHalf_52: 392186750
+      Projectiles_FirstHalf_27: -878599836
+      Projectiles_FirstHalf_25: 1875596417
+      Projectiles_FirstHalf_29: -2147306181
+      Projectiles_FirstHalf_43: 885650924
+      Projectiles_FirstHalf_48: 153471471
+      Projectiles_FirstHalf_19: 666795845
+      Projectiles_FirstHalf_21: -710263644
+      Projectiles_FirstHalf_49: -517296073
+      Projectiles_FirstHalf_44: -1984010880
+      Projectiles_FirstHalf_12: 1544789193
+      Projectiles_FirstHalf_20: 818742680
+      Projectiles_FirstHalf_3: -1102221777
+      Projectiles_FirstHalf_35: 178885946
+      Projectiles_FirstHalf_36: 901285421
+      Projectiles_FirstHalf_7: 1056416660
+      Projectiles_FirstHalf_8: 1781320835
+      Projectiles_FirstHalf_46: 113682264
+      Projectiles_FirstHalf_22: -728106273
+      Projectiles_FirstHalf_17: -1480334595
+      Projectiles_FirstHalf_10: 1151596909
+      Projectiles_FirstHalf_34: 1832777590
+      Projectiles_FirstHalf_30: -949596778
+      Projectiles_FirstHalf_9: -1822800963
+      Projectiles_FirstHalf_53: -1010399434
+      Projectiles_FirstHalf_0: -882646640
+      Projectiles_FirstHalf_6: -248820037
+      Projectiles_FirstHalf_26: -1756650773
+      Projectiles_FirstHalf_24: 1861900678
+      Projectiles_FirstHalf_32: 1975355818
+      Projectiles_FirstHalf_2: -1009765772
+      Projectiles_FirstHalf_23: -2048119065
+      Projectiles_FirstHalf_5: -463518601
+      Projectiles_FirstHalf_1: -84880684
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

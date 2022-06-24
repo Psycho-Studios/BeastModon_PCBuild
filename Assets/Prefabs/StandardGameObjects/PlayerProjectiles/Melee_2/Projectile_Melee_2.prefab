@@ -159,4 +159,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   degreesToRotate: 0
   projectileSpeed: 50
-  timeBeforeDestruction: 0.25
+  timeAfterExplosionToDestroy: 0
+  float_timeBeforeDestruction: 0.3
+  bool_explosiveProjectile: 0
+  explosionIfApplicable: {fileID: 0}
