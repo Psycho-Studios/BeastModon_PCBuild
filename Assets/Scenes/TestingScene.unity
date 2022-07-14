@@ -261,11 +261,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 583852927300769257, guid: 8a6e563e9b1fbea479cb7fa949902a23,
-        type: 3}
-      propertyPath: fireRates.Array.data[28]
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 595141031462333333, guid: 8a6e563e9b1fbea479cb7fa949902a23,
         type: 3}
       propertyPath: m_Name

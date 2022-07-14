@@ -1,0 +1,1034 @@
+fileFormatVersion: 2
+guid: 4151b7a34b1d6ff4a8d6e72d3af3eb4f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gunfire_Back_0
+      rect:
+        serializedVersion: 2
+        x: 2397
+        y: 1783
+        width: 55
+        height: 79
+      alignment: 9
+      pivot: {x: 0.4, y: 0.54}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177a09baf5c83e043a8679728f16aaf3
+      internalID: -2074709251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunfire_Back_2
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 1725
+        width: 113
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224b1a816c4e0e84cb1944ba24a1d987
+      internalID: 158938994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunfire_Back_3
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 1746
+        width: 96
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d0ca933e673534bb204094d46f6278
+      internalID: 1545447563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunfire_Back_4
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 1766
+        width: 97
+        height: 51
+      alignment: 9
+      pivot: {x: 0.5, y: 0.54}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16bf3b7886cc6840934168bddf16d54
+      internalID: -1642984556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunfire_Back_5
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1757
+        width: 98
+        height: 60
+      alignment: 9
+      pivot: {x: 0.25, y: 0.44}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746e44c3dfcf5c542a54ba8681ddc6f7
+      internalID: 908313220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunfire_Back_6
+      rect:
+        serializedVersion: 2
+        x: 3034
+        y: 1791
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abbf5ee482fc11d478fe1e23a1dfc869
+      internalID: 2106603915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunfire_Back_8
+      rect:
+        serializedVersion: 2
+        x: 3680
+        y: 1349
+        width: 166
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23c57fd16bf08e42bb97f38bc093a8b
+      internalID: -383865543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunfire_Back_11
+      rect:
+        serializedVersion: 2
+        x: 3062
+        y: 1346
+        width: 117
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a817989cf5ba44780f4e54142f5420
+      internalID: 7204381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunfire_Back_14
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 1346
+        width: 96
+        height: 94
+      alignment: 9
+      pivot: {x: 0.25, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f517c76785ca8514096b84d84d57a916
+      internalID: -85323705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunfire_Back_16
+      rect:
+        serializedVersion: 2
+        x: 2397
+        y: 1395
+        width: 55
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37871dae6c3d35842a7d27d6c6f022ef
+      internalID: -1209761377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunfire_Back_17
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 1357
+        width: 99
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a697847601a13e741b0beeefc47ec9f8
+      internalID: 1782894323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunfire_Back_18
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 1365
+        width: 97
+        height: 50
+      alignment: 9
+      pivot: {x: 0.28, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb2216db21df1d2468815e7c9951b259
+      internalID: -240657738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunfire_Back_22
+      rect:
+        serializedVersion: 2
+        x: 2423
+        y: 923
+        width: 112
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66d94e42a1f09944b3abe12c6db3dd3
+      internalID: 1647769907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunfire_Back_24
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 910
+        width: 84
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d69e7ee39898ca45b9335c69f3fdb56
+      internalID: -536835989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunfire_Back_27
+      rect:
+        serializedVersion: 2
+        x: 3652
+        y: 906
+        width: 118
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914c0c962738cf94094903da7a3fc614
+      internalID: -1400896840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunfire_Back_28
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 940
+        width: 81
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6468482399c297243b59a186a6d7e777
+      internalID: -1546939310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunfire_Back_32
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 940
+        width: 79
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4de1c7c0da29634bb617b8cc63e1ac0
+      internalID: 1235817917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunfire_Back_36
+      rect:
+        serializedVersion: 2
+        x: 3028
+        y: 946
+        width: 117
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934f57d3626079749ba6a0a644a3056f
+      internalID: 1880363650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunfire_Back_48
+      rect:
+        serializedVersion: 2
+        x: 2506
+        y: 743
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 986d1c8383578e640a92596bd46234be
+      internalID: 433361144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunfire_Back_49
+      rect:
+        serializedVersion: 2
+        x: 3051
+        y: 549
+        width: 161
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 986658f38795b3e40a2ce9b7d36e8b12
+      internalID: 1882748744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunfire_Back_52
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 510
+        width: 77
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fbe0c4c9955d774090add1c338a6b8c
+      internalID: -491405112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunfire_Back_53
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 510
+        width: 77
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101d22eaf4793d64d8c08da683c66d57
+      internalID: -1689476141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunfire_Back_54
+      rect:
+        serializedVersion: 2
+        x: 3533
+        y: 617
+        width: 60
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf44a5771f09c24980afd0542c9a300
+      internalID: -1718895544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunfire_Back_55
+      rect:
+        serializedVersion: 2
+        x: 3635
+        y: 506
+        width: 124
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f47a300d7899354ba691993d9a4b9db
+      internalID: -937906677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunfire_Back_61
+      rect:
+        serializedVersion: 2
+        x: 2422
+        y: 588
+        width: 111
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab04a4f4a27a484bbc102877872ba36
+      internalID: -1080203019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunfire_Back_66
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 593
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673664b6b3fdc354aa0c8599746c94b5
+      internalID: -210962456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunfire_Back_95
+      rect:
+        serializedVersion: 2
+        x: 2486
+        y: 545
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9ef20869f674140956101e111c82ba
+      internalID: -47138480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunfire_Back_100
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 343
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34ccb377d292464594b1ca3f61af43d
+      internalID: -1671138549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunfire_Back_103
+      rect:
+        serializedVersion: 2
+        x: 2994
+        y: 104
+        width: 124
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d49d72efd83bf43b55a3bff958c91b
+      internalID: -1304838815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunfire_Back_106
+      rect:
+        serializedVersion: 2
+        x: 3635
+        y: 104
+        width: 124
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b707104437284d9449c33ec66848be8a
+      internalID: 1815080622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunfire_Back_109
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 108
+        width: 83
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea037708ecf9a754da2b71954214406d
+      internalID: 1986785589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunfire_Back_117
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 179
+        width: 53
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a7920cac6f1c946b14921550a42fbe
+      internalID: 1047366794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunfire_Back_119
+      rect:
+        serializedVersion: 2
+        x: 2399
+        y: 183
+        width: 105
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7327e022af2bb9b4b8324460c7958ee8
+      internalID: -623064062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunfire_Back_121
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 192
+        width: 54
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7987c5022da11a4ab76d8789c73f4f4
+      internalID: -1999240274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Gunfire_Back_16: -1209761377
+      Gunfire_Back_49: 1882748744
+      Gunfire_Back_87: 118873611
+      Gunfire_Back_67: -1474707854
+      Gunfire_Back_149: -301994720
+      Gunfire_Back_88: -416113975
+      Gunfire_Back_136: 275065518
+      Gunfire_Back_134: 1777459533
+      Gunfire_Back_93: -1898787392
+      Gunfire_Back_83: 911022750
+      Gunfire_Back_95: -47138480
+      Gunfire_Back_97: 172719974
+      Gunfire_Back_92: -258462308
+      Gunfire_Back_141: -1956362282
+      Gunfire_Back_57: 1426704961
+      Gunfire_Back_8: -383865543
+      Gunfire_Back_14: -85323705
+      Gunfire_Back_55: -937906677
+      Gunfire_Back_0: -2074709251
+      Gunfire_Back_1: -1229268602
+      Gunfire_Back_4: -1642984556
+      Gunfire_Back_82: 2133084488
+      Gunfire_Back_91: 626770885
+      Gunfire_Back_2: 158938994
+      Gunfire_Back_96: 834738019
+      Gunfire_Back_58: -53611190
+      Gunfire_Back_138: -108069485
+      Gunfire_Back_89: -719976086
+      Gunfire_Back_47: 49144345
+      Gunfire_Back_28: -1546939310
+      Gunfire_Back_31: -1421148139
+      Gunfire_Back_36: 1880363650
+      Gunfire_Back_37: -1795520621
+      Gunfire_Back_53: -1689476141
+      Gunfire_Back_17: 1782894323
+      Gunfire_Back_27: -1400896840
+      Gunfire_Back_3: 1545447563
+      Gunfire_Back_50: 397123945
+      Gunfire_Back_133: -1413465339
+      Gunfire_Back_127: -1415399534
+      Gunfire_Back_42: 949750676
+      Gunfire_Back_98: 825537315
+      Gunfire_Back_148: -588310372
+      Gunfire_Back_120: 510879235
+      Gunfire_Back_107: 1359886849
+      Gunfire_Back_20: 385895996
+      Gunfire_Back_110: 2041992221
+      Gunfire_Back_10: 455961463
+      Gunfire_Back_19: -1196488665
+      Gunfire_Back_105: 1398819912
+      Gunfire_Back_59: -787258393
+      Gunfire_Back_5: 908313220
+      Gunfire_Back_44: 1558389848
+      Gunfire_Back_79: 344625272
+      Gunfire_Back_33: 1023720119
+      Gunfire_Back_140: -1292646606
+      Gunfire_Back_115: 310695150
+      Gunfire_Back_117: 1047366794
+      Gunfire_Back_76: 472924475
+      Gunfire_Back_111: 648310046
+      Gunfire_Back_123: 1150234037
+      Gunfire_Back_70: 1130616910
+      Gunfire_Back_64: 463263329
+      Gunfire_Back_29: -1651343336
+      Gunfire_Back_41: -482108228
+      Gunfire_Back_46: 1010743788
+      Gunfire_Back_86: 2047069245
+      Gunfire_Back_54: -1718895544
+      Gunfire_Back_130: -1432881502
+      Gunfire_Back_15: -274595927
+      Gunfire_Back_32: 1235817917
+      Gunfire_Back_77: 1864158935
+      Gunfire_Back_106: 1815080622
+      Gunfire_Back_39: 1684191919
+      Gunfire_Back_45: 1407851583
+      Gunfire_Back_143: 116626922
+      Gunfire_Back_103: -1304838815
+      Gunfire_Back_85: 693557218
+      Gunfire_Back_116: 2011925284
+      Gunfire_Back_108: 1991781882
+      Gunfire_Back_30: -946831106
+      Gunfire_Back_144: -569185084
+      Gunfire_Back_131: -1529288159
+      Gunfire_Back_63: -701138631
+      Gunfire_Back_135: 1615944402
+      Gunfire_Back_6: 2106603915
+      Gunfire_Back_74: 958188906
+      Gunfire_Back_40: 987707880
+      Gunfire_Back_23: -957701302
+      Gunfire_Back_51: -1499193459
+      Gunfire_Back_18: -240657738
+      Gunfire_Back_125: 1315764214
+      Gunfire_Back_126: 1148633508
+      Gunfire_Back_112: 1569084370
+      Gunfire_Back_139: -118546676
+      Gunfire_Back_25: -979120895
+      Gunfire_Back_71: 852782024
+      Gunfire_Back_61: -1080203019
+      Gunfire_Back_132: -1145576231
+      Gunfire_Back_109: 1986785589
+      Gunfire_Back_43: -847042977
+      Gunfire_Back_22: 1647769907
+      Gunfire_Back_80: -261313090
+      Gunfire_Back_100: -1671138549
+      Gunfire_Back_34: 179689174
+      Gunfire_Back_12: -830195186
+      Gunfire_Back_65: -1079389563
+      Gunfire_Back_147: -1807920125
+      Gunfire_Back_9: -1042630324
+      Gunfire_Back_72: -1186118689
+      Gunfire_Back_94: 87638725
+      Gunfire_Back_13: 1865582818
+      Gunfire_Back_38: -956233399
+      Gunfire_Back_81: -1074024084
+      Gunfire_Back_119: -623064062
+      Gunfire_Back_145: 1901317967
+      Gunfire_Back_21: 960635110
+      Gunfire_Back_68: 265877670
+      Gunfire_Back_137: 730746823
+      Gunfire_Back_118: 20814414
+      Gunfire_Back_56: 2018476232
+      Gunfire_Back_104: 727950851
+      Gunfire_Back_90: 1452903354
+      Gunfire_Back_129: -42404411
+      Gunfire_Back_73: -248439903
+      Gunfire_Back_124: 967189111
+      Gunfire_Back_113: 964815962
+      Gunfire_Back_122: -1124233140
+      Gunfire_Back_26: -803046275
+      Gunfire_Back_84: 926968399
+      Gunfire_Back_66: -210962456
+      Gunfire_Back_102: -389654214
+      Gunfire_Back_35: -673384758
+      Gunfire_Back_62: 2014891850
+      Gunfire_Back_48: 433361144
+      Gunfire_Back_60: -1226651048
+      Gunfire_Back_101: 2124392284
+      Gunfire_Back_24: -536835989
+      Gunfire_Back_121: -1999240274
+      Gunfire_Back_142: 1852326928
+      Gunfire_Back_11: 7204381
+      Gunfire_Back_146: 1672794614
+      Gunfire_Back_69: 151828612
+      Gunfire_Back_128: -1383869873
+      Gunfire_Back_78: 599345898
+      Gunfire_Back_52: -491405112
+      Gunfire_Back_75: 1019447950
+      Gunfire_Back_99: 927806091
+      Gunfire_Back_114: 286671480
+      Gunfire_Back_7: -1482030256
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
