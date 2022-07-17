@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SelectWeapon_Player1 : MonoBehaviour
 {
-         Animator animator_weaponSlots;
+    Animator animator_weaponSlots;
 
     private void Awake()
     {

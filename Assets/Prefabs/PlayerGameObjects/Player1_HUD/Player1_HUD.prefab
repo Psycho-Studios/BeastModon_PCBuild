@@ -442,6 +442,7 @@ GameObject:
   - component: {fileID: 467074424089481217}
   - component: {fileID: 467074424089481246}
   - component: {fileID: 467074424089481247}
+  - component: {fileID: 1080903748}
   m_Layer: 0
   m_Name: SylvesterFace
   m_TagString: Untagged
@@ -530,7 +531,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 4.22, y: 3.81}
+  m_Size: {x: 2.75, y: 3.12}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -653,6 +654,27 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &1080903748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 467074424089481245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ee90bd1c59ee3a449dbae73bb0606b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioClip_player1Death: {fileID: 8300000, guid: 93e6f495ebdd25a4babe2486aae280da,
+    type: 3}
+  audioClip_Damage:
+  - {fileID: 8300000, guid: 01ada50a0b34f7641b7d547c51528784, type: 3}
+  - {fileID: 8300000, guid: d52b94dc88bf3994ca5c396da6bed09b, type: 3}
+  - {fileID: 8300000, guid: c568aaae0ec218b42bc4dd6910bc6e18, type: 3}
+  - {fileID: 8300000, guid: ca1b3461183708f4caaef5ed0f32a2a8, type: 3}
+  - {fileID: 8300000, guid: 8ff6e316492e951499bc847c9cc80608, type: 3}
+  - {fileID: 8300000, guid: ee8844a827774324ca3feaa06751cd2b, type: 3}
 --- !u!1 &467572568984915631
 GameObject:
   m_ObjectHideFlags: 0
