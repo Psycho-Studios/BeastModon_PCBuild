@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4265796342565681773}
   - component: {fileID: 2828049424683411264}
+  - component: {fileID: 6293934566699776750}
   m_Layer: 0
   m_Name: GameProperties
   m_TagString: Untagged
@@ -44,3 +45,59 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1efdf7c447e07db4ba61defbe9610eb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6293934566699776750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631000367485798673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6690b2d246a62ce40a71d84ec348a988, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  int_amountOfObjectsToPool: 50
+  array_gameObjectsToPool:
+  - {fileID: 8265873742065957007, guid: 829aa411cd6be0f4e85cf30c189521a1, type: 3}
+  - {fileID: 6468150003735313274, guid: cee4d18eb1dc9d1478ffff38db26ed82, type: 3}
+  - {fileID: 4347077074432136938, guid: 6dff14d4db66218469d76e2bf195cdf2, type: 3}
+  - {fileID: 4973768166014342884, guid: 1901035de6189de4487db1674a9fcae0, type: 3}
+  - {fileID: 6239904167139184872, guid: c9e9142e7b1979d4ea230a451e2b4c6f, type: 3}
+  - {fileID: 8265873742065957007, guid: 57f5ae67166c0a54cb878254f56c8883, type: 3}
+  - {fileID: 6468150003735313274, guid: cee4d18eb1dc9d1478ffff38db26ed82, type: 3}
+  - {fileID: 2063390403522143845, guid: e13b778e41ef5784dbfc7f6001a90032, type: 3}
+  - {fileID: 4973768166014342884, guid: 88a2a2001101a2841b476f90ec8366cc, type: 3}
+  - {fileID: 5632260262185088891, guid: 57288e4ac53fa644e85e38e22d6d91ec, type: 3}
+  - {fileID: 5798836773637906690, guid: b30e6995eea41c440a061b07f5907d5c, type: 3}
+  - {fileID: 8265873742065957007, guid: 20ddc5ae5eaa7be44a5bdaa66448113d, type: 3}
+  - {fileID: 4468747814426444845, guid: 49e2c5679879e6845b6391df8fa37a3e, type: 3}
+  - {fileID: 4973768166014342884, guid: eec1254b6096b344e99bbbdd8fe2eb09, type: 3}
+  - {fileID: 7127763711143921884, guid: deeca6cd39797dc4a9feeff350c1838b, type: 3}
+  - {fileID: 1971578499153494079, guid: 77804db5b83e2c74e8aec6fcab8b10b1, type: 3}
+  - {fileID: 6468150003735313274, guid: be62a4bafa7c63340b561364fbf96294, type: 3}
+  - {fileID: 4468747814426444845, guid: 893fcf826bdd053418d04ce02a1ee532, type: 3}
+  - {fileID: 4973768166014342884, guid: 16139c5879441f84b8fd6d515e1d5765, type: 3}
+  - {fileID: 4512927945940431685, guid: 2f3bdc23765208a4ba376839a575d21c, type: 3}
+  - {fileID: 5255834691825675501, guid: a15f2cf825066c04ba87e6d8c64d8615, type: 3}
+  - {fileID: 6468150003735313274, guid: 85d2a874a4852774eb73ad3d684822ef, type: 3}
+  - {fileID: 4468747814426444845, guid: 857f5ce88a8ce8942b464c247e438935, type: 3}
+  - {fileID: 4973768166014342884, guid: 88a2a2001101a2841b476f90ec8366cc, type: 3}
+  - {fileID: 6061655620642772551, guid: 14de54c0b05672641811c1c481b1c510, type: 3}
+  - {fileID: 5289725274797355886, guid: a8d3c59d2fe202645801b6318d1f14a8, type: 3}
+  - {fileID: 6239904167139184872, guid: c9e9142e7b1979d4ea230a451e2b4c6f, type: 3}
+  - {fileID: 6844601701786826053, guid: 53a02240947ccec40a71bfe9030b9cdb, type: 3}
+  - {fileID: 2756484163879765766, guid: 4ba749506fb487a44ba7fbab8af22689, type: 3}
+  - {fileID: 5299909660660223142, guid: 7d00cd190856cdd43b34997809c311a5, type: 3}
+  - {fileID: 5020131256306159475, guid: 69869c9a3733b544fba2918e6c87466e, type: 3}
+  - {fileID: 7957085030192372090, guid: 76ec26e980825c94fbb1872542d92f41, type: 3}
+  - {fileID: 2037068486903874888, guid: c9685123ef2a17c419f3083de8c1011c, type: 3}
+  - {fileID: 7444699911987555533, guid: aaba863ce63bd774488e5bcdd0a139ed, type: 3}
+  - {fileID: 5436219063331034001, guid: 95e9ca3b25cc44c4b857c80eabbd3e46, type: 3}
+  - {fileID: 2713926648991721137, guid: 958760b36090a2546a1b270416247bfe, type: 3}
+  - {fileID: 4030045234654159193, guid: 1d5d378348b2c5d43b5e031e40ef6bba, type: 3}
+  - {fileID: 3637531003549094982, guid: 81c41740747e2b442bf3e79f0c3cbf53, type: 3}
+  - {fileID: 4202733916785539939, guid: 5d90ba33726239d40b40317fb7b371bf, type: 3}
+  - {fileID: 5946214735213104395, guid: 5c728a80fd754c44bae0e701e4569a9a, type: 3}
+  - {fileID: 2262676648505421441, guid: a0575261ed7742e40a04e8f70b41f6a4, type: 3}
+  - {fileID: 5076591150425526092, guid: 04d71fa73708775468fd2fbbfaa2b33d, type: 3}

@@ -250,6 +250,8 @@ MonoBehaviour:
   float_xMax: -8
   float_yMin: -5.6
   float_yMax: 9
+  zoomStartTimes: []
+  zoomLevels: []
 --- !u!114 &583852927300769257
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -264,17 +266,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fireRates:
   - 0.113
-  - 0.197
+  - 0.18
   - 0.175
   - 0.28
   - 0
   - 0.113
-  - 0.197
+  - 0.18
   - 0.175
   - 0.24
   - 0.33
   - 0.113
-  - 0.197
+  - 0.18
   - 0.175
   - 0.25
   - 0.25
@@ -290,7 +292,7 @@ MonoBehaviour:
   - 1
   - 0.27
   - 0.1
-  - 0.175
+  - 0.15
   - 1
   - 7
   int_ranksAvailable: 25
@@ -368,6 +370,12 @@ MonoBehaviour:
   - {fileID: 2756484163879765766, guid: 4ba749506fb487a44ba7fbab8af22689, type: 3}
   - {fileID: 5299909660660223142, guid: 7d00cd190856cdd43b34997809c311a5, type: 3}
   - {fileID: 5020131256306159475, guid: 69869c9a3733b544fba2918e6c87466e, type: 3}
+  - {fileID: 7957085030192372090, guid: 76ec26e980825c94fbb1872542d92f41, type: 3}
+  - {fileID: 2037068486903874888, guid: c9685123ef2a17c419f3083de8c1011c, type: 3}
+  - {fileID: 7444699911987555533, guid: aaba863ce63bd774488e5bcdd0a139ed, type: 3}
+  - {fileID: 5436219063331034001, guid: 95e9ca3b25cc44c4b857c80eabbd3e46, type: 3}
+  - {fileID: 2713926648991721137, guid: 958760b36090a2546a1b270416247bfe, type: 3}
+  - {fileID: 4030045234654159193, guid: 1d5d378348b2c5d43b5e031e40ef6bba, type: 3}
 --- !u!114 &6616059377458221233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -380,6 +388,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98a9cf92bb46c0b47a36c3c4071cbebd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameObject_shipExplosion: {fileID: 1612826283729252, guid: 59fe8697b415da84eba4476e6f279126,
+    type: 3}
 --- !u!95 &1486739787
 Animator:
   serializedVersion: 4
