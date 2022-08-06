@@ -326,17 +326,17 @@ AudioSource:
   m_GameObject: {fileID: 466359636933435593}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: 60b0cd611c7c4bf4888da0d31940e727,
+  OutputAudioMixerGroup: {fileID: -1676740357615441563, guid: 7874d494f83a588419bb3d1ee9bcef24,
     type: 2}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 80
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -426,8 +426,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2d828e3bd4533c48b71cdd9bcb2088e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioClip_1: {fileID: 8300000, guid: 8d7717d6d18aa834caf88d900aec5bf6, type: 3}
-  audioClip_2: {fileID: 8300000, guid: 351e7147ab6e84447a79e290057224cd, type: 3}
+  audioClip_slamCharge: {fileID: 8300000, guid: 8d7717d6d18aa834caf88d900aec5bf6,
+    type: 3}
+  audioClip_slamExecute: {fileID: 8300000, guid: 351e7147ab6e84447a79e290057224cd,
+    type: 3}
   slam: {fileID: 1718021717825840, guid: 03ca880e95727ef43b16ac5151b1b8b5, type: 3}
 --- !u!1 &467074424089481245
 GameObject:
@@ -567,7 +569,8 @@ AudioSource:
   m_GameObject: {fileID: 467074424089481245}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 718852379889127474, guid: 7874d494f83a588419bb3d1ee9bcef24,
+    type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -803,7 +806,7 @@ AudioSource:
   m_GameObject: {fileID: 467572568984915631}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: 6ff0dca710e8a49409a90bef850da092,
+  OutputAudioMixerGroup: {fileID: 718852379889127474, guid: 7874d494f83a588419bb3d1ee9bcef24,
     type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
@@ -1436,6 +1439,7 @@ GameObject:
   - component: {fileID: 462419436374018367}
   - component: {fileID: 327165230542954513}
   - component: {fileID: 517822547504129957}
+  - component: {fileID: 1976883816}
   m_Layer: 12
   m_Name: Status
   m_TagString: Status
@@ -1530,6 +1534,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1976883816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 468296544221525641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb50bca6213dcd342800a6ee12b33d07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &468327633830157629
 GameObject:
   m_ObjectHideFlags: 0

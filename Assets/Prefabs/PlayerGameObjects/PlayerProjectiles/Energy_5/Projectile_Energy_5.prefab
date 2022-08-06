@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5047830169167154122}
   m_Layer: 3
   m_Name: Projectile_Energy_5
-  m_TagString: Untagged
+  m_TagString: PlayerProjectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

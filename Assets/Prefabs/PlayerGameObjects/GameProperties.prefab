@@ -57,7 +57,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6690b2d246a62ce40a71d84ec348a988, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  int_amountOfObjectsToPool: 50
   array_gameObjectsToPool:
   - {fileID: 8265873742065957007, guid: 829aa411cd6be0f4e85cf30c189521a1, type: 3}
   - {fileID: 6468150003735313274, guid: cee4d18eb1dc9d1478ffff38db26ed82, type: 3}
@@ -101,3 +100,15 @@ MonoBehaviour:
   - {fileID: 5946214735213104395, guid: 5c728a80fd754c44bae0e701e4569a9a, type: 3}
   - {fileID: 2262676648505421441, guid: a0575261ed7742e40a04e8f70b41f6a4, type: 3}
   - {fileID: 5076591150425526092, guid: 04d71fa73708775468fd2fbbfaa2b33d, type: 3}
+  - {fileID: 960379147715350321, guid: 55c8dc48b999a454998aafdf4ca43c4a, type: 3}
+  - {fileID: 8645448135936927040, guid: bf825daed9e3efa43aada882828f48de, type: 3}
+  - {fileID: 5550084228372313530, guid: 3d303a093b849d24d968e06b6a9bb5ad, type: 3}
+  - {fileID: 944483111632350972, guid: 75de858c463bd164aafbeef76aaddc90, type: 3}
+  - {fileID: 4535257743551113953, guid: 032cdcecec597354f84753cebc3f4c77, type: 3}
+  - {fileID: 7284013781399007108, guid: eb4dd365b7a775041ab150ae1ab12858, type: 3}
+  - {fileID: 4020920193296646492, guid: 4ed21ff7874d2344687426c608a6e22b, type: 3}
+  - {fileID: 8821979666686587654, guid: f628e2b92dffa384b8ce3fd87317bdd8, type: 3}
+  - {fileID: 1718021717825840, guid: 03ca880e95727ef43b16ac5151b1b8b5, type: 3}
+  - {fileID: 5289725274797355886, guid: e132a61a62f713f43baf6e4bea37fb9b, type: 3}
+  - {fileID: 4997847927912557435, guid: b03a66604fd8e2d4ab9b960bd8b77366, type: 3}
+  - {fileID: 3278536058121888539, guid: a8f28a6b7d0581f4b8c9d33625b4fb33, type: 3}

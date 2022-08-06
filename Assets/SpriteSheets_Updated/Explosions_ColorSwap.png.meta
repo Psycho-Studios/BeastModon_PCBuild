@@ -1,0 +1,544 @@
+fileFormatVersion: 2
+guid: 7b2e117933d5452498f8a815673846dd
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ExplosionDamage Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1650
+        width: 423
+        height: 296
+      alignment: 9
+      pivot: {x: 0.47710806, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca25f58d2ba80a4181a9ef3cf79c7f7
+      internalID: -563592250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionDamage Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 1649
+        width: 484
+        height: 247
+      alignment: 9
+      pivot: {x: 0.5104178, y: 0.46577436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b6db940f5b88d4eb6224a767885f19
+      internalID: -1544752374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Damage_Metal_1
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 1760
+        width: 102
+        height: 165
+      alignment: 9
+      pivot: {x: 0.51, y: 0.49999925}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a0969f2d6bebe48b302edcf4d577a8
+      internalID: 1847806227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Damage_Metal_2
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 1359
+        width: 99
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9cff1531acda54b8ca08ecbcde2f50
+      internalID: -1079317261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionDamage Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1250
+        width: 561
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5305702, y: 0.47631997}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0c0891da67d884285f155a03f81907
+      internalID: -944738287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionDamage Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1303
+        width: 394
+        height: 211
+      alignment: 9
+      pivot: {x: 0.5260576, y: 0.49391788}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5004b183ca45ee347886657bca9533f6
+      internalID: -692068966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Damage_Metal_4
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 900
+        width: 132
+        height: 206
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5000003}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09950842bc69a334bbbc607203e42688
+      internalID: -649473884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionDamage Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 962
+        width: 88
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4d3df3d205d634ab40141f2cd9a616
+      internalID: -1522627102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionDamage Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 925
+        width: 129
+        height: 141
+      alignment: 9
+      pivot: {x: 0.504, y: 0.521}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983e01b8de59e4444bb0cd357b762edc
+      internalID: -722234581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Damage_Metal_3
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 494
+        width: 126
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e5c9d0ec4968243bdb890106f50cb7
+      internalID: -937794432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionDamage Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 535
+        width: 94
+        height: 124
+      alignment: 9
+      pivot: {x: 0.5, y: 0.504}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b121f549a9afd4daae59e91ecbe92b
+      internalID: -24292718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionDamage Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 436
+        width: 323
+        height: 317
+      alignment: 9
+      pivot: {x: 0.45415184, y: 0.5051905}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec25a48a7fbdf64e903c5b6b08a0893
+      internalID: 1263574299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionDamage Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 136
+        width: 126
+        height: 117
+      alignment: 9
+      pivot: {x: 0.508, y: 0.517}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4521398e9cd60cb4bbf7f62ea46429b1
+      internalID: 2115048864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionDamage Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 79
+        width: 218
+        height: 229
+      alignment: 9
+      pivot: {x: 0.4955, y: 0.512909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22591e9057a4bf14bb081571ba6aace6
+      internalID: -513542157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionDamage Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 39
+        width: 412
+        height: 338
+      alignment: 9
+      pivot: {x: 0.47, y: 0.46160668}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9637429fb16f4a4888d459ac01e6b7e
+      internalID: -1413884732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosions_0
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 549
+        width: 167
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2f2635b0a29a246818dd2d49e2cdd2
+      internalID: -1034526719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosions_1
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 712
+        width: 540
+        height: 304
+      alignment: 9
+      pivot: {x: 0.5653747, y: 0.4962393}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d9f54cfa28c9c40885df9b5e8487b8
+      internalID: 1521064133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ExplosionDamage Spritesheet_10: -24292718
+      ExplosionDamage Spritesheet_11: 1263574299
+      ExplosionDamage Spritesheet_12: 2115048864
+      ExplosionDamage Spritesheet_8: -722234581
+      ExplosionDamage Spritesheet_14: -1413884732
+      Damage_Metal_2: -1079317261
+      ExplosionDamage Spritesheet_5: -692068966
+      ExplosionDamage Spritesheet_4: -944738287
+      Explosions_1: 1521064133
+      Damage_Metal_1: 1847806227
+      ExplosionDamage Spritesheet_7: -1522627102
+      Damage_Metal_4: -649473884
+      ExplosionDamage Spritesheet_0: -563592250
+      ExplosionDamage Spritesheet_13: -513542157
+      ExplosionDamage Spritesheet_1: -1544752374
+      Explosions_0: -1034526719
+      Damage_Metal_3: -937794432
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

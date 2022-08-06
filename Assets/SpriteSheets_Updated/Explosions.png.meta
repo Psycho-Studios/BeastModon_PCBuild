@@ -159,8 +159,8 @@ TextureImporter:
         y: 1650
         width: 423
         height: 296
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.47710806, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -176,12 +176,12 @@ TextureImporter:
       name: ExplosionDamage Spritesheet_1
       rect:
         serializedVersion: 2
-        x: 656
-        y: 1603
-        width: 649
-        height: 340
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 736
+        y: 1649
+        width: 484
+        height: 247
+      alignment: 9
+      pivot: {x: 0.5104178, y: 0.46577436}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -244,7 +244,7 @@ TextureImporter:
         width: 561
         height: 305
       alignment: 9
-      pivot: {x: 0.5419108, y: 0.43981642}
+      pivot: {x: 0.5305702, y: 0.47631997}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -264,8 +264,8 @@ TextureImporter:
         y: 1303
         width: 394
         height: 211
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5260576, y: 0.49391788}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -487,6 +487,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Explosions_1
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 712
+        width: 540
+        height: 304
+      alignment: 9
+      pivot: {x: 0.5653747, y: 0.4962393}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d9f54cfa28c9c40885df9b5e8487b8
+      internalID: 1521064133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -506,6 +527,7 @@ TextureImporter:
       Damage_Metal_2: -1079317261
       ExplosionDamage Spritesheet_5: -692068966
       ExplosionDamage Spritesheet_4: -944738287
+      Explosions_1: 1521064133
       Damage_Metal_1: 1847806227
       ExplosionDamage Spritesheet_7: -1522627102
       Damage_Metal_4: -649473884

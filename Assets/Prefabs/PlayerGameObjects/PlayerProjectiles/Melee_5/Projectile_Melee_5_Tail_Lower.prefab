@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7015680846633848257}
   m_Layer: 3
   m_Name: Projectile_Melee_5_Tail_Lower
-  m_TagString: Untagged
+  m_TagString: PlayerProjectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

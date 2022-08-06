@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 7312325065641753811}
   m_Layer: 0
   m_Name: ChargedShot
-  m_TagString: Untagged
+  m_TagString: PlayerProjectile_ChargedShot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
