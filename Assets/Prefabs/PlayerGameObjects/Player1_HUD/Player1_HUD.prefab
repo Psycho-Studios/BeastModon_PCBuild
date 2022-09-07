@@ -328,7 +328,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -1676740357615441563, guid: 7874d494f83a588419bb3d1ee9bcef24,
     type: 2}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 8d7717d6d18aa834caf88d900aec5bf6, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -430,7 +430,6 @@ MonoBehaviour:
     type: 3}
   audioClip_slamExecute: {fileID: 8300000, guid: 351e7147ab6e84447a79e290057224cd,
     type: 3}
-  slam: {fileID: 1718021717825840, guid: 03ca880e95727ef43b16ac5151b1b8b5, type: 3}
 --- !u!1 &467074424089481245
 GameObject:
   m_ObjectHideFlags: 0
@@ -905,6 +904,7 @@ GameObject:
   - component: {fileID: 465527966438997761}
   - component: {fileID: 326672974630773277}
   - component: {fileID: 516184992663151121}
+  - component: {fileID: 1480945899}
   m_Layer: 10
   m_Name: Indicator_Beast
   m_TagString: Lights
@@ -999,6 +999,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1480945899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 467748170480389369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7bb851bcfb9b7448e6d98843bf7ad2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &467790757333766875
 GameObject:
   m_ObjectHideFlags: 0

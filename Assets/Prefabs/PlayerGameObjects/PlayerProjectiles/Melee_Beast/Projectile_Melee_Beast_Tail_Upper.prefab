@@ -19,7 +19,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7877844721624363118
 Transform:
   m_ObjectHideFlags: 0
@@ -152,9 +152,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2930fd9ca29329444ae35f13ac949e1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bool_isParentObject: 0
+  vector3_child_transformModifier: {x: 0, y: 0, z: 0}
   degreesToRotate: 180
   projectileSpeed: 30
   timeAfterExplosionToDestroy: 0
   float_timeBeforeDestruction: 1
+  bool_isChildObject: 0
+  bool_waitingForParent: 0
   bool_explosiveProjectile: 0
   explosionIfApplicable: {fileID: 0}
+  transform_parentGameObject: {fileID: 0}
