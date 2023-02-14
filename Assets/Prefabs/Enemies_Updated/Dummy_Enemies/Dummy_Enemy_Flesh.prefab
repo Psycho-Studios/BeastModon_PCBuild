@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5046451118107416691}
   - component: {fileID: 5046451118107416690}
   - component: {fileID: 5033407322810852003}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Dummy_Enemy_Flesh
   m_TagString: Enemy
   m_Icon: {fileID: 0}

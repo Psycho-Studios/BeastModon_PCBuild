@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5115951876205243348}
   - component: {fileID: 5116977216390541144}
   - component: {fileID: 5159385030457303156}
+  - component: {fileID: 1277565325}
   m_Layer: 0
   m_Name: Camera_TestingScene
   m_TagString: MainCamera
@@ -93,3 +94,23 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5097141420567407422}
   m_Enabled: 1
+--- !u!95 &1277565325
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5097141420567407422}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3918b3a8e2ae0c046b1a7a62b90a71fa, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

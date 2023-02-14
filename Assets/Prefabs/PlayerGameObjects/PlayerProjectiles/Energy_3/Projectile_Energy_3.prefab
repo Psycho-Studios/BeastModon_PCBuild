@@ -125,10 +125,12 @@ MonoBehaviour:
   degreesToRotate: 0
   projectileSpeed: 45
   timeAfterExplosionToDestroy: 0
-  float_timeBeforeDestruction: 0.8
+  float_timeBeforeObjectRemoval: 1
   bool_isChildObject: 0
+  bool_waitingForParent: 0
   bool_explosiveProjectile: 0
   explosionIfApplicable: {fileID: 0}
+  transform_parentGameObject: {fileID: 0}
 --- !u!60 &4026311937115042549
 PolygonCollider2D:
   m_ObjectHideFlags: 0

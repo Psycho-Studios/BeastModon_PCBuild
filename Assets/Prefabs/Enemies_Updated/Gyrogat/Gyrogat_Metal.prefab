@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1542613232}
   - component: {fileID: 1161668732135277461}
   - component: {fileID: 1161668732135277459}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Gyrogat_GatlingGun
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 2017383961
   m_SortingLayer: 2
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: 1545447563, guid: 4151b7a34b1d6ff4a8d6e72d3af3eb4f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -98,7 +98,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -7721071169252298556, guid: 7874d494f83a588419bb3d1ee9bcef24,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: 7467fd69a9d588b429fdc475156eaa4e, type: 3}
+  m_audioClip: {fileID: 8300000, guid: a727fe7fcef917349883fe4e746882b6, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -216,8 +216,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d498f8382dca75444a6da42e7b2fe6b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bool_flip_x: 0
+  bool_flip_y: 1
+  bool_flip_z: 0
+  float_degreesToRotate: 0
   float_timeUntilNextShot: 3
-  audioClip_projectileSound: {fileID: 8300000, guid: 7467fd69a9d588b429fdc475156eaa4e,
+  audioClip_projectileSound: {fileID: 8300000, guid: a727fe7fcef917349883fe4e746882b6,
     type: 3}
 --- !u!1 &4997847927912557435
 GameObject:
@@ -236,7 +240,7 @@ GameObject:
   - component: {fileID: 7222537530465391629}
   - component: {fileID: 8624504559464865439}
   - component: {fileID: -9707997750894230}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Gyrogat_Metal
   m_TagString: Enemy
   m_Icon: {fileID: 0}

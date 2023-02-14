@@ -124,12 +124,13 @@ MonoBehaviour:
   vector3_child_transformModifier: {x: 0, y: 0, z: 0}
   degreesToRotate: 0
   projectileSpeed: 5
-  timeAfterExplosionToDestroy: 0.1
+  timeAfterExplosionToDestroy: 0
   float_timeBeforeDestruction: 1
   bool_isChildObject: 0
+  bool_waitingForParent: 0
   bool_explosiveProjectile: 1
-  explosionIfApplicable: {fileID: 1591369223880030, guid: 2ae33f12f90b03841a8d38f0c9930e17,
-    type: 3}
+  explosionIfApplicable: {fileID: 0}
+  transform_parentGameObject: {fileID: 0}
 --- !u!58 &5047830169167154122
 CircleCollider2D:
   m_ObjectHideFlags: 0

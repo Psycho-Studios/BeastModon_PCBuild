@@ -154,7 +154,7 @@ PrefabInstance:
     - target: {fileID: 3131466801749239955, guid: cee4d18eb1dc9d1478ffff38db26ed82,
         type: 3}
       propertyPath: projectileSpeed
-      value: 51
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 3131466801749239955, guid: cee4d18eb1dc9d1478ffff38db26ed82,
         type: 3}
@@ -244,7 +244,7 @@ PrefabInstance:
     - target: {fileID: 3131466801749239955, guid: cee4d18eb1dc9d1478ffff38db26ed82,
         type: 3}
       propertyPath: projectileSpeed
-      value: 51
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 3730093834694904567, guid: cee4d18eb1dc9d1478ffff38db26ed82,
         type: 3}

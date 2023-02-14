@@ -168,7 +168,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 750087014, guid: 20ddc5ae5eaa7be44a5bdaa66448113d, type: 3}
       propertyPath: projectileSpeed
-      value: 51
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 750087014, guid: 20ddc5ae5eaa7be44a5bdaa66448113d, type: 3}
       propertyPath: vector3_child_transformModifier.x
@@ -260,7 +260,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 750087014, guid: 20ddc5ae5eaa7be44a5bdaa66448113d, type: 3}
       propertyPath: projectileSpeed
-      value: 51
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 750087014, guid: 20ddc5ae5eaa7be44a5bdaa66448113d, type: 3}
       propertyPath: vector3_child_transformModifier.x
@@ -440,7 +440,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 750087014, guid: 20ddc5ae5eaa7be44a5bdaa66448113d, type: 3}
       propertyPath: projectileSpeed
-      value: 51
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 750087014, guid: 20ddc5ae5eaa7be44a5bdaa66448113d, type: 3}
       propertyPath: vector3_child_transformModifier.x
@@ -784,7 +784,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 750087014, guid: 20ddc5ae5eaa7be44a5bdaa66448113d, type: 3}
       propertyPath: projectileSpeed
-      value: 51
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 1780822785192954114, guid: 20ddc5ae5eaa7be44a5bdaa66448113d,
         type: 3}
@@ -872,7 +872,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 750087014, guid: 20ddc5ae5eaa7be44a5bdaa66448113d, type: 3}
       propertyPath: projectileSpeed
-      value: 51
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 1780822785192954114, guid: 20ddc5ae5eaa7be44a5bdaa66448113d,
         type: 3}
@@ -1040,7 +1040,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 750087014, guid: 20ddc5ae5eaa7be44a5bdaa66448113d, type: 3}
       propertyPath: projectileSpeed
-      value: 51
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 1780822785192954114, guid: 20ddc5ae5eaa7be44a5bdaa66448113d,
         type: 3}

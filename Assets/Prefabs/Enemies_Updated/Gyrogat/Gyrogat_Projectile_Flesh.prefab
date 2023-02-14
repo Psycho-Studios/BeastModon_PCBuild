@@ -15,8 +15,9 @@ GameObject:
   - component: {fileID: 5353268174676419762}
   - component: {fileID: 6282796198747471060}
   - component: {fileID: 7979091880524572428}
-  - component: {fileID: 1549382769}
-  m_Layer: 3
+  - component: {fileID: 9145343022344476917}
+  - component: {fileID: 1157992175992687093}
+  m_Layer: 6
   m_Name: Gyrogat_Projectile_Flesh
   m_TagString: EnemyProjectile
   m_Icon: {fileID: 0}
@@ -32,7 +33,7 @@ Transform:
   m_GameObject: {fileID: 3278536058121888539}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -20.363804, y: 1.6846224, z: -0.15401608}
-  m_LocalScale: {x: 2.028, y: 1.6408, z: 1}
+  m_LocalScale: {x: 3.075462, y: 2.4830225, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -79,7 +80,7 @@ SpriteRenderer:
   m_SortingLayerID: 997241963
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: -332019475, guid: 3137082bb81a52f4ea2a67df067dd77d, type: 3}
+  m_Sprite: {fileID: -2014755653, guid: 3137082bb81a52f4ea2a67df067dd77d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -124,9 +125,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.02649144, y: 0.020184018}
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.123490475
+  m_Radius: 0.10313047
 --- !u!114 &5353268174676419762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -171,13 +172,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0589a63595dbc541b65f151305a66ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  degreesToRotate: 180
+  degreesToRotate: 0
   projectileSpeed: 10
   timeAfterExplosionToDestroy: 0
   float_timeBeforeDestruction: 5
   bool_explosiveProjectile: 0
   explosionIfApplicable: {fileID: 0}
---- !u!82 &1549382769
+--- !u!95 &9145343022344476917
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3278536058121888539}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 34aba4bcd424afd49b9601a569b72a7c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!82 &1157992175992687093
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

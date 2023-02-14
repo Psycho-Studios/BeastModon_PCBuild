@@ -82,7 +82,7 @@ PrefabInstance:
     - target: {fileID: 3131466801749239955, guid: 85d2a874a4852774eb73ad3d684822ef,
         type: 3}
       propertyPath: projectileSpeed
-      value: 51
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 3131466801749239955, guid: 85d2a874a4852774eb73ad3d684822ef,
         type: 3}
@@ -252,7 +252,7 @@ PrefabInstance:
     - target: {fileID: 3131466801749239955, guid: 85d2a874a4852774eb73ad3d684822ef,
         type: 3}
       propertyPath: projectileSpeed
-      value: 51
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 3730093834694904567, guid: 85d2a874a4852774eb73ad3d684822ef,
         type: 3}
@@ -342,7 +342,7 @@ PrefabInstance:
     - target: {fileID: 3131466801749239955, guid: 85d2a874a4852774eb73ad3d684822ef,
         type: 3}
       propertyPath: projectileSpeed
-      value: 51
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 3131466801749239955, guid: 85d2a874a4852774eb73ad3d684822ef,
         type: 3}
@@ -437,7 +437,7 @@ PrefabInstance:
     - target: {fileID: 3131466801749239955, guid: 85d2a874a4852774eb73ad3d684822ef,
         type: 3}
       propertyPath: projectileSpeed
-      value: 51
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 3131466801749239955, guid: 85d2a874a4852774eb73ad3d684822ef,
         type: 3}
@@ -537,7 +537,7 @@ PrefabInstance:
     - target: {fileID: 3131466801749239955, guid: 85d2a874a4852774eb73ad3d684822ef,
         type: 3}
       propertyPath: projectileSpeed
-      value: 51
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 3131466801749239955, guid: 85d2a874a4852774eb73ad3d684822ef,
         type: 3}
@@ -637,7 +637,7 @@ PrefabInstance:
     - target: {fileID: 3131466801749239955, guid: 85d2a874a4852774eb73ad3d684822ef,
         type: 3}
       propertyPath: projectileSpeed
-      value: 51
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 3730093834694904567, guid: 85d2a874a4852774eb73ad3d684822ef,
         type: 3}

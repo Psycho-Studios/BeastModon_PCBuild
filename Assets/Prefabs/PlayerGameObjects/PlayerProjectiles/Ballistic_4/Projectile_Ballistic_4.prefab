@@ -141,7 +141,9 @@ MonoBehaviour:
   degreesToRotate: 0
   projectileSpeed: 55
   timeAfterExplosionToDestroy: 0
-  float_timeBeforeDestruction: 0.7
+  float_timeBeforeObjectRemoval: 1
   bool_isChildObject: 0
+  bool_waitingForParent: 0
   bool_explosiveProjectile: 0
   explosionIfApplicable: {fileID: 0}
+  transform_parentGameObject: {fileID: 0}

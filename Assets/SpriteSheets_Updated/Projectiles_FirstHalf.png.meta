@@ -470,10 +470,10 @@ TextureImporter:
       name: Projectiles_FirstHalf_23
       rect:
         serializedVersion: 2
-        x: 3427
-        y: 785
-        width: 33
-        height: 34
+        x: 3428
+        y: 790
+        width: 27
+        height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -924,6 +924,48 @@ TextureImporter:
       bones: []
       spriteID: 3126149c1e7978244a2c67ce526bf6e2
       internalID: -79868457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_29
+      rect:
+        serializedVersion: 2
+        x: 3467
+        y: 790
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2848d05faba28554cbed37bc32cdb144
+      internalID: -2014755653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_FirstHalf_32
+      rect:
+        serializedVersion: 2
+        x: 3508
+        y: 792
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77194ee47d5bd6842ab3cd61a49f2584
+      internalID: 1915478856
       vertices: []
       indices: 
       edges: []
