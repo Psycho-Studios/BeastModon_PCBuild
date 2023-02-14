@@ -197,7 +197,7 @@ MonoBehaviour:
   float_timeBeforeDestruction: 0.3
   bool_isChildObject: 0
   bool_waitingForParent: 0
-  bool_explosiveProjectile: 0
+  bool_explosiveProjectile: 1
   explosionIfApplicable: {fileID: 0}
   transform_parentGameObject: {fileID: 0}
 --- !u!114 &8461530869123440108
