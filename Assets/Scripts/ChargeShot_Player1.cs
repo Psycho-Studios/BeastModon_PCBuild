@@ -65,7 +65,7 @@ public class ChargeShot_Player1 : MonoBehaviour
 
     private void fireChargedShot()
     {
-        //Remove this comment...?
+        //Remove this comment...?..
         animator_gunfireSpawnPoint.SetInteger("ChargeRelease", 1);
         GameObject gameObject_chargedShot = ObjectPool.objectPool_reference.getPooled_PlayerObjects(default, "ChargedShot");
         gameObject_chargedShot.transform.position = this.gameObject.transform.position;
