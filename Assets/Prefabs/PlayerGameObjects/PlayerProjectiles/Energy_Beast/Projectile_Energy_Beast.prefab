@@ -75,7 +75,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 2017383961
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: 8ec69bdcfa229a04ba8ac396e9b0e645, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -126,10 +126,10 @@ MonoBehaviour:
   degreesToRotate: 0
   projectileSpeed: 15
   timeAfterExplosionToDestroy: 0
-  float_timeBeforeObjectRemoval: 7
+  float_timeBeforeDestruction: 10
   bool_isChildObject: 0
   bool_waitingForParent: 0
-  bool_explosiveProjectile: 0
+  bool_explosiveProjectile: 1
   explosionIfApplicable: {fileID: 0}
   transform_parentGameObject: {fileID: 0}
 --- !u!61 &2287467926538895110

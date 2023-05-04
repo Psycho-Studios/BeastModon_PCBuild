@@ -164,5 +164,7 @@ MonoBehaviour:
   timeAfterExplosionToDestroy: 0
   float_timeBeforeDestruction: 0.3
   bool_isChildObject: 0
-  bool_explosiveProjectile: 0
+  bool_waitingForParent: 0
+  bool_explosiveProjectile: 1
   explosionIfApplicable: {fileID: 0}
+  transform_parentGameObject: {fileID: 0}

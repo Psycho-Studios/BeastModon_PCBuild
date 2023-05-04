@@ -45,6 +45,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1efdf7c447e07db4ba61defbe9610eb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelEndTimes:
+  - 0
+  - 5
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
 --- !u!114 &6293934566699776750
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -142,6 +155,8 @@ MonoBehaviour:
   - {fileID: 5150542866245257684, guid: 26791fa1b93dd344dbccddb9e8c84b07, type: 3}
   - {fileID: 5561216410395495203, guid: 430ce6f7468299e49a65d05f8e73eb72, type: 3}
   - {fileID: 1610779640371151176, guid: d585d4bb7d1792e4daa1051e5e363e23, type: 3}
+  - {fileID: 5418882699273025582, guid: 34fd10238f590d34cb5522a44b12be98, type: 3}
+  - {fileID: 3936616463700463198, guid: 996c8e01dcfd35441a5b7f3086753715, type: 3}
   list_Level_1_objectsToPool: []
   list_miscellaneousGameObjectsToPool:
   - {fileID: 7052964968814421792, guid: c907fbfa230d6644ab7b8b1e46874ba8, type: 3}
