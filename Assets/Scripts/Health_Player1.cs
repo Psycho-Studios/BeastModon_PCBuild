@@ -81,6 +81,7 @@ public class Health_Player1 : MonoBehaviour
         if (int_life == 0) //DamageIdle will be playing if not in Arcade mode
         {
             FaceAnimation_Player1.animator_player1Face.SetInteger("Expression", -1);
+            FaceAnimation_Player1.expressionIndex = -1;
             
             GameObject gameObject_player1ExplosionClone = ObjectPool.objectPool_reference.getPooled_MiscellaneousObjects(
                 Convert.ToInt32(E_SpawnableObjects.Miscellaneous.Explosion_Player1Ship));

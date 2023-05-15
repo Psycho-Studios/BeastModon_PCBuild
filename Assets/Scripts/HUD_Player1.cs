@@ -50,8 +50,8 @@ public class HUD_Player1 : MonoBehaviour
             && !bool_beastModeRequest_player1) //Runs if the player ranks up, only if beast mode is inactive
             {
                 animators_weaponSlots[ProjectileControls_Player1.int_weaponIndex_player1].SetInteger
-                    ("WeaponValue",
-                    ProjectileControls_Player1.int_weaponValue_player1);
+                    ("WeaponValue", ProjectileControls_Player1.int_weaponValue_player1);
+                
                 if(bool_rankUpRequest_player1)
                 {
                     bool_rankUpRequest_player1 = false;

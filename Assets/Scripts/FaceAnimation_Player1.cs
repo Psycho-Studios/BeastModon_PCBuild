@@ -13,7 +13,7 @@ public class FaceAnimation_Player1 : MonoBehaviour
 
     //Calculated in randomizeDamageSound
     private int int_damageSoundIndex, _expressionIndex;
-    public static int int_currentAnimationState;
+    public static int int_currentAnimationState, expressionIndex;
 
     //Helpful for reporting player1's face animations to other scripts
     public static Animator animator_player1Face;
@@ -29,16 +29,27 @@ public class FaceAnimation_Player1 : MonoBehaviour
         animator_player1Face = this.gameObject.GetComponent<Animator>();
         audioSource_player1Face = this.gameObject.GetComponent<AudioSource>();
         spriteRenderer_player1Face = this.gameObject.GetComponent<SpriteRenderer>();
+        _expressionIndex = 0;
+        expressionIndex = _expressionIndex;
         this.random = new System.Random();
     }
 
     private void Start()
     {
         bool_player1Dead = false;
-        bool_safeToContinueTalking = true;
 
         //if(dialogueEnabled) {_expressionIndex = 0}
         StartCoroutine(dialogueAnimation());
+    }
+
+    private void Update()
+    {
+        if(_expressionIndex != expressionIndex) //Should fire after incrementExpressionIndex
+        {
+            _expressionIndex = expressionIndex;
+
+            StartCoroutine(dialogueAnimation());
+        }
     }
 
     /// <summary>
@@ -112,9 +123,11 @@ public class FaceAnimation_Player1 : MonoBehaviour
             bool_safeToContinueTalking = false;
             
             audioSource_player1Face.PlayOneShot(audioClip_Damage[this.random.Next(0, 6)]);
+            
             switch (int_currentAnimationState)
             {
-            case 0: //Idle animation last being played
+                case 0: //Idle animation last being played
+                case 3: //Conversation animation
                 {
                     if (Health_Player1.int_life != 50)
                     {
@@ -142,18 +155,61 @@ public class FaceAnimation_Player1 : MonoBehaviour
         audioSource_player1Face.PlayOneShot(audioClip_player1Death);
     }
 
-    IEnumerator dialogueAnimation()
+    IEnumerator dialogueAnimation() //Runs in this file's Start() method, will not run if expressionIndex is <= -1
     {
-        if (_expressionIndex >= 0) //-1 will imply there are no faces to make
+        if (_expressionIndex >= 0
+        && DialoguePlayer.faceExpressions[expressionIndex] != -1) 
         {
-            //Remember, expressions can change multiple times during the playback of any audioClip
             yield return new WaitForSeconds(DialoguePlayer.timesToChangeFace[_expressionIndex]);
+
             animator_player1Face.SetInteger("Expression", DialoguePlayer.faceExpressions[_expressionIndex]);
-            _expressionIndex++;
-            if(DialoguePlayer.timesToChangeFace.Length == _expressionIndex) //End of the dialogue player child-object's dialogue
+        }
+        else
+        {
+            returnFaceToAppropriateAnimation();
+        }
+    }
+
+    private void returnFaceToAppropriateAnimation() //Once the dialogue is over, this is called, and the face is sent to initial expression.
+    {
+        switch(Health_Player1.int_life)
+        {
+            case 50:
             {
-                //Switch to the next dialogueBeingPlayed
+                if (HUD_Player1.bool_beastModeRequest_player1
+                || ProjectileControls_Player1.bool_beastModeActive)
+                {
+                    animator_player1Face.SetInteger("Expression", 2);
+                }
+                else
+                {
+                    animator_player1Face.SetInteger("Expression", 1);
+                }
+                
+                break;
+            }
+            case 100:
+            case 150:
+            {
+                if(HUD_Player1.bool_beastModeRequest_player1
+                || ProjectileControls_Player1.bool_beastModeActive)
+                {
+                    animator_player1Face.SetInteger("Expression", 2);
+                }
+                else
+                {
+                    animator_player1Face.SetInteger("Expression", 0);
+                }
+                
+                break;
             }
         }
     }
+
+    public static void incrementExpressionIndex()
+    {
+        expressionIndex++;
+    }
+
+    
 }

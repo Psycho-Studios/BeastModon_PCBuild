@@ -44,17 +44,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23fe3cb20f1c02b4ab474240c5b9b1f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  float_secondsUntilDialogue: 5
+  float_secondsUntilDialogue: 3
   _timesToChangeFace:
+  - 2
+  - -1
   - 0
   - 0
   - 0
   - 0
-  - 0
-  - 0
-  _faceExpressions: 
+  _faceExpressions: 03000000ffffffff00000000000000000000000000000000
   _buildIndexToPlaySoundsAt: 0
-  audioClip_dialogue: {fileID: 0}
+  audioClip_dialogue: {fileID: 8300000, guid: d24871e8a0b3ac14c9acfb561b721cbd, type: 3}
 --- !u!1 &5453754612133851644
 GameObject:
   m_ObjectHideFlags: 0
@@ -99,9 +99,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23fe3cb20f1c02b4ab474240c5b9b1f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  float_secondsUntilDialogue: 5
+  float_secondsUntilDialogue: -1
   _timesToChangeFace:
-  - 0
+  - -1
   - 0
   - 0
   - 0
@@ -154,15 +154,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23fe3cb20f1c02b4ab474240c5b9b1f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  float_secondsUntilDialogue: 5
+  float_secondsUntilDialogue: -1
   _timesToChangeFace:
+  - -1
   - 0
   - 0
   - 0
   - 0
   - 0
-  - 0
-  _faceExpressions: 
+  _faceExpressions: 00000000
   _buildIndexToPlaySoundsAt: 0
   audioClip_dialogue: {fileID: 0}
 --- !u!1 &6630662357248444232

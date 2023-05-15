@@ -14,7 +14,7 @@ public class DialoguePlayer : DialogueHeirarchyLink
 {
     private bool bool_dialogueOccuring,
         bool_dialogueIsPaused,
-        bool_playerTookDamage;
+        bool_dialogueStarted;
 
     public float float_secondsUntilDialogue = 0; //Edit if dialogue happens later than the very beginning of a level
 
@@ -40,15 +40,24 @@ public class DialoguePlayer : DialogueHeirarchyLink
     private void Awake()
     {
         buildIndexToPlaySoundsAt = _buildIndexToPlaySoundsAt;
-
-        if(SceneManager.GetActiveScene().buildIndex == _buildIndexToPlaySoundsAt)
+        bool_dialogueStarted = false;
+        if (SceneManager.GetActiveScene().buildIndex == _buildIndexToPlaySoundsAt)
         {
             audioSource_parent = this.gameObject.GetComponentInParent<AudioSource>();
-            audioSource_parent.clip = audioClip_dialogue;
         }
+    }
+
+    private void OnEnable()
+    {   
+        audioSource_parent.clip = audioClip_dialogue;
 
         timesToChangeFace = _timesToChangeFace;
         faceExpressions = _faceExpressions;
+
+        FaceAnimation_Player1.expressionIndex = 0;
+
+        FaceAnimation_Player1.bool_safeToContinueTalking = true;
+
     }
 
     void Start()
@@ -59,49 +68,51 @@ public class DialoguePlayer : DialogueHeirarchyLink
 
     private void Update()
     {
-        if(Health_Player1.bool_playerReactingToDamage
-        && !bool_dialogueIsPaused)
+        if (!bool_dialogueStarted //Makes this run once in this script's lifetime
+        && float_secondsUntilDialogue >= 0)
         {
-            bool_playerTookDamage = true;
-            bool_dialogueIsPaused = true;
-        }
-       
-        if(bool_dialogueIsPaused
-        && audioSource_parent.isPlaying)
-        {
-            audioSource_parent.Pause();
+            bool_dialogueStarted = true;
+            StartCoroutine(startConversation());
         }
 
-        if(!Health_Player1.bool_playerReactingToDamage
-        && bool_dialogueIsPaused)
+        if (bool_dialogueOccuring)    //Pause conditions and object-deactivation
         {
-            bool_dialogueIsPaused = false;
-        }
+            if (Health_Player1.bool_playerReactingToDamage
+            && !bool_dialogueIsPaused)
+            {
+                bool_dialogueIsPaused = true;
+            }
 
-        if(!bool_dialogueIsPaused
-        && !audioSource_parent.isPlaying
-        && bool_playerTookDamage)
-        {
-            bool_playerTookDamage = false;
-            audioSource_parent.Play();
-        }
+            if (bool_dialogueIsPaused
+            && audioSource_parent.isPlaying)
+            {
+                audioSource_parent.Pause();
+            }
 
-        if (bool_dialogueOccuring)
-        {
-            if(audioSource_parent.time >= audioClip_dialogue.length)
+            if (FaceAnimation_Player1.bool_safeToContinueTalking
+            && bool_dialogueIsPaused)
+            {
+                bool_dialogueIsPaused = false;
+            }
+
+            if (!bool_dialogueIsPaused
+            && !audioSource_parent.isPlaying
+            && FaceAnimation_Player1.bool_safeToContinueTalking)
+            {
+                audioSource_parent.Play();
+            }   
+
+            if(audioSource_parent.time >= audioClip_dialogue.length) //Each audio clip file will have a back-and-forth conversation,
             {
                 bool_dialogueOccuring = false;
                 bool_dialogueIsPaused = false;
-                bool_playerTookDamage = false;
+                bool_dialogueStarted = false;
+                FaceAnimation_Player1.bool_safeToContinueTalking = false;
                 setNextDialoguePlayer_Active(); //Loads the next dialoguePlayerObject in the heirarchy, disables this one;
             }
         }
 
-        /*
-        If float_timesToChangeFaceExpressions has at least one value, this index will represent Sylvester's face expression
-        in correspondence to it (doesn't affect sound)
-        */
-            StartCoroutine(startConversation());
+        
     }
 
     private void levelAttempted() //Add a static field to the GameProperties object to determine this value; it will be saved per user file
@@ -109,14 +120,12 @@ public class DialoguePlayer : DialogueHeirarchyLink
 
     }
 
-
     IEnumerator startConversation() //Begin audioPlayback
     {
         yield return new WaitForSeconds(float_secondsUntilDialogue);
-        //Debug.Log("Dialogue_${positionInHeirarchy} beginning.    positionInHeirarchy is a variable you should create to hold this value.
-        //if(dialogueEnabled){Enclose below logic here}
 
         audioSource_parent.Play();
+
         bool_dialogueOccuring = true;
     }
 }

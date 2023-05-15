@@ -55,11 +55,22 @@ public abstract class DialogueHeirarchyLink : MonoBehaviour
         
     }
 
+
+    //IMPORTANT! 
     protected void setNextDialoguePlayer_Active()
     {
-        if (!_childDialoguePlayers[++currentDialoguePlayerIndex].name.StartsWith(_sceneCurrentlyLoaded.ToString()))
+        if (_childDialoguePlayers[++currentDialoguePlayerIndex].name.StartsWith(_sceneCurrentlyLoaded.ToString()))
         {
             _childDialoguePlayers[currentDialoguePlayerIndex].SetActive(true);
+            
+            if(FaceAnimation_Player1.expressionIndex > 0) //Used for DialoguePlayer scripts to reset the position of audio playback
+            {
+                FaceAnimation_Player1.expressionIndex = 0;
+            }
+        }
+        else
+        {
+            FaceAnimation_Player1.expressionIndex = -1;
         }
 
         _childDialoguePlayers[currentDialoguePlayerIndex - 1].SetActive(false);
