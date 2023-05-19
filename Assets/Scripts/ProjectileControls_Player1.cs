@@ -1048,7 +1048,7 @@ public class ProjectileControls_Player1 : MonoBehaviour
         float_timeLastFiredShot = 0; //Allows immediate shooting
         Health_Player1.bool_enemyGameObjectsDealDamage = false; //Invincibility
         float_beastModeActivationTime = Time.time; //Limited time
-        animator_SylvesterFace.SetInteger("Expression", 2); //Animate Sylvester's face
+        animator_SylvesterFace.SetInteger("Expression", (int)E_FaceExpressions.BeastMode); //Animate Sylvester's face
         animator_SylvesterStatus.SetInteger("Status", 2); //Animate Sylvester's background
 
         yield return new WaitForSeconds(1.2f);
@@ -1120,7 +1120,7 @@ public class ProjectileControls_Player1 : MonoBehaviour
         float_beastModeActivationTime = 500000; //Time reset
         bool_beastModeActive = false; //Enable upgrades and weapon switches
         int_weaponValue_player1 = int_temporaryWeaponValueHolder; //Restore weapons
-        animator_SylvesterFace.SetInteger("Expression", 0); //Animate Sylvester's face
+        animator_SylvesterFace.SetInteger("Expression", ((int)E_FaceExpressions.Idle)); //Animate Sylvester's face
         HUD_Player1.bool_restoreWeaponRequest = true; //Animate the appropriate Weapon Icon
         animator_SylvesterStatus.SetInteger("Status", 0); //Animate Sylvester's background
         bool_beastModeActive = false;

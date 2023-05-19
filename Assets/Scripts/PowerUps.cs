@@ -115,7 +115,7 @@ public class PowerUps : MonoBehaviour
                 if (gameObject_itemAcquiredEffect.name.Contains("PowerUp_LetsGo_VisualEffect")
                 && collision.tag.Contains("Player1")) //Add logic for player2
                 {
-                    FaceAnimation_Player1.animator_player1Face.SetInteger("Expression", 10); //Animation calls method in FaceAnimation_Player1
+                    FaceAnimation_Player1.animator_player1Face.SetInteger("Expression", (int)E_FaceExpressions.LetsGo); //Animation calls method in FaceAnimation_Player1
                     ProjectileControls_Player1.bool_fastFiringActive = true;
                 }
                 gameObject_itemAcquiredEffect.SetActive(true);

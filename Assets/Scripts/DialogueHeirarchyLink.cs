@@ -4,7 +4,7 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public abstract class DialogueHeirarchyLink : MonoBehaviour
+public class DialogueHeirarchyLink : MonoBehaviour
 {
     private int currentSceneBuildIndex, _sceneCurrentlyLoaded, currentDialoguePlayerIndex;
 

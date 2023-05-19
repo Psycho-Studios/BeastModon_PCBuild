@@ -30,7 +30,7 @@ public class FaceAnimation_Player1 : MonoBehaviour
         audioSource_player1Face = this.gameObject.GetComponent<AudioSource>();
         spriteRenderer_player1Face = this.gameObject.GetComponent<SpriteRenderer>();
         _expressionIndex = 0;
-        expressionIndex = _expressionIndex;
+        expressionIndex = 0;
         this.random = new System.Random();
     }
 
@@ -44,7 +44,7 @@ public class FaceAnimation_Player1 : MonoBehaviour
 
     private void Update()
     {
-        if(_expressionIndex != expressionIndex) //Should fire after incrementExpressionIndex
+        if(_expressionIndex != expressionIndex) 
         {
             _expressionIndex = expressionIndex;
 
@@ -155,14 +155,17 @@ public class FaceAnimation_Player1 : MonoBehaviour
         audioSource_player1Face.PlayOneShot(audioClip_player1Death);
     }
 
-    IEnumerator dialogueAnimation() //Runs in this file's Start() method, will not run if expressionIndex is <= -1
+    IEnumerator dialogueAnimation() //Runs in this file's Start() method, will not run if _expressionIndex is <= -1
     {
         if (_expressionIndex >= 0
-        && DialoguePlayer.faceExpressions[expressionIndex] != -1) 
+        && DialoguePlayer.faceExpressions[_expressionIndex] != -1) 
         {
             yield return new WaitForSeconds(DialoguePlayer.timesToChangeFace[_expressionIndex]);
 
             animator_player1Face.SetInteger("Expression", DialoguePlayer.faceExpressions[_expressionIndex]);
+
+            expressionIndex++;
+
         }
         else
         {
@@ -177,13 +180,17 @@ public class FaceAnimation_Player1 : MonoBehaviour
             case 50:
             {
                 if (HUD_Player1.bool_beastModeRequest_player1
-                || ProjectileControls_Player1.bool_beastModeActive)
+                || ProjectileControls_Player1.bool_beastModeActive) //Beast Mode active during conversation
                 {
-                    animator_player1Face.SetInteger("Expression", 2);
+                    animator_player1Face.SetInteger("Expression", (int)E_FaceExpressions.BeastMode);
+                }
+                else if(GameProperties.DataManagement.GameData.string_currentDifficulty.Contains("Hard")) //Avoid the damage animation based on health
+                {
+                    animator_player1Face.SetInteger("Expression", (int)E_FaceExpressions.Idle);
                 }
                 else
                 {
-                    animator_player1Face.SetInteger("Expression", 1);
+                    animator_player1Face.SetInteger("Expression", (int)E_FaceExpressions.Damage); //Any other difficulty means danager at 50 life
                 }
                 
                 break;
@@ -194,22 +201,15 @@ public class FaceAnimation_Player1 : MonoBehaviour
                 if(HUD_Player1.bool_beastModeRequest_player1
                 || ProjectileControls_Player1.bool_beastModeActive)
                 {
-                    animator_player1Face.SetInteger("Expression", 2);
+                    animator_player1Face.SetInteger("Expression", (int)E_FaceExpressions.BeastMode);
                 }
                 else
                 {
-                    animator_player1Face.SetInteger("Expression", 0);
+                    animator_player1Face.SetInteger("Expression", (int)E_FaceExpressions.Idle);
                 }
                 
                 break;
             }
         }
-    }
-
-    public static void incrementExpressionIndex()
-    {
-        expressionIndex++;
-    }
-
-    
+    }    
 }

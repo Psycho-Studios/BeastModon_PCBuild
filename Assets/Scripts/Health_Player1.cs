@@ -80,7 +80,7 @@ public class Health_Player1 : MonoBehaviour
         StartCoroutine(damageReceptionCooldown()); //Invincibility
         if (int_life == 0) //DamageIdle will be playing if not in Arcade mode
         {
-            FaceAnimation_Player1.animator_player1Face.SetInteger("Expression", -1);
+            FaceAnimation_Player1.animator_player1Face.SetInteger("Expression", (int)E_FaceExpressions.Death);
             FaceAnimation_Player1.expressionIndex = -1;
             
             GameObject gameObject_player1ExplosionClone = ObjectPool.objectPool_reference.getPooled_MiscellaneousObjects(
@@ -97,7 +97,7 @@ public class Health_Player1 : MonoBehaviour
             FaceAnimation_Player1.int_currentAnimationState = FaceAnimation_Player1.animator_player1Face.GetInteger("Expression");
 
             //Begin the Damage animation
-            FaceAnimation_Player1.animator_player1Face.SetInteger("Expression", 1);
+            FaceAnimation_Player1.animator_player1Face.SetInteger("Expression", (int)E_FaceExpressions.Damage);
         }
     }
 
