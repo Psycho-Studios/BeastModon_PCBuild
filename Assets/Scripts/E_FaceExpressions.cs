@@ -28,7 +28,7 @@ enum E_FaceExpressions
 
     LetsGo = 10,
 
-
+    Conversation2 = 11,
 
     Love = 12
 }
