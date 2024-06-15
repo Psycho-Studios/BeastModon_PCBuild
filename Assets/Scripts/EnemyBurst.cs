@@ -51,7 +51,6 @@ public class EnemyBurst : MonoBehaviour
     {
         if (firstShot > 0)
         {
-            Debug.Log("Han Shot First");
             StartCoroutine(FirstTry());
             updateStopper = true;
             firstShot = 0;
@@ -60,7 +59,6 @@ public class EnemyBurst : MonoBehaviour
         }
         else
         {
-            Debug.Log("The alien shot next.");
             speakers.PlayOneShot(sound);
             GameObject clone = (GameObject)Instantiate(enemyBullet, (transform.position + bulletSpawn), Quaternion.Euler(bulletRotation));
 
@@ -74,7 +72,6 @@ public class EnemyBurst : MonoBehaviour
             }
 
             temp = Time.time + secondWait;
-            Debug.Log(temp);
 
 
 

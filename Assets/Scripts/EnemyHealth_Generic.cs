@@ -58,13 +58,13 @@ public class EnemyHealth_Generic : EnemyData
             || this.gameObject.name.Contains("Jump_n_Spy"))
             {
                 this.gameObject_explosionVisualEffect = ObjectPool.objectPool_reference.getPooled_MiscellaneousObjects(
-                    Convert.ToInt32(E_SpawnableObjects.TestingScene.Explosion_2_Walk_n_Spy));
+                    Convert.ToInt32(E_SpawnableObjects.Miscellaneous.Explosion_WalknSpy));
             }
 
             if (!this.gameObject_explosionVisualEffect.Equals(null)) //We want to retrieve a pooled explosion via name
 			{
                 this.gameObject_explosionVisualEffect = ObjectPool.objectPool_reference.getPooled_MiscellaneousObjects(
-                    Convert.ToInt32(E_SpawnableObjects.TestingScene.Explosion_2_Walk_n_Spy),
+                    Convert.ToInt32(E_SpawnableObjects.Miscellaneous.Explosion_1),
                     this.gameObject_explosionVisualEffect.name);
 
                 this.gameObject_explosionVisualEffect.transform.position = this.gameObject.transform.position;
@@ -131,7 +131,7 @@ public class EnemyHealth_Generic : EnemyData
 				case "Projectile_Tail_2_185Degrees":
 				case "Projectile_Tail_2_185Degrees_Double":
 				{
-					int_totalDamage = 4;
+					int_totalDamage = 2;
 					break;
 				}
 
@@ -148,7 +148,7 @@ public class EnemyHealth_Generic : EnemyData
 				case "Projectile_Tail_3_185Degrees":
 				case "Projectile_Tail_3_185Degrees_Double":
 				{
-					int_totalDamage = 5;
+					int_totalDamage = 3;
 					break;
 				}
 				case "Projectile_Tail_4_Right":
@@ -179,7 +179,7 @@ public class EnemyHealth_Generic : EnemyData
 				case "Projectile_Tail_Beast_Tail_4_3_Double":
 				case "Projectile_Tail_Beast_Tail_4_4_Double":
                 {
-					int_totalDamage = 8;
+					int_totalDamage = 4;
 					break;
                 }
 
@@ -220,12 +220,12 @@ public class EnemyHealth_Generic : EnemyData
 				}
 				case "Projectile_Explosive_1(Clone)":
 				{
-					int_totalDamage = 10;
+					int_totalDamage = 12;
 					break;
 				}
 				case "Projectile_Explosive_2(Clone)":
 				{
-					int_totalDamage = 13;
+					int_totalDamage = 14;
 					break;
 				}
 				case "Projectile_Explosive_3(Clone)":

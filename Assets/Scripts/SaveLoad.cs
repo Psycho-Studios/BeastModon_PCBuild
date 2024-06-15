@@ -49,14 +49,14 @@ public static class SaveLoad {
 
 		if (!File.Exists (Application.persistentDataPath + "/savedGames.gd")) {
 			Debug.Log ("File didn't exist!");
-			GameData getting = new GameData ();
+			GameData gameData = new GameData ();
 			FileStream file = File.Create (Application.persistentDataPath + "/savedGames.gd");
-			getting = new GameData ();
-			Debug.Log("Current difficulty is " + getting.difficulty[0]);
-			getting.nextLevelSaves [gameFile] = 17; //Update this number when the game is complete
-			getting.difficulty [gameFile] = mode;
-			Debug.Log("Current difficulty is " + getting.difficulty[0]);
-			bf.Serialize (file, getting);
+			gameData = new GameData ();
+			Debug.Log("Current difficulty is " + gameData.difficulty[0]);
+			gameData.nextLevelSaves [gameFile] = 17; //Update this number when the game is complete
+			gameData.difficulty [gameFile] = mode;
+			Debug.Log("Current difficulty is " + gameData.difficulty[0]);
+			bf.Serialize (file, gameData);
 			file.Close ();
 			SceneManager.LoadScene (17);
 		} else
@@ -78,18 +78,17 @@ public static class SaveLoad {
 	}
 
 	public static GameData Retrieve()
-	{ 
-		if (File.Exists (Application.persistentDataPath + "/savedGames.gd")) {
-			GameData getting = new GameData ();
-			BinaryFormatter bf = new BinaryFormatter ();
-			FileStream file = File.Open (Application.persistentDataPath + "/savedGames.gd", FileMode.Open);
-			 getting = (GameData)bf.Deserialize (file);
-			file.Close ();
-			return getting;
+	{
+        GameData gameData = new GameData();
+        if (File.Exists (Application.persistentDataPath + "/savedGames.gd")) 
+		{
+			BinaryFormatter binaryFormatter = new BinaryFormatter ();
+			FileStream fileStream = File.Open (Application.persistentDataPath + "/savedGames.gd", FileMode.Open);
+			gameData = (GameData)binaryFormatter.Deserialize (fileStream);
+			fileStream.Close ();
+			return gameData;
 		}
-		GameData grow = new GameData();
-		Debug.Log ("Returned grow.");
-		return grow;
+		return gameData;
 
 
 	} // GOOD TO GO
@@ -116,8 +115,8 @@ public static class SaveLoad {
 		FileStream file = File.Open (Application.persistentDataPath + "/savedGames.gd", FileMode.Open); //you can call it anything you want
 		bf.Serialize (file, thanksData.final);
 		file.Close ();
-		Debug.Log ("Sounds Saved.");
-			}
+		Debug.Log ("Audio Data Saved.");
+		}
 		
 	}
 

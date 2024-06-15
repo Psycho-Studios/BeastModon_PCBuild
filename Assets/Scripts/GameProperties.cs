@@ -39,11 +39,14 @@ public class GameProperties : MonoBehaviour
         [System.Serializable]
         public class GameData
         {
-            public static string string_currentDifficulty; //Easy, Normal, Arcade
+            public static string string_currentDifficulty = "Easy"; //Easy, Normal, Arcade
         }
     }
 
-	public static bool bool_isPaused;
+    /// <summary>
+    /// Represents whether the game is paused or not.
+    /// </summary>
+	public static bool bool_isGamePaused;
    
     void Awake()
     {
@@ -56,7 +59,7 @@ public class GameProperties : MonoBehaviour
 	{
 
 
-        bool_isPaused = false;
+        bool_isGamePaused = false;
         if (sceneIndex == 12)
         {
             PlayerMovement.bool_level_11 = true;
@@ -68,8 +71,6 @@ public class GameProperties : MonoBehaviour
     }
 	void Update () 
 	{
-        //Debug.Log(Time.time);
-        //Debug.Log(levelEndTimes[sceneIndex]);
 #if UNITY_STANDALONE
         if(Input.GetKeyDown(ProjectileControls_Player1.keyCode_pauseGame))
         {
@@ -108,14 +109,14 @@ public class GameProperties : MonoBehaviour
     {
         if (SceneManager.GetActiveScene().buildIndex != 0)
         {
-            switch (bool_isPaused)
+            switch (bool_isGamePaused)
             {
                 case true:
                 {
 
                     Time.timeScale = 1;
                     AudioListener.pause = false;
-                    bool_isPaused = false;
+                    bool_isGamePaused = false;
 
                     break;
                 }
@@ -123,7 +124,7 @@ public class GameProperties : MonoBehaviour
                 {
                     Time.timeScale = 0;
                     AudioListener.pause = true;
-                    bool_isPaused = true;
+                    bool_isGamePaused = true;
 
                     break;
                 }

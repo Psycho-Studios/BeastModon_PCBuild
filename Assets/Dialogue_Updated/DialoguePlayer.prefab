@@ -44,17 +44,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23fe3cb20f1c02b4ab474240c5b9b1f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  float_secondsUntilDialogue: 3
-  _timesToChangeFace:
+  float_secondsUntilFirstConversation: 2
+  _faceExpressionDurations:
+  - 2.2
+  - 1.7
+  - 5.9
+  - 3.5
+  - 6.7
   - 2
+  - 6.2
+  - 3.7
+  - 3.1
+  - 2.1
+  - 2
+  - 1.5
   - -1
-  - 0
-  - 0
-  - 0
-  - 0
-  _faceExpressions: 03000000ffffffff00000000000000000000000000000000
+  _faceExpressions: 0300000000000000030000000000000003000000000000000b0000000000000003000000000000000300000000000000ffffffff
   _buildIndexToPlaySoundsAt: 0
   audioClip_dialogue: {fileID: 8300000, guid: d24871e8a0b3ac14c9acfb561b721cbd, type: 3}
+  audioClips_characterResponses:
+  - {fileID: 8300000, guid: 5e327dc410a06304da7063c10293d384, type: 3}
+  - {fileID: 8300000, guid: 5cba14f80e921684ea8223ac2ae5cd4f, type: 3}
+  - {fileID: 8300000, guid: af68f652123373b42a4e7b1eb4c7f49f, type: 3}
+  - {fileID: 8300000, guid: a31467d9e405f414f9cfadfd4ff0028a, type: 3}
+  - {fileID: 8300000, guid: 8e89534ad51918744a5b3977fae9dcc1, type: 3}
+  - {fileID: 8300000, guid: f744e0c513aa51443a7b7bcbaf6995d7, type: 3}
+  - {fileID: 8300000, guid: 0fdecb55948c80f408cfa49455a5505b, type: 3}
+  - {fileID: 8300000, guid: e8fd391949e5ece4facc958f04b84920, type: 3}
+  - {fileID: 8300000, guid: d8b381d43b63aa54cbd5728bd2410d1b, type: 3}
+  - {fileID: 8300000, guid: 2c75724c906dcf846aab0bf339ee35c5, type: 3}
+  - {fileID: 8300000, guid: accc695440eee5d47b31caf75781c95f, type: 3}
 --- !u!1 &5453754612133851644
 GameObject:
   m_ObjectHideFlags: 0
@@ -71,7 +90,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6932077087616340245
 Transform:
   m_ObjectHideFlags: 0
@@ -99,17 +118,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23fe3cb20f1c02b4ab474240c5b9b1f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  float_secondsUntilDialogue: -1
-  _timesToChangeFace:
-  - -1
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
+  float_secondsUntilFirstConversation: 0
+  _faceExpressionDurations: []
   _faceExpressions: 
   _buildIndexToPlaySoundsAt: 0
   audioClip_dialogue: {fileID: 0}
+  audioClips_characterResponses: []
 --- !u!1 &6521881023484503488
 GameObject:
   m_ObjectHideFlags: 0
@@ -126,7 +140,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2284163863354473764
 Transform:
   m_ObjectHideFlags: 0
@@ -154,17 +168,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23fe3cb20f1c02b4ab474240c5b9b1f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  float_secondsUntilDialogue: -1
-  _timesToChangeFace:
-  - -1
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  _faceExpressions: 00000000
+  float_secondsUntilFirstConversation: 0
+  _faceExpressionDurations: []
+  _faceExpressions: 
   _buildIndexToPlaySoundsAt: 0
   audioClip_dialogue: {fileID: 0}
+  audioClips_characterResponses: []
 --- !u!1 &6630662357248444232
 GameObject:
   m_ObjectHideFlags: 0
@@ -175,6 +184,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5391231641026536322}
   - component: {fileID: 5830202685953506072}
+  - component: {fileID: 736861774}
   m_Layer: 0
   m_Name: DialoguePlayer
   m_TagString: Untagged
@@ -297,3 +307,15 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &736861774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6630662357248444232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4619fcc5ae809e4780a78a0558f2c0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

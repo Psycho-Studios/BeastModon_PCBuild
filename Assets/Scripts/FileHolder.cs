@@ -26,7 +26,6 @@ public class FileHolder : MonoBehaviour {
 	{
 		// Should check for credits
 		if (gary == true) {
-			Debug.Log ("Gary's got the data!");
 			if (sceneSelected == false) {
 				switch (final.difficulty [int_currentFileNumber]) {
 				case 4:
