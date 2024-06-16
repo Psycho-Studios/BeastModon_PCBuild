@@ -226,13 +226,11 @@ public class FaceAnimation_Player1 : MonoBehaviour
                     yield return null;
                 }
 
-                if (Health_Player1.int_life == 50
-                    && (bool_developmentMode
-                        || !GameProperties.DataManagement.GameData.string_currentDifficulty.Contains("Arcade"))) //Default difficulty is Easy
+                if (!Health_Player1.bool_criticalStatus)
                 {
                     FaceAnimation_Player1.animator_player1Face.SetInteger("Expression", DialoguePlayer.faceExpressions[_expressionIndex]);
                 }
-
+                
                 yield return new WaitForSeconds(DialoguePlayer.faceExpressionDurations[_expressionIndex]); //Wait for the duration of the audio clip
 
             }

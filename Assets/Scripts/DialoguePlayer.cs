@@ -234,6 +234,11 @@ public class DialoguePlayer : DialogueHeirarchyLink
         if (player1Interrupted())
         {
             bool_dialogueIsPaused = true;
+            if (!bool_firstConversationTriggered)
+            {
+                yield return new WaitForSeconds(float_secondsUntilFirstConversation - float_timeAnimationInterrupted);
+                //The goal above is to finish the initial wait for the first dialogue clip to play.
+            }
         }
         else
         {

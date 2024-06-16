@@ -53,6 +53,7 @@ public class PowerUps : MonoBehaviour
                         {
                             Health_Player1.int_life += 50;
                             Health_Player1.bool_criticalStatus = false;
+                            StatusScript_Player1.animator_faceBackground.SetInteger("Status", (int)E_StatusAnimationStates.Idle); // Idle status.
                         }
                         break;
                     }
@@ -66,6 +67,7 @@ public class PowerUps : MonoBehaviour
                         {
                             Health_Player1.int_life += 50;
                             Health_Player1.bool_criticalStatus = false;
+                            StatusScript_Player1.animator_faceBackground.SetInteger("Status", (int)E_StatusAnimationStates.Idle); // Idle status.
                         }
                         break;
                     }
@@ -91,6 +93,7 @@ public class PowerUps : MonoBehaviour
                         {
                             Health_Player1.int_life += 50;
                             Health_Player1.bool_criticalStatus = false;
+                            StatusScript_Player1.animator_faceBackground.SetInteger("Status", (int)E_StatusAnimationStates.Idle); // Idle status.
                         }
                         break;
                     }
