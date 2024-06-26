@@ -9,7 +9,7 @@ public class ChargeShot_Player1 : MonoBehaviour
 
     private Animator animator_chargeIndicator, animator_gunfireSpawnPoint;
     private float float_timeBeforeFullyCharged, float_timeOfChargeBegin;
-    private bool bool_chargeComplete;
+    private bool bool_chargeComplete, bool_usingMouseToFire;
     public GameObject gameObject_chargedShot;
     public AudioClip audioClip_chargingSound, audioClip_chargedShot;
     public  AudioSource audioSource_chargeShotSpawnPoint;
@@ -36,8 +36,11 @@ public class ChargeShot_Player1 : MonoBehaviour
         if (Input.GetKeyDown(ProjectileControls_Player1.keyCode_chargeShot)
         || Input.GetMouseButtonDown(1))
         {
+            if(Input.GetMouseButtonDown(1))
+            {
+                bool_usingMouseToFire = true;
+            }
             float_timeOfChargeBegin = Time.time;
-            Debug.Log("Charging Shot...");
             audioSource_chargeShotSpawnPoint.PlayOneShot(audioClip_chargingSound, 0.13f);
         }
         if (Time.time - float_timeBeforeFullyCharged >= float_timeOfChargeBegin)
@@ -47,8 +50,13 @@ public class ChargeShot_Player1 : MonoBehaviour
         }
 
         if (Input.GetKeyUp(ProjectileControls_Player1.keyCode_chargeShot)
-        || Input.GetMouseButtonUp(1))
+        || (Input.GetMouseButtonUp(1) &&  bool_usingMouseToFire))
         {
+            if(bool_usingMouseToFire)
+            {
+                bool_usingMouseToFire = false;
+            }
+
             float_timeOfChargeBegin = 500000;
             animator_chargeIndicator.SetInteger("Charge", 0);
             audioSource_chargeShotSpawnPoint.Stop();
@@ -65,7 +73,6 @@ public class ChargeShot_Player1 : MonoBehaviour
 
     private void fireChargedShot()
     {
-        //Remove this comment...?..
         animator_gunfireSpawnPoint.SetInteger("ChargeRelease", 1);
         GameObject gameObject_chargedShot = ObjectPool.objectPool_reference.getPooled_PlayerObjects(default, "ChargedShot");
         gameObject_chargedShot.transform.position = this.gameObject.transform.position;
@@ -83,6 +90,7 @@ public class ChargeShot_Player1 : MonoBehaviour
 
     IEnumerator returnChargedShot(GameObject gameObject_chargedShot)
     {
+        //Charge shot animation lasts for 5.5 seconds
         yield return new WaitForSeconds(0.6f);
         gameObject_chargedShot.SetActive(false);
     }

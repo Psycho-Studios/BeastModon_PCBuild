@@ -7,6 +7,11 @@ public class Health_Player1 : MonoBehaviour
 {
     private bool bool_player1Hit;
     public static bool bool_playerReactingToDamage, bool_enemyGameObjectsDealDamage;
+    
+    /// <summary>
+    /// Is set true if the difficulty is not Arcade and the player's life reaches 50.
+    /// </summary>
+    public static bool bool_criticalStatus;
     public static int int_life;
     private Collider2D collider2D_player1;
     public GameObject gameObject_shipExplosion;
@@ -78,26 +83,38 @@ public class Health_Player1 : MonoBehaviour
         updatePlayer1WeaponValue();
         HUD_Player1.bool_rankLowerRequest_player1 = true; //Animate HUD
         StartCoroutine(damageReceptionCooldown()); //Invincibility
+        FaceAnimation_Player1.bool_dialogueAudioInterrupted = true;
+        FaceAnimation_Player1.bool_damage_FaceCooldown = true;
+        FaceAnimation_Player1.float_timePlayer1HaltedAnimation = Time.time;
+        FaceAnimation_Player1.int_currentAnimationState = FaceAnimation_Player1.expressionIndex;
+
+        if(int_life == 50
+        && !GameProperties.DataManagement.GameData.string_currentDifficulty.Contains("Arcade"))
+        {
+            bool_criticalStatus = true;
+        }
+        
         if (int_life == 0) //DamageIdle will be playing if not in Arcade mode
         {
-            FaceAnimation_Player1.animator_player1Face.SetInteger("Expression", -1);
+            FaceAnimation_Player1.animator_player1Face.SetInteger("Expression", (int)E_FaceExpressions.Death);
             FaceAnimation_Player1.expressionIndex = -1;
-            
+            FaceAnimation_Player1.bool_player1Dead = true;
+
             GameObject gameObject_player1ExplosionClone = ObjectPool.objectPool_reference.getPooled_MiscellaneousObjects(
                 Convert.ToInt32(E_SpawnableObjects.Miscellaneous.Explosion_Player1Ship));
 
             gameObject_player1ExplosionClone.transform.position = this.gameObject.transform.position;
             gameObject_player1ExplosionClone.transform.rotation = this.gameObject.transform.rotation;
-            
+
+            gameObject_player1ExplosionClone.SetActive(true);
+
+
             this.gameObject.SetActive(false);
         }
-        else
-        {
-            //Record previous animation state for a switch statement
-            FaceAnimation_Player1.int_currentAnimationState = FaceAnimation_Player1.animator_player1Face.GetInteger("Expression");
-
+        else 
+        {         
             //Begin the Damage animation
-            FaceAnimation_Player1.animator_player1Face.SetInteger("Expression", 1);
+            FaceAnimation_Player1.animator_player1Face.SetInteger("Expression", (int)E_FaceExpressions.Damage);
         }
     }
 
@@ -107,16 +124,29 @@ public class Health_Player1 : MonoBehaviour
     /// <returns></returns>
     IEnumerator damageReceptionCooldown()
     {
-        Debug.Log("Current Life:" + int_life.ToString());
-        yield return new WaitForSeconds(3.0f);
-        bool_playerReactingToDamage = false;
-        bool_player1Hit = false;
-        if (int_life > 0) //Avoids collision possibilities after player death.
+        if (!ProjectileControls_Player1.bool_beastModeActive)
         {
-            bool_enemyGameObjectsDealDamage = true;
-            FaceAnimation_Player1.bool_safeToContinueTalking = true;
+            //StartCoroutine(FaceAnimation_Player1.delayedDialogue());
+            
+            yield return new WaitForSeconds(3.0f);
+            
+            bool_playerReactingToDamage = false;
+            bool_player1Hit = false;
+            if (int_life > 0) //Avoids collision possibilities after player death.
+            {
+                bool_enemyGameObjectsDealDamage = true; //Invulnerability ended
+                FaceAnimation_Player1.bool_damage_FaceCooldown = false; //Face no longer in damaged state
+                FaceAnimation_Player1.bool_safeToContinueDialogueAnimation = true; //Audible and visible character conversation allowed
+            }
         }
-    }
+        else //Beast Mode is active, ProjectileControls_Player1 will disable invulnerability
+        {
+            bool_playerReactingToDamage = false;
+            FaceAnimation_Player1.bool_damage_FaceCooldown = false;
+            yield return new WaitForSeconds(7.0f);
+            FaceAnimation_Player1.bool_safeToContinueDialogueAnimation = true;
+        }
+    } 
 
     private void updatePlayer1WeaponValue()
     {

@@ -23,7 +23,6 @@ public class BeastModeIndicator_Player1 : MonoBehaviour
             if(!this.animator_beastModeIndicator.GetBool("BeastModesAvailable"))
             {
                 this.animator_beastModeIndicator.SetBool("BeastModesAvailable", true);
-                Debug.Log("BeastModeIndicator_Player1 - BeastModesAvailable: " + ProjectileControls_Player1.int_beastModesAvailable);
             }
         }
         else 

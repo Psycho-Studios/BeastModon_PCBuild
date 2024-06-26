@@ -12,10 +12,11 @@ gun barrel is.
 Every projectile has a different sound, damage, and sprite.*/
 public class ProjectileControls_Player1 : MonoBehaviour
 {
+//Primitive Data Types
     private bool bool_player1NextShotReady,
         bool_weaponSlotReassigning, bool_rankUpgradeInProgress,
         bool_energy4_rightAngle, bool_tail5_subAngles,
-        bool_Weapons_28_or_29_atStandardFireRate;//For beast weapons 28 and 29. Allows immediate shooting for them.
+        bool_Weapons_28_or_29_beastProjectilesFired;//For beast weapons 28 and 29. Allows immediate shooting for them.
     public static bool bool_beastModeActive, bool_weaponStrengthArrayPopulated,
         bool_fastFiringActive;
     
@@ -29,6 +30,7 @@ public class ProjectileControls_Player1 : MonoBehaviour
         int_currentLevel, int_weaponValue_player1;
     public static int[] array_int_weaponStrength;
 
+//GameObjects
     private Animator animator_gunfireSide, animator_gunfireUnder,
         animator_gunfireBack, animator_flameThrower,
         animator_SylvesterFace, animator_SylvesterStatus;
@@ -42,7 +44,7 @@ public class ProjectileControls_Player1 : MonoBehaviour
         audioSource_weaponIndicator, audioSource_SylvesterFace;
     
     private Collider2D collider2D_ship;
-    
+
     public GameObject gameObject_gunfireSide, gameObject_gunfireUnder,
         gameObject_gunfireBack, gameObject_flameThrower;
     private GameObject gameObject_player1HUD, gameObject_weaponIndicator,
@@ -129,7 +131,7 @@ public class ProjectileControls_Player1 : MonoBehaviour
         bool_fastFiringActive = false;
         float_timeLastFiredShot = Time.time;
         float_beastModeActivationTime = 500000;
-        bool_Weapons_28_or_29_atStandardFireRate = true;
+        bool_Weapons_28_or_29_beastProjectilesFired = true;
         spriteRenderer_gunfireSide.enabled = false;
         spriteRenderer_gunfireUnder.enabled = false;
         spriteRenderer_gunfireBack.enabled = false;
@@ -233,9 +235,9 @@ public class ProjectileControls_Player1 : MonoBehaviour
 #if UNITY_STANDALONE
         if (Input.GetKey(keyCode_fireWeapon)
         || (Input.GetMouseButton(0))
-        && !GameProperties.bool_isPaused
+        && !GameProperties.bool_isGamePaused
         && int_weaponIndex_player1 != 1 //No tail weapon being used means it's memory-safe to increase the fire rate.
-        && bool_Weapons_28_or_29_atStandardFireRate) //Player has not shot with ExplosiveBeast nor EnergyBeast
+        && bool_Weapons_28_or_29_beastProjectilesFired) //Player has not shot with ExplosiveBeast nor EnergyBeast
         {
             if(calculateTimePassedAfterShot() >= (fireRates[int_weaponValue_player1] / int_firingSpeedModifier)) 
             {
@@ -246,7 +248,7 @@ public class ProjectileControls_Player1 : MonoBehaviour
 
         else if (Input.GetKey(keyCode_fireWeapon)
         || (Input.GetMouseButton(0))
-        && !GameProperties.bool_isPaused
+        && !GameProperties.bool_isGamePaused
         && int_weaponIndex_player1 == 1)  //Tail weapons being used means more objects to spawn at a time. 
         {
             if (calculateTimePassedAfterShot() >= (fireRates[int_weaponValue_player1])) //Fire rate will not be modified.
@@ -258,12 +260,18 @@ public class ProjectileControls_Player1 : MonoBehaviour
 
         else if (Input.GetKey(keyCode_fireWeapon)
         || (Input.GetMouseButton(0))
-        && !bool_Weapons_28_or_29_atStandardFireRate
-        && !GameProperties.bool_isPaused)
+        && (ProjectileControls_Player1.int_weaponValue_player1 == 28
+            || ProjectileControls_Player1.int_weaponValue_player1 == 29)
+        && !GameProperties.bool_isGamePaused)
         {
-            bool_Weapons_28_or_29_atStandardFireRate = true; //Explosive Beast or Energy Beast projectile can spawn immediately
-            float_timeLastFiredShot = Time.time;
-            fireBaseWeapons();
+            if (!bool_Weapons_28_or_29_beastProjectilesFired)
+            {
+                bool_Weapons_28_or_29_beastProjectilesFired = true; //Explosive Beast or Energy Beast projectile can spawn immediately
+                float_timeLastFiredShot = Time.time;
+                fireBaseWeapons();
+            }
+            
+            
         }
 
         if (Input.GetKeyUp(keyCode_fireWeapon)
@@ -299,6 +307,7 @@ public class ProjectileControls_Player1 : MonoBehaviour
             script_SelectWeapon_Player1.animateWeaponIndicator(int_weaponIndex_player1);
             audioSource_weaponIndicator.PlayOneShot(audioClip_cyclePrevious);
         }
+
         if(Input.GetKeyDown(keyCode_cycleWeaponNext)
         && !bool_weaponSlotReassigning
         && !bool_beastModeActive)
@@ -316,6 +325,7 @@ public class ProjectileControls_Player1 : MonoBehaviour
             audioSource_weaponIndicator.PlayOneShot(audioClip_cycleNext);
             script_SelectWeapon_Player1.animateWeaponIndicator(int_weaponIndex_player1);
         }
+
         if(Input.GetKeyUp(keyCode_cycleWeaponNext)
         || Input.GetKeyUp(keyCode_cycleWeaponPrevious))
         {
@@ -339,6 +349,8 @@ public class ProjectileControls_Player1 : MonoBehaviour
         && int_beastModesAvailable > 0
         && Health_Player1.int_life >=0)
         {
+            FaceAnimation_Player1.bool_dialogueAudioInterrupted = true;
+            FaceAnimation_Player1.int_currentAnimationState = FaceAnimation_Player1.expressionIndex;
             bool_beastModeActive = true;
             StartCoroutine(beastModeOn());
         }
@@ -640,6 +652,14 @@ public class ProjectileControls_Player1 : MonoBehaviour
 
                     break;
                 }
+            }
+            case 29:
+            {
+                gameObject_player1Projectile_1 = ObjectPool.objectPool_reference.getPooled_PlayerObjects();
+                gameObject_player1Projectile_1.transform.position = new Vector3(-63.8f, 1.8f, -1.01f);
+                gameObject_player1Projectile_1.transform.rotation = Quaternion.Euler(0, 0, 0);
+                gameObject_player1Projectile_1.SetActive(true);
+                break;
             }
 
             case 20:
@@ -947,7 +967,7 @@ public class ProjectileControls_Player1 : MonoBehaviour
             case 25:
             {
                 spriteRenderer_gunfireSide.enabled = true;
-                animator_gunfireSide.SetInteger("Type", 7);
+                animator_gunfireSide.SetInteger("Type", 8);
                 switch(PlayerMovement.float_shipSpeed)
                     {
                         case 6:
@@ -1035,7 +1055,8 @@ public class ProjectileControls_Player1 : MonoBehaviour
 
     IEnumerator beastModeOn()
     {
-        
+        FaceAnimation_Player1.bool_beastMode_FaceCooldown = true;
+        FaceAnimation_Player1.float_timePlayer1HaltedAnimation = Time.time;
         if(Health_Player1.int_life > 50)
         {
             audioSource_SylvesterFace.PlayOneShot(audioClip_beastMode);
@@ -1048,8 +1069,8 @@ public class ProjectileControls_Player1 : MonoBehaviour
         float_timeLastFiredShot = 0; //Allows immediate shooting
         Health_Player1.bool_enemyGameObjectsDealDamage = false; //Invincibility
         float_beastModeActivationTime = Time.time; //Limited time
-        animator_SylvesterFace.SetInteger("Expression", 2); //Animate Sylvester's face
-        animator_SylvesterStatus.SetInteger("Status", 2); //Animate Sylvester's background
+        animator_SylvesterFace.SetInteger("Expression", (int)E_FaceExpressions.BeastMode); //Animate Sylvester's face
+        StatusScript_Player1.animator_faceBackground.SetInteger("Status", (int)E_StatusAnimationStates.BeastMode); //Animate Sylvester's background
 
         yield return new WaitForSeconds(1.2f);
          int_beastModesAvailable -= 1;
@@ -1057,7 +1078,7 @@ public class ProjectileControls_Player1 : MonoBehaviour
         int_weaponValue_player1 = int_weaponIndex_player1 + 25; //Activate super weapon
         if (int_weaponValue_player1 == 28 || int_weaponValue_player1 == 29)
         {
-            bool_Weapons_28_or_29_atStandardFireRate = false;
+            bool_Weapons_28_or_29_beastProjectilesFired = false;
         }
         //Health bonus
         switch (GameProperties.DataManagement.GameData.string_currentDifficulty)
@@ -1071,6 +1092,7 @@ public class ProjectileControls_Player1 : MonoBehaviour
                 else
                 {
                     Health_Player1.int_life += 50;
+                    Health_Player1.bool_criticalStatus = false;
                 }
                 break;
             }
@@ -1083,6 +1105,7 @@ public class ProjectileControls_Player1 : MonoBehaviour
                 else
                 {
                     Health_Player1.int_life += 50;
+                    Health_Player1.bool_criticalStatus = false;
                 }
                 break;
             }
@@ -1107,6 +1130,7 @@ public class ProjectileControls_Player1 : MonoBehaviour
                 else
                 {
                     Health_Player1.int_life += 50;
+                    Health_Player1.bool_criticalStatus = false;
                 }
                 break;
             }
@@ -1120,11 +1144,11 @@ public class ProjectileControls_Player1 : MonoBehaviour
         float_beastModeActivationTime = 500000; //Time reset
         bool_beastModeActive = false; //Enable upgrades and weapon switches
         int_weaponValue_player1 = int_temporaryWeaponValueHolder; //Restore weapons
-        animator_SylvesterFace.SetInteger("Expression", 0); //Animate Sylvester's face
+        animator_SylvesterFace.SetInteger("Expression", ((int)E_FaceExpressions.Idle)); //Animate Sylvester's face
         HUD_Player1.bool_restoreWeaponRequest = true; //Animate the appropriate Weapon Icon
-        animator_SylvesterStatus.SetInteger("Status", 0); //Animate Sylvester's background
+        StatusScript_Player1.animator_faceBackground.SetInteger("Status", (int)E_StatusAnimationStates.Idle); //Animate Sylvester's background
+        FaceAnimation_Player1.bool_beastMode_FaceCooldown = false;
         bool_beastModeActive = false;
-        Debug.Log("ProjectileControls_Player1 - BeastModesAvailable: " + int_beastModesAvailable);
     }
 
 }

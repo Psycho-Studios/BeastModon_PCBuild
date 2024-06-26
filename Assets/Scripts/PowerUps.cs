@@ -52,6 +52,8 @@ public class PowerUps : MonoBehaviour
                         else
                         {
                             Health_Player1.int_life += 50;
+                            Health_Player1.bool_criticalStatus = false;
+                            StatusScript_Player1.animator_faceBackground.SetInteger("Status", (int)E_StatusAnimationStates.Idle); // Idle status.
                         }
                         break;
                     }
@@ -64,6 +66,8 @@ public class PowerUps : MonoBehaviour
                         else
                         {
                             Health_Player1.int_life += 50;
+                            Health_Player1.bool_criticalStatus = false;
+                            StatusScript_Player1.animator_faceBackground.SetInteger("Status", (int)E_StatusAnimationStates.Idle); // Idle status.
                         }
                         break;
                     }
@@ -88,6 +92,8 @@ public class PowerUps : MonoBehaviour
                         else
                         {
                             Health_Player1.int_life += 50;
+                            Health_Player1.bool_criticalStatus = false;
+                            StatusScript_Player1.animator_faceBackground.SetInteger("Status", (int)E_StatusAnimationStates.Idle); // Idle status.
                         }
                         break;
                     }
@@ -115,8 +121,13 @@ public class PowerUps : MonoBehaviour
                 if (gameObject_itemAcquiredEffect.name.Contains("PowerUp_LetsGo_VisualEffect")
                 && collision.tag.Contains("Player1")) //Add logic for player2
                 {
-                    FaceAnimation_Player1.animator_player1Face.SetInteger("Expression", 10); //Animation calls method in FaceAnimation_Player1
+                    FaceAnimation_Player1.bool_dialogueAudioInterrupted = true;
                     ProjectileControls_Player1.bool_fastFiringActive = true;
+                    FaceAnimation_Player1.bool_letsGo_FaceCooldown = true;
+                    FaceAnimation_Player1.float_timePlayer1HaltedAnimation = Time.time;
+                    FaceAnimation_Player1.int_currentAnimationState = FaceAnimation_Player1.expressionIndex;
+                    FaceAnimation_Player1.animator_player1Face.SetInteger("Expression", (int)E_FaceExpressions.LetsGo); //Animation calls method in FaceAnimation_Player1
+                    
                 }
                 gameObject_itemAcquiredEffect.SetActive(true);
             }

@@ -86,10 +86,15 @@ public class DamageVisualEffect : MonoBehaviour
         bool_recyclingObject = true;
     }
 
-    //Called from PowerUps.cs
+    /// <summary>
+    /// Called from PowerUps.cs, updates a field in FaceAnimation_Player1.cs to allow appropriate face animations
+    /// Face/Background must update only if player isn't already at full health
+    /// </summary>
+    /// <param name="healthBeforeHealing"></param>
     public void determineHealingSound(int healthBeforeHealing)
     {
         audioClip_originalSound = audioSource.clip;
+
         switch (GameProperties.DataManagement.GameData.string_currentDifficulty)
         {
             case "Easy":
@@ -100,8 +105,7 @@ public class DamageVisualEffect : MonoBehaviour
                 }
                 else
                 {
-                    FaceAnimation_Player1.animator_player1Face.SetInteger("Expression", 0);
-                    StatusScript_Player1.animator_faceBackground.SetInteger("Status", 0);
+                    FaceAnimation_Player1.bool_healthPickupInProgress = true;
                 }
                 break;
             }
@@ -113,8 +117,7 @@ public class DamageVisualEffect : MonoBehaviour
                 }
                 else
                 {
-                    FaceAnimation_Player1.animator_player1Face.SetInteger("Expression", 0);
-                    StatusScript_Player1.animator_faceBackground.SetInteger("Status", 0);
+                    FaceAnimation_Player1.bool_healthPickupInProgress = true;
                 }
                 break;
             }
@@ -126,8 +129,7 @@ public class DamageVisualEffect : MonoBehaviour
                 }
                 else
                 {
-                    FaceAnimation_Player1.animator_player1Face.SetInteger("Expression", 0);
-                    StatusScript_Player1.animator_faceBackground.SetInteger("Status", 0);
+                    FaceAnimation_Player1.bool_healthPickupInProgress = true;
                 }
                 break;
             }
@@ -139,8 +141,7 @@ public class DamageVisualEffect : MonoBehaviour
                 }
                 else
                 {
-                    FaceAnimation_Player1.animator_player1Face.SetInteger("Expression", 0);
-                    StatusScript_Player1.animator_faceBackground.SetInteger("Status", 0);
+                    FaceAnimation_Player1.bool_healthPickupInProgress = true;
                 }
                 break;
             }
