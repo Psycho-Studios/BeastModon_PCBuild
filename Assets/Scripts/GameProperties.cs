@@ -14,6 +14,52 @@ public class GameProperties : MonoBehaviour
 
     private int sceneIndex;
 
+
+    /// <summary>
+    /// TODO: SET THIS OBJECT FIELDS IN THE AWAKE METHOD
+    /// </summary>
+    public static class StatusInterruptionReporter
+    {
+        /// <summary>
+        /// Is true if damage reception is over and if Beast Mode is no longer active 
+        /// </summary>
+        public static bool bool_safeToContinueDialogueAnimation;
+        public static bool bool_player1Interrupted;
+        public static bool bool_player1TookDamage;
+        public static bool bool_player1FireRateIncreased;
+        public static bool bool_player1BeastModeActivated;
+
+        public static float float_player1InterruptionTime;
+        public static float float_player1InterruptionEndTime;
+
+        public static float GetTimeUntilDialogueBegins(E_AudioInfluencers audioInfluencer)
+        {
+            float float_timeUntilDialogueBegins = 0;
+
+            switch (audioInfluencer)
+            {
+                case E_AudioInfluencers.LetsGo:
+                {
+                    float_timeUntilDialogueBegins = 5.0f;
+                    break;
+                }
+                case E_AudioInfluencers.Damage:
+                {
+                    float_timeUntilDialogueBegins = 3.0f;
+                    break;
+                }
+                case E_AudioInfluencers.BeastMode:
+                {
+                    float_timeUntilDialogueBegins = 7.0f;
+                    break;
+                }
+            }
+
+            return float_timeUntilDialogueBegins;
+        }
+
+    }
+
     /// <summary>
     /// Contains methods for saving, loading, and configurations. Uses nested GameData class for said operations.
     /// </summary>

@@ -1,0 +1,3 @@
+[submodule "BeastModon_PCBuild"]
+	path = BeastModon_PCBuild
+	url = https://github.com/Jeshawn/BeastModon_PCBuild

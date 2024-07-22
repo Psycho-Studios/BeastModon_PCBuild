@@ -117,7 +117,7 @@ public class DialoguePlayer : DialogueHeirarchyLink
         if(!FaceAnimation_Player1.bool_dialogueAudioInterrupted 
         && !FaceAnimation_Player1.bool_player1Dead)
         {
-            FaceAnimation_Player1.bool_safeToContinueDialogueAnimation = true;
+            GameProperties.StatusInterruptionReporter.bool_safeToContinueDialogueAnimation = true;
         }
     }
 
@@ -236,8 +236,17 @@ public class DialoguePlayer : DialogueHeirarchyLink
             bool_dialogueIsPaused = true;
             if (!bool_firstConversationTriggered)
             {
-                yield return new WaitForSeconds(float_secondsUntilFirstConversation - float_timeAnimationInterrupted);
+                while (Time.time < (float_secondsUntilFirstConversation - float_timeAnimationInterrupted + 3.0f))
+                {
+                    yield return null;
+                }
+                
                 //The goal above is to finish the initial wait for the first dialogue clip to play.
+                
+                 bool_dialogueInProgress = true;
+                float_timeDialogueSlotWasInitiallyPlayed = Time.time;
+                float_originalTimeFromCurrentDialogueIndex = faceExpressionDurations[FaceAnimation_Player1.expressionIndex];
+                audioSource_parent.Play();
             }
         }
         else

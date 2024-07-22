@@ -31,10 +31,7 @@ public class FaceAnimation_Player1 : MonoBehaviour
 
     public static bool bool_player1Dead, bool_takingDamage, bool_healthPickupInProgress;
 
-    /// <summary>
-    /// Is true if damage reception is over and if Beast Mode is no longer active 
-    /// </summary>
-    public static bool bool_safeToContinueDialogueAnimation;
+    
     
     /// <summary>
     /// Returns true if BeastMode, LetsGo, or Damage is currently initiated
@@ -46,15 +43,18 @@ public class FaceAnimation_Player1 : MonoBehaviour
     private int int_damageSoundIndex, _expressionIndex;
     
     /// <summary>
-    /// When this field updates, dialogueAnimation() runs again. Useful for  
+    /// When this field updates, dialogueAnimation() runs again. Useful for loading/unloading face animations/dialogue.
     /// </summary>
     public static int expressionIndex;
 
     /// <summary>
-    /// Helpful for reporting player1's original face animations to other scripts before being interrupted, like DialoguePlayer when receiving damage
+    /// Helpful for reporting player1's original face animations to other scripts before being interrupted, like DialoguePlayer when receiving damage.
     /// </summary>
     public static int int_currentAnimationState; 
 
+    /// <summary>
+    /// The time player1's face has a change in animation state due to outside influence (powerups, damage, etc.).
+    /// </summary>
     public static float float_timePlayer1HaltedAnimation;
 
     private AudioSource audioSource_player1Face;
@@ -178,7 +178,7 @@ public class FaceAnimation_Player1 : MonoBehaviour
         if (!Health_Player1.bool_playerReactingToDamage)
         {
             Health_Player1.bool_playerReactingToDamage = true;
-            bool_safeToContinueDialogueAnimation = false;
+            GameProperties.StatusInterruptionReporter.bool_safeToContinueDialogueAnimation = false;
 
             audioSource_player1Face.PlayOneShot(audioClip_Damage[this.random.Next(0, 6)]);
 
@@ -212,7 +212,15 @@ public class FaceAnimation_Player1 : MonoBehaviour
         if(bool_waitingForFirstConversation)
         {
             yield return new WaitForSeconds(DialoguePlayer.float_reportedSecondsUntilFirstConversation);
-            bool_waitingForFirstConversation = false;
+            if (GameProperties.StatusInterruptionReporter.bool_safeToContinueDialogueAnimation)
+            {
+                bool_waitingForFirstConversation = false;
+            }
+            else
+            {
+                yield return new WaitForSeconds(DialoguePlayer.float_reportedSecondsUntilFirstConversation - float_timePlayer1HaltedAnimation);
+            }
+            
         }
 
 
@@ -221,14 +229,14 @@ public class FaceAnimation_Player1 : MonoBehaviour
         {
             if (!bool_dialogueAnimationDurationRefresh)
             {
-                while (!bool_safeToContinueDialogueAnimation) //Player is in a state of damage, Beast Mode, or LetsGo
+                while (!GameProperties.StatusInterruptionReporter.bool_safeToContinueDialogueAnimation) //Player is in a state of damage, Beast Mode, or LetsGo
                 {
                     yield return null;
                 }
 
                 if (!Health_Player1.bool_criticalStatus)
                 {
-                    FaceAnimation_Player1.animator_player1Face.SetInteger("Expression", DialoguePlayer.faceExpressions[_expressionIndex]);
+                    animator_player1Face.SetInteger("Expression", DialoguePlayer.faceExpressions[_expressionIndex]);
                 }
                 
                 yield return new WaitForSeconds(DialoguePlayer.faceExpressionDurations[_expressionIndex]); //Wait for the duration of the audio clip
@@ -270,7 +278,7 @@ public class FaceAnimation_Player1 : MonoBehaviour
             else if (bool_dialogueAnimationTimeExternallyUpdated)
             {
                 //No overtaking animations occuring, cooldowns are over
-                if (bool_safeToContinueDialogueAnimation) 
+                if (GameProperties.StatusInterruptionReporter.bool_safeToContinueDialogueAnimation) 
                 {
                     if(Health_Player1.int_life == 50
                     && (bool_developmentMode
@@ -353,6 +361,11 @@ public class FaceAnimation_Player1 : MonoBehaviour
         }
     }    
 
+    public IEnumerator firstAnimationUpdate()
+    {
+        yield return new WaitForSeconds(GameProperties.StatusInterruptionReporter.GetTimeUntilDialogueBegins());
+    }
+
     /// <summary>
     /// Sets a flag that implies development mode is active.
     /// </summary>
@@ -361,4 +374,6 @@ public class FaceAnimation_Player1 : MonoBehaviour
         Debug.Log("Development mode enabled. Be sure to update the commented Arcade difficulty logic above.");
         bool_developmentMode = true;
     }
+
+
 }

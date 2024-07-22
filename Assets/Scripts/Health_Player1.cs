@@ -127,8 +127,8 @@ public class Health_Player1 : MonoBehaviour
         if (!ProjectileControls_Player1.bool_beastModeActive)
         {
             //StartCoroutine(FaceAnimation_Player1.delayedDialogue());
-            
-            yield return new WaitForSeconds(3.0f);
+
+            yield return new WaitForSeconds(GameProperties.StatusInterruptionReporter.GetTimeUntilDialogueBegins(E_AudioInfluencers.Damage));
             
             bool_playerReactingToDamage = false;
             bool_player1Hit = false;
@@ -136,15 +136,15 @@ public class Health_Player1 : MonoBehaviour
             {
                 bool_enemyGameObjectsDealDamage = true; //Invulnerability ended
                 FaceAnimation_Player1.bool_damage_FaceCooldown = false; //Face no longer in damaged state
-                FaceAnimation_Player1.bool_safeToContinueDialogueAnimation = true; //Audible and visible character conversation allowed
+                GameProperties.StatusInterruptionReporter.bool_safeToContinueDialogueAnimation = true; //Audible and visible character conversation allowed
             }
         }
         else //Beast Mode is active, ProjectileControls_Player1 will disable invulnerability
         {
             bool_playerReactingToDamage = false;
             FaceAnimation_Player1.bool_damage_FaceCooldown = false;
-            yield return new WaitForSeconds(7.0f);
-            FaceAnimation_Player1.bool_safeToContinueDialogueAnimation = true;
+            yield return new WaitForSeconds(GameProperties.StatusInterruptionReporter.GetTimeUntilDialogueBegins(E_AudioInfluencers.BeastMode));
+            GameProperties.StatusInterruptionReporter.bool_safeToContinueDialogueAnimation = true;
         }
     } 
 
