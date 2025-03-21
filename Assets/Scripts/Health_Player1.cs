@@ -135,7 +135,7 @@ public class Health_Player1 : MonoBehaviour
             if (int_life > 0) //Avoids collision possibilities after player death.
             {
                 bool_enemyGameObjectsDealDamage = true; //Invulnerability ended
-                FaceAnimation_Player1.bool_damage_FaceCooldown = false; //Face no longer in damaged state
+                FaceAnimation_Player1.bool_damage_FaceCooldown = false; //Face no longer in damaged state, triggers proper face animation
                 GameProperties.StatusInterruptionReporter.bool_safeToContinueDialogueAnimation = true; //Audible and visible character conversation allowed
             }
         }

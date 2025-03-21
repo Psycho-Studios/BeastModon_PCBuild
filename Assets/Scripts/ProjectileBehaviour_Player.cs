@@ -1,18 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 //Attach this script to every projectile the player(s) fire
 public class ProjectileBehaviour_Player : ProjectileData
-{
-    public float degreesToRotate, projectileSpeed, 
-        timeAfterExplosionToDestroy, float_timeBeforeDestruction;
-  
-    private bool bool_explosiveProjectileLaunched, bool_parentLocationRecorded;
-    [HideInInspector] public bool bool_isChildObject,
-        bool_waitingForParent;
+{  
+    [HideInInspector] 
+    public bool bool_isChildObject, bool_waitingForParent;
     
-    public bool bool_explosiveProjectile;
+    public bool bool_projectileExplodesAfterTimer;
+
+    private bool bool_explosiveProjectileLaunched, bool_parentLocationRecorded;
+
+    public float degreesToRotate, projectileSpeed,
+        timeAfterExplosionToDestroy, float_timeBeforeDestruction;
 
     public GameObject explosionIfApplicable;
 
@@ -25,7 +27,7 @@ public class ProjectileBehaviour_Player : ProjectileData
     private void Awake()
     {
         bool_playerProjectile = true;
-        
+    
         if(bool_isParentObject)
         {
             this.initialize_childObjectList();
@@ -35,7 +37,6 @@ public class ProjectileBehaviour_Player : ProjectileData
             this.transform_parentObject = this.transform.parent;
         }
     }
-
 
     private void OnEnable()
     {
@@ -55,7 +56,6 @@ public class ProjectileBehaviour_Player : ProjectileData
             {
                 StartCoroutine(removePuppeteer());
             }
-            
         }
 
         removeGameObject();
@@ -73,7 +73,7 @@ public class ProjectileBehaviour_Player : ProjectileData
         && !bool_waitingForParent
         && !bool_parentLocationRecorded) //This happens once, the first time Update is called
         {
-            bool_parentLocationRecorded = true;
+            bool_parentLocationRecorded = true;        
         }
 
         launchProjectile();    
@@ -93,34 +93,33 @@ public class ProjectileBehaviour_Player : ProjectileData
         }
     }
 
-    public void removeGameObject() //If your object must disappear yet doesn't have an explosion, it should still be marked as explosive
+    public void removeGameObject() //If your object must disappear after time goes by then it must be marked as explosive
     {
-        if(bool_explosiveProjectile)
+        if (bool_projectileExplodesAfterTimer)
         {
             StartCoroutine(explode()); //Instantiate an explosion, then set the object inactive
         }
     }
-    
+
+    /// <summary>
+    /// Used for timed explosions, NOT missiles.
+    /// </summary>
+    /// <returns></returns>
     IEnumerator explode()
     {
         yield return new WaitForSeconds(float_timeBeforeDestruction);
 
         if (explosionIfApplicable != null)
         {
-            GameObject explosionClone = (GameObject)Instantiate(
-              explosionIfApplicable,
-              this.gameObject.transform.position,
-              this.gameObject.transform.rotation);
+            GameObject explosionClone = ObjectPool.objectPool_reference.getPooled_PlayerObjects(0, explosionIfApplicable.name);
+            explosionClone.transform.position = this.gameObject.transform.position;
+            explosionClone.transform.rotation = this.gameObject.transform.rotation;
             yield return new WaitForSeconds(0.25f); //Allows the explosion to engulf the round
             this.gameObject.SetActive(false);
         }
         else
         {
             this.gameObject.SetActive(false);
-        }
-        
+        }   
     }
-
-    //The behaviour of the projectile once it is instantiated
-    
 }

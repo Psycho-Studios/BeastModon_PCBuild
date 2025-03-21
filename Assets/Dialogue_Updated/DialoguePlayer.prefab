@@ -47,8 +47,8 @@ MonoBehaviour:
   float_secondsUntilFirstConversation: 2
   _faceExpressionDurations:
   - 2.2
-  - 1.7
-  - 5.9
+  - 5
+  - 5
   - 3.5
   - 6.7
   - 2

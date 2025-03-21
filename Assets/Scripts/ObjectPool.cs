@@ -144,7 +144,7 @@ public class ObjectPool : MonoBehaviour
     /// </summary>
     /// <param name="int_objectIndex"></param>
     /// <returns></returns>
-    public GameObject getPooled_LevelSpecificObjects(int int_objectIndex)
+    public GameObject getPooled_LevelSpecificObjects(int int_objectIndex, Enum enumToTarget = null)
     {
         for (int i = 0; i < int_amountOfObjectsToPool; i++)
         {
@@ -220,9 +220,9 @@ public class ObjectPool : MonoBehaviour
             {
                 for (int i = 0; i < int_amountOfObjectsToPool; i++)
                 {
-                    if (!list_spawnablePlayerGameObjects[30][i].activeInHierarchy)
+                    if (!list_spawnablePlayerGameObjects[(int)E_SpawnableObjects.Miscellaneous.VisualEffect_BallisticBeast][i].activeInHierarchy)
                     {
-                        return list_spawnablePlayerGameObjects[30][i];
+                        return list_spawnablePlayerGameObjects[(int)E_SpawnableObjects.Miscellaneous.VisualEffect_BallisticBeast][i];
                     }
                 }
                 break;

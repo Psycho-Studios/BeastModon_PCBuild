@@ -74,8 +74,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 2017383961
-  m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingLayer: 4
+  m_SortingOrder: 3
   m_Sprite: {fileID: -59678562, guid: 44807f951bd986742a5cbc485e47ebae, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -196,7 +196,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9f9182ec73a9d349911309201718da6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bool_setInactiveDuringSound: 0
+  bool_soundAfterAnimationEnd: 0
   audioClip_healthUpSound: {fileID: 0}
   audioClip_beastModeUpSound: {fileID: 0}
 --- !u!95 &8134837472866543856

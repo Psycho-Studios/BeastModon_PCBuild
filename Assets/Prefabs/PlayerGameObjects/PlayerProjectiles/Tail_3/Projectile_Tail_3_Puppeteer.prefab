@@ -60,6 +60,7 @@ MonoBehaviour:
   bool_waitingForParent: 0
   bool_explosiveProjectile: 0
   explosionIfApplicable: {fileID: 0}
+  spriteRenderer: {fileID: 0}
   transform_parentGameObject: {fileID: 0}
 --- !u!1001 &4546531797875513871
 PrefabInstance:
@@ -316,6 +317,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1127168951832079966}
     m_Modifications:
+    - target: {fileID: -5226083840974275112, guid: 20ddc5ae5eaa7be44a5bdaa66448113d,
+        type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5226083840974275112, guid: 20ddc5ae5eaa7be44a5bdaa66448113d,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1107752388, guid: cd2b62d96067f424cacc19b623792d38,
+        type: 3}
     - target: {fileID: 750087014, guid: 20ddc5ae5eaa7be44a5bdaa66448113d, type: 3}
       propertyPath: degreesToRotate
       value: 185
@@ -324,6 +336,10 @@ PrefabInstance:
       propertyPath: vector3_child_transformModifier.x
       value: -2.56
       objectReference: {fileID: 0}
+    - target: {fileID: 1889733475, guid: 20ddc5ae5eaa7be44a5bdaa66448113d, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 9d7dbbfa90bb2144bba90fc37f181e18, type: 2}
     - target: {fileID: 1780822785192954114, guid: 20ddc5ae5eaa7be44a5bdaa66448113d,
         type: 3}
       propertyPath: m_RootOrder
@@ -404,6 +420,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1127168951832079966}
     m_Modifications:
+    - target: {fileID: -5226083840974275112, guid: 20ddc5ae5eaa7be44a5bdaa66448113d,
+        type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5226083840974275112, guid: 20ddc5ae5eaa7be44a5bdaa66448113d,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1107752388, guid: cd2b62d96067f424cacc19b623792d38,
+        type: 3}
     - target: {fileID: 750087014, guid: 20ddc5ae5eaa7be44a5bdaa66448113d, type: 3}
       propertyPath: degreesToRotate
       value: 180
@@ -412,6 +439,10 @@ PrefabInstance:
       propertyPath: vector3_child_transformModifier.x
       value: -2.56
       objectReference: {fileID: 0}
+    - target: {fileID: 1889733475, guid: 20ddc5ae5eaa7be44a5bdaa66448113d, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 9d7dbbfa90bb2144bba90fc37f181e18, type: 2}
     - target: {fileID: 1780822785192954114, guid: 20ddc5ae5eaa7be44a5bdaa66448113d,
         type: 3}
       propertyPath: m_RootOrder
@@ -492,6 +523,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1127168951832079966}
     m_Modifications:
+    - target: {fileID: -5226083840974275112, guid: 20ddc5ae5eaa7be44a5bdaa66448113d,
+        type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5226083840974275112, guid: 20ddc5ae5eaa7be44a5bdaa66448113d,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1107752388, guid: cd2b62d96067f424cacc19b623792d38,
+        type: 3}
     - target: {fileID: 750087014, guid: 20ddc5ae5eaa7be44a5bdaa66448113d, type: 3}
       propertyPath: degreesToRotate
       value: 175
@@ -565,8 +607,35 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1889733475, guid: 20ddc5ae5eaa7be44a5bdaa66448113d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 20ddc5ae5eaa7be44a5bdaa66448113d, type: 3}
+--- !u!1 &638584212473716297 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8265873742065957007, guid: 20ddc5ae5eaa7be44a5bdaa66448113d,
+    type: 3}
+  m_PrefabInstance: {fileID: 8821140629611013830}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &4755081618530418865
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 638584212473716297}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9d7dbbfa90bb2144bba90fc37f181e18, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &7123634998093279172 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1780822785192954114, guid: 20ddc5ae5eaa7be44a5bdaa66448113d,

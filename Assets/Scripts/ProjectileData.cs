@@ -13,13 +13,17 @@ public abstract class ProjectileData : MonoBehaviour
     public bool bool_isParentObject;
 
     private float float_timeSinceEnergy1Attack;
+
+    private int timesCalledForExplosion;
+
     private string string_currentEnemyName; //This field is used by flamethrower logic
+
     private Collider2D collider2D_projectileCollider;
     private GameObject gameObject_damageEffect;
-    protected Transform transform_parentObject;
     protected List<Transform> list_childProjectiles;
     private ProjectileBehaviour_Player script_projectileBehaviour_Player;
     private SpriteRenderer spriteRenderer_projectile;
+    protected Transform transform_parentObject;
     public Vector3 vector3_child_transformModifier;
     
     private System.Random random = new System.Random();
@@ -71,8 +75,8 @@ public abstract class ProjectileData : MonoBehaviour
                         GameObject damageEffect_blue = ObjectPool.objectPool_reference.getPooled_PlayerObjects(
                             default, //This spawn is not dependent on a WeaponValue, default value is 0
                             "VisualEffect_Ballistic_Beast"); //Damage effect for metal opponents
-                        damageEffect_blue.transform.position = this.gameObject.transform.position;
-                        damageEffect_blue.transform.rotation = Quaternion.Euler(0, 180, 0);
+                        damageEffect_blue.transform.position = this.gameObject.transform.position + (this.gameObject.transform.);
+                        damageEffect_blue.transform.rotation = Quaternion.Euler(0, 0, 0);
                         damageEffect_blue.SetActive(true);
                     }
 
@@ -167,8 +171,6 @@ public abstract class ProjectileData : MonoBehaviour
 
                     break;
                 }
-
-                
             }
         }
     }
@@ -324,7 +326,7 @@ public abstract class ProjectileData : MonoBehaviour
 
     private void beginExplosion(string projectileName, Collider2D collision_enemy)
     {
-        switch(projectileName)
+        switch(projectileName) //Determine which explosion to spawn
         {
             case "Projectile_Explosive_2(Clone)":
             case "Projectile_Explosive_4(Clone)":
@@ -388,6 +390,8 @@ public abstract class ProjectileData : MonoBehaviour
                   this.gameObject.transform.position.z);
         }
 
+        timesCalledForExplosion++;
+        Debug.Log($"timesCalledForExplosion = {timesCalledForExplosion}");
         gameObject_damageEffect.SetActive(true);
         this.gameObject.SetActive(false); //If this method is being called, the projectile is no more.
     }

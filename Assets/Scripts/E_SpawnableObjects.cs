@@ -1,6 +1,9 @@
 ﻿using System.Collections;
 using UnityEngine;
 
+/// <summary>
+/// By adding enemies specific to each level in the 
+/// </summary>
 public class E_SpawnableObjects
 {
     public enum Miscellaneous
@@ -21,9 +24,15 @@ public class E_SpawnableObjects
         Explosion_2 = 9,
         Explosion_3 = 10,
         Explosion_WalknSpy = 11,
-        Explosion_Player1Ship = 12
+        Explosion_Player1Ship = 12,
+        VisualEffect_BallisticBeast = 64, //Lives in List_playerGameObjectsToPool
     }
     
+    public enum PlayerGameObjects
+    { 
+
+    }
+
     public enum TestingScene
     {
         Gyrogat = 0,

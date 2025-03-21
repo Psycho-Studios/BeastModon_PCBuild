@@ -39,7 +39,6 @@ public class DamageVisualEffect : MonoBehaviour
         else if(bool_recyclingObject
         && this.bool_soundAfterAnimationEnd) //Audio completes before object removal
         {
-            spriteRenderer.enabled = false;
             bool_recyclingObject = false;
             spriteRenderer.enabled = true;
             this.gameObject.SetActive(false);

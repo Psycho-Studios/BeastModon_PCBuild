@@ -15,10 +15,10 @@ public class FaceAnimation_Player1 : MonoBehaviour
     /// Is set when dialogue has its animation duration updated. Good for keeping logic in 
     /// dialogueAnimation() from running.
     /// </summary>
-    private bool bool_dialogueAnimationDurationRefresh;
+    private bool bool_dialogueAnimationDurationUpdated;
 
     /// <summary>
-    /// Is true if the first conversation is hasn't began yet.
+    /// Is true if the first conversation hasn't begun.
     /// </summary>
     private bool bool_waitingForFirstConversation;
 
@@ -87,7 +87,7 @@ public class FaceAnimation_Player1 : MonoBehaviour
         bool_beastMode_FaceCooldown = false;
         bool_damage_FaceCooldown = false;
         bool_letsGo_FaceCooldown = false;
-        bool_dialogueAnimationDurationRefresh = false;
+        bool_dialogueAnimationDurationUpdated = false;
         bool_waitingForFirstConversation = true;
 
         enableDevelopmentMode();
@@ -227,14 +227,15 @@ public class FaceAnimation_Player1 : MonoBehaviour
         if (_expressionIndex >= 0
         && DialoguePlayer.faceExpressions[_expressionIndex] != -1) 
         {
-            if (!bool_dialogueAnimationDurationRefresh)
+            if (!bool_dialogueAnimationDurationUpdated)
             {
                 while (!GameProperties.StatusInterruptionReporter.bool_safeToContinueDialogueAnimation) //Player is in a state of damage, Beast Mode, or LetsGo
                 {
                     yield return null;
                 }
 
-                if (!Health_Player1.bool_criticalStatus)
+                if (!Health_Player1.bool_criticalStatus
+                && !bool_dialogueAudioInterrupted)
                 {
                     animator_player1Face.SetInteger("Expression", DialoguePlayer.faceExpressions[_expressionIndex]);
                 }
@@ -243,7 +244,7 @@ public class FaceAnimation_Player1 : MonoBehaviour
 
             }
 
-            bool_dialogueAnimationDurationRefresh = false;
+            bool_dialogueAnimationDurationUpdated = false;
 
             //If there wasn't a dialogue interruption... --OK
             if (!bool_dialogueAnimationTimeExternallyUpdated) 
@@ -268,7 +269,7 @@ public class FaceAnimation_Player1 : MonoBehaviour
                 ///If life isn't equal to 50, player1 cannot possibly be in danger due to lower difficulty
                 ///level or death. Because death means a deactivated face sprite, it's safe to animate
                 ///regardless. 
-                else
+                else if(!bool_dialogueAudioInterrupted)
                 {
                     animator_player1Face.SetInteger("Expression", DialoguePlayer.faceExpressions[_expressionIndex]);
                 }
@@ -287,11 +288,11 @@ public class FaceAnimation_Player1 : MonoBehaviour
                         animator_player1Face.SetInteger("Expression", (int)E_FaceExpressions.Damage);
                     }
                     
-                    else
+                    else if(!bool_dialogueAudioInterrupted)
                     {
                         animator_player1Face.SetInteger("Expression", DialoguePlayer.faceExpressions[_expressionIndex]);
                         bool_dialogueAnimationTimeExternallyUpdated = false;
-                        bool_dialogueAnimationDurationRefresh = true;
+                        bool_dialogueAnimationDurationUpdated = true;
                     }
                     
                     StartCoroutine(dialogueAnimation());
@@ -305,7 +306,7 @@ public class FaceAnimation_Player1 : MonoBehaviour
     /// </summary>
     private void animateFaceAfterEndOfDialogue()
     {
-        if (bool_developmentMode)
+        if (bool_developmentMode) //Defaults 
         {
             if (HUD_Player1.bool_beastModeRequest_player1
                 || ProjectileControls_Player1.bool_beastModeActive)
@@ -360,11 +361,6 @@ public class FaceAnimation_Player1 : MonoBehaviour
             }
         }
     }    
-
-    public IEnumerator firstAnimationUpdate()
-    {
-        yield return new WaitForSeconds(GameProperties.StatusInterruptionReporter.GetTimeUntilDialogueBegins());
-    }
 
     /// <summary>
     /// Sets a flag that implies development mode is active.

@@ -55,7 +55,7 @@ public class DialoguePlayer : DialogueHeirarchyLink
     /// Time until the first conversation is triggered. This is a static field to prevent multiple triggers.
     /// </summary>
     public static float float_reportedSecondsUntilFirstConversation = 0;
-    
+
     public float[] _faceExpressionDurations; //Inspector values
     public static float[] faceExpressionDurations; //Allows easy reference script-wise
 
@@ -128,7 +128,7 @@ public class DialoguePlayer : DialogueHeirarchyLink
         && float_secondsUntilFirstConversation >= 0)
         {
             bool_firstConversationTriggered = true;
-            StartCoroutine(startConversation()); //Only called once in this script's lifetime
+            StartCoroutine(StartConversation()); //Only called once in this script's lifetime
         }
 
         if (bool_firstConversationTriggered)
@@ -228,26 +228,31 @@ public class DialoguePlayer : DialogueHeirarchyLink
 
     }
     
-    IEnumerator startConversation() //Begin audioPlayback
+    /// <summary>
+    /// Waits until the scheduled time to begin character dialogue. Checks for whether the first audio clip has begun playing and adjusts
+    /// its execution to occur once the interruption has ended.
+    /// </summary>
+    /// <returns></returns>
+    IEnumerator StartConversation() //Begin audioPlayback
     {
         yield return new WaitForSeconds(float_secondsUntilFirstConversation);
-        if (player1Interrupted())
+        if (!bool_firstConversationTriggered)
         {
+            
             bool_dialogueIsPaused = true;
-            if (!bool_firstConversationTriggered)
+            Debug.Log("While loop initiated");
+            while (player1Interrupted())
             {
-                while (Time.time < (float_secondsUntilFirstConversation - float_timeAnimationInterrupted + 3.0f))
-                {
-                    yield return null;
-                }
-                
-                //The goal above is to finish the initial wait for the first dialogue clip to play.
-                
-                 bool_dialogueInProgress = true;
-                float_timeDialogueSlotWasInitiallyPlayed = Time.time;
-                float_originalTimeFromCurrentDialogueIndex = faceExpressionDurations[FaceAnimation_Player1.expressionIndex];
-                audioSource_parent.Play();
+                yield return null;
             }
+                
+            //The goal above is to finish the initial wait for the first dialogue clip to play.
+                
+            bool_dialogueIsPaused = false;
+            bool_dialogueInProgress = true;
+            float_timeDialogueSlotWasInitiallyPlayed = Time.time;
+            float_originalTimeFromCurrentDialogueIndex = faceExpressionDurations[FaceAnimation_Player1.expressionIndex];
+            audioSource_parent.Play();
         }
         else
         {

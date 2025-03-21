@@ -122,7 +122,7 @@ public class ProjectileControls_Player1 : MonoBehaviour
 
         //Sylvester's background status effect is obtained here
         animator_SylvesterStatus = GameObject.Find("Status").GetComponent<Animator>();
-        }
+    }
 
     private void Start() 
     {
@@ -851,7 +851,7 @@ public class ProjectileControls_Player1 : MonoBehaviour
             }
         }
     }
-   
+
     private void animateGunfire()
     {
         switch(int_weaponValue_player1)
@@ -1144,9 +1144,16 @@ public class ProjectileControls_Player1 : MonoBehaviour
         float_beastModeActivationTime = 500000; //Time reset
         bool_beastModeActive = false; //Enable upgrades and weapon switches
         int_weaponValue_player1 = int_temporaryWeaponValueHolder; //Restore weapons
-        animator_SylvesterFace.SetInteger("Expression", ((int)E_FaceExpressions.Idle)); //Animate Sylvester's face
         HUD_Player1.bool_restoreWeaponRequest = true; //Animate the appropriate Weapon Icon
         StatusScript_Player1.animator_faceBackground.SetInteger("Status", (int)E_StatusAnimationStates.Idle); //Animate Sylvester's background
+        if (!DialoguePlayer.bool_dialogueInProgress)
+        {
+            animator_SylvesterFace.SetInteger("Expression", ((int)E_FaceExpressions.Idle)); //Animate Sylvester's face
+        }
+        else
+        {
+            animator_SylvesterFace.SetInteger("Expression", DialoguePlayer.faceExpressions[FaceAnimation_Player1.expressionIndex]); //Animate Sylvester's face
+        }
         FaceAnimation_Player1.bool_beastMode_FaceCooldown = false;
         bool_beastModeActive = false;
     }
